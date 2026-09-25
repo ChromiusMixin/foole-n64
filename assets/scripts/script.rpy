@@ -1,0 +1,9126 @@
+﻿label definitions:   
+
+    label voices:
+    
+        init python:
+
+            def voicedefault(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    randosound = renpy.random.randint(1, 8)
+                    if event == "show":
+                        if randosound == 1:
+                            renpy.sound.queue("voice default 1.mp3", channel="blablas", loop=False)
+                        elif randosound == 2:
+                            renpy.sound.queue("voice default 2.mp3", channel="blablas", loop=False)
+                        elif randosound == 3:
+                            renpy.sound.queue("voice default 3.mp3", channel="blablas", loop=False)
+                        elif randosound == 4:
+                            renpy.sound.queue("voice default 4.mp3", channel="blablas", loop=False)
+                        elif randosound == 5:
+                            renpy.sound.queue("voice default 5.mp3", channel="blablas", loop=False)
+                        elif randosound == 6:
+                            renpy.sound.queue("voice default 6.mp3", channel="blablas", loop=False)
+                        elif randosound == 7:
+                            renpy.sound.queue("voice default 7.mp3", channel="blablas", loop=False)
+                        elif randosound == 8:
+                            renpy.sound.queue("voice default 8.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+            def voiceinfirmary(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    randosound = renpy.random.randint(1, 5)
+                    if event == "show":
+                        if randosound == 1:
+                            renpy.sound.queue("voice infirmary 1.mp3", channel="blablas", loop=False)
+                        elif randosound == 2:
+                            renpy.sound.queue("voice infirmary 2.mp3", channel="blablas", loop=False)
+                        elif randosound == 3:
+                            renpy.sound.queue("voice infirmary 3.mp3", channel="blablas", loop=False)
+                        elif randosound == 4:
+                            renpy.sound.queue("voice infirmary 4.mp3", channel="blablas", loop=False)
+                        elif randosound == 5:
+                            renpy.sound.queue("voice infirmary 5.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+            def voicevault(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    randosound = renpy.random.randint(1, 5)
+                    if event == "show":
+                        if randosound == 1:
+                            renpy.sound.queue("voice vault 1.mp3", channel="blablas", loop=False)
+                        elif randosound == 2:
+                            renpy.sound.queue("voice vault 2.mp3", channel="blablas", loop=False)
+                        elif randosound == 3:
+                            renpy.sound.queue("voice vault 3.mp3", channel="blablas", loop=False)
+                        elif randosound == 4:
+                            renpy.sound.queue("voice vault 4.mp3", channel="blablas", loop=False)
+                        elif randosound == 5:
+                            renpy.sound.queue("voice vault 5.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+            def voicebath(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    randosound = renpy.random.randint(1, 5)
+                    if event == "show":
+                        if randosound == 1:
+                            renpy.sound.queue("voice bath 1.mp3", channel="blablas", loop=False)
+                        elif randosound == 2:
+                            renpy.sound.queue("voice bath 2.mp3", channel="blablas", loop=False)
+                        elif randosound == 3:
+                            renpy.sound.queue("voice bath 3.mp3", channel="blablas", loop=False)
+                        elif randosound == 4:
+                            renpy.sound.queue("voice bath 4.mp3", channel="blablas", loop=False)
+                        elif randosound == 5:
+                            renpy.sound.queue("voice bath 5.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+            def voicecathedral(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    randosound = renpy.random.randint(1, 5)
+                    if event == "show":
+                        if randosound == 1:
+                            renpy.sound.queue("voice cathedral 1.mp3", channel="blablas", loop=False)
+                        elif randosound == 2:
+                            renpy.sound.queue("voice cathedral 2.mp3", channel="blablas", loop=False)
+                        elif randosound == 3:
+                            renpy.sound.queue("voice cathedral 3.mp3", channel="blablas", loop=False)
+                        elif randosound == 4:
+                            renpy.sound.queue("voice cathedral 4.mp3", channel="blablas", loop=False)
+                        elif randosound == 5:
+                            renpy.sound.queue("voice cathedral 5.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+            def voicegreater(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    randosound = renpy.random.randint(1, 8)
+                    if event == "show":
+                        if randosound == 1:
+                            renpy.sound.queue("voice greater 1.mp3", channel="blablas", loop=False)
+                        elif randosound == 2:
+                            renpy.sound.queue("voice greater 2.mp3", channel="blablas", loop=False)
+                        elif randosound == 3:
+                            renpy.sound.queue("voice greater 3.mp3", channel="blablas", loop=False)
+                        elif randosound == 4:
+                            renpy.sound.queue("voice greater 4.mp3", channel="blablas", loop=False)
+                        elif randosound == 5:
+                            renpy.sound.queue("voice greater 5.mp3", channel="blablas", loop=False)
+                        elif randosound == 6:
+                            renpy.sound.queue("voice greater 6.mp3", channel="blablas", loop=False)
+                        elif randosound == 7:
+                            renpy.sound.queue("voice greater 7.mp3", channel="blablas", loop=False)
+                        elif randosound == 8:
+                            renpy.sound.queue("voice greater 8.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+            def voicemeteor(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    if event == "show":
+                            renpy.sound.queue("audio/voice_meteor.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+            def voiceeclipse(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    if event == "show":
+                            renpy.sound.queue("audio/voice_eclipse.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+            def voicescrawl(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    if event == "show":
+                            renpy.sound.queue("audio/voice_scrawl.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+            def voiceaudience(event, **kwargs):
+                beeps = 0
+                while beeps < 50: # To avoid an infinite loop
+                    if event == "show":
+                            renpy.sound.queue("audio/voice_audience.mp3", channel="blablas", loop=False)
+                    elif event == "slow_done" or event == "end":
+                        renpy.sound.stop(channel="blablas")
+                    beeps += 1
+
+    label characters:
+
+        define q = Character(" ", image="foole", what_slow_cps=0)
+        define a = Character(" ", image="foole", callback=voicedefault, what_slow_cps=25)
+        define aw = Character(" ", image="foole", callback=voicedefault, what_slow_cps=20)
+        define asc = Character(" ", image="foole", callback=voicescrawl, what_slow_cps=25)
+        define am = Character(" ", image="foole", callback=voicescrawl, what_slow_cps=25)
+        define ap = Character(" ", image="foole", callback=voiceeclipse, what_slow_cps=20)
+        define ai = Character(" ", image="foole", callback=voiceinfirmary, what_slow_cps=40)
+        define av = Character(" ", image="foole", callback=voicevault, what_slow_cps=20)
+        define ab = Character(" ", image="foole", callback=voicebath, what_slow_cps=22)
+        define ac = Character(" ", image="foole", callback=voicedefault, what_slow_cps=18)
+        define ad = Character(" ", image="foole", callback=voiceaudience, what_slow_cps=35)
+        define ag = Character(" ", image="foole", callback=voicegreater, what_slow_cps=25)
+        define afarewell = Character(" ", image="foole", what_slow_cps=22)
+
+    label interface:
+
+        image endcredits:
+            "images/endcredits wibble.png"
+            pause 0.50
+            "images/endcredits wobble.png"
+            pause 0.50
+            repeat
+
+        image foologo color:
+            "images/foologo wibble.png"
+            pause 0.50
+            "images/foologo wobble.png"
+            pause 0.50
+            repeat
+        image foologo gray = "images/foologo gray.png"
+
+        label totals:
+
+            image total1 = ConditionSwitch("pointotal==0", "images/total empty.png", "pointotal>0", "images/total full.png")
+            image total2 = ConditionSwitch("pointotal<2", "images/total empty.png", "pointotal>1", "images/total full.png")
+            image total3 = ConditionSwitch("pointotal<3", "images/total empty.png", "pointotal>2", "images/total full.png")
+            image total4 = ConditionSwitch("pointotal<4", "images/total empty.png", "pointotal>3", "images/total full.png")
+            image total5 = ConditionSwitch("pointotal<5", "images/total empty.png", "pointotal>4", "images/total full.png")
+            image total6 = ConditionSwitch("pointotal<6", "images/total empty.png", "pointotal>5", "images/total full.png")
+            image total7 = ConditionSwitch("pointotal<7", "images/total empty.png", "pointotal>6", "images/total full.png")
+            image total8 = ConditionSwitch("pointotal<8", "images/total empty.png", "pointotal>7", "images/total full.png")
+            image total9 = ConditionSwitch("pointotal<9", "images/total empty.png", "pointotal>8", "images/total full.png")
+            image total10 = ConditionSwitch("pointotal<10", "images/total empty.png", "pointotal>9", "images/total full.png")
+            image total11 = ConditionSwitch("pointotal<11", "images/total empty.png", "pointotal>10", "images/total full.png")
+            image total12 = ConditionSwitch("pointotal<12", "images/total empty.png", "pointotal>11", "images/total full.png")
+            image total13 = ConditionSwitch("pointotal<13", "images/total empty.png", "pointotal>12", "images/total full.png")
+            image total14 = ConditionSwitch("pointotal<14", "images/total empty.png", "pointotal>13", "images/total full.png")
+            image total15 = ConditionSwitch("pointotal<15", "images/total empty.png", "pointotal>14", "images/total full.png")
+            image total16 = ConditionSwitch("pointotal<16", "images/total empty.png", "pointotal>15", "images/total full.png")
+            image total17 = ConditionSwitch("pointotal<17", "images/total empty.png", "pointotal>16", "images/total full.png")
+            image total18 = ConditionSwitch("pointotal<18", "images/total empty.png", "pointotal>17", "images/total full.png")
+            image total19 = ConditionSwitch("pointotal<19", "images/total empty.png", "pointotal>18", "images/total full.png")
+            image total20 = ConditionSwitch("pointotal<20", "images/total empty.png", "pointotal>19", "images/total full.png")
+            image total21 = ConditionSwitch("pointotal<21", "images/total empty.png", "pointotal>20", "images/total full.png")
+            image total22 = ConditionSwitch("pointotal<22", "images/total empty.png", "pointotal>21", "images/total full.png")
+            image total23 = ConditionSwitch("pointotal<23", "images/total empty.png", "pointotal>22", "images/total full.png")
+            image total24 = ConditionSwitch("pointotal<24", "images/total empty.png", "pointotal>23", "images/total full.png")
+            image thoughtotal = ConditionSwitch("pointx==0", "images/thoughtotal empty.png", "pointx>0", "images/thoughtotal full.png")
+
+            transform totalrecall:
+                easeout 0.50 xpos 15
+            transform total1:
+                ypos 1022
+                xpos 15
+            transform total2:
+                ypos 1022
+                xpos 45
+            transform total3:
+                ypos 1022
+                xpos 75
+            transform total4:
+                ypos 1022
+                xpos 105
+            transform total5:
+                ypos 1022
+                xpos 135
+            transform total6:
+                ypos 1022
+                xpos 165
+            transform total7:
+                ypos 1022
+                xpos 195
+            transform total8:
+                ypos 1022
+                xpos 225
+            transform total9:
+                ypos 1022
+                xpos 255
+            transform total10:
+                ypos 1022
+                xpos 285
+            transform total11:
+                ypos 1022
+                xpos 315
+            transform total12:
+                ypos 1022
+                xpos 345
+            transform total13:
+                ypos 1022
+                xpos 375
+            transform total14:
+                ypos 1022
+                xpos 405
+            transform total15:
+                ypos 1022
+                xpos 435
+            transform total16:
+                ypos 1022
+                xpos 465
+            transform total17:
+                ypos 1022
+                xpos 495
+            transform total18:
+                ypos 1022
+                xpos 525
+            transform total19:
+                ypos 1022
+                xpos 555
+            transform total20:
+                ypos 1022
+                xpos 585
+            transform total21:
+                ypos 1022
+                xpos 615
+            transform total22:
+                ypos 1022
+                xpos 645
+            transform total23:
+                ypos 1022
+                xpos 675
+            transform total24:
+                ypos 1022
+                xpos 705
+
+            transform totalhov1:
+                pause 0.05
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.95
+                repeat
+            transform totalhov2:
+                pause 0.10
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.90
+                repeat
+            transform totalhov3:
+                pause 0.15
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.85
+                repeat
+            transform totalhov4:
+                pause 0.20
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.80
+                repeat
+            transform totalhov5:
+                pause 0.25
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.75
+                repeat
+            transform totalhov6:
+                pause 0.30
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.70
+                repeat
+            transform totalhov7:
+                pause 0.35
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.65
+                repeat
+            transform totalhov8:
+                pause 0.40
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.60
+                repeat
+            transform totalhov9:
+                pause 0.45
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.55
+                repeat
+            transform totalhov10:
+                pause 0.50
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.50
+                repeat
+            transform totalhov11:
+                pause 0.55
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.45
+                repeat
+            transform totalhov12:
+                pause 0.60
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.40
+                repeat
+            transform totalhov13:
+                pause 0.65
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.35
+                repeat
+            transform totalhov14:
+                pause 0.70
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.30
+                repeat
+            transform totalhov15:
+                pause 0.75
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.25
+                repeat
+            transform totalhov16:
+                pause 0.80
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.20
+                repeat
+            transform totalhov17:
+                pause 0.85
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.15
+                repeat
+            transform totalhov18:
+                pause 0.90
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.10
+                repeat
+            transform totalhov19:
+                pause 0.95
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.05
+                repeat
+            transform totalhov20:
+                pause 1.00
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 2.00
+                repeat
+            transform totalhov21:
+                pause 1.05
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 1.95
+                repeat
+            transform totalhov22:
+                pause 1.10
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 1.90
+                repeat
+            transform totalhov23:
+                pause 1.15
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 1.85
+                repeat
+            transform totalhov24:
+                pause 1.20
+                easein 3.00 yoffset -3
+                pause 3.00
+                easein 3.00 yoffset 3
+                pause 1.80
+                repeat
+
+        image youandi:
+            "images/youandi wibble.png"
+            pause 0.50
+            "images/youandi wobble.png"
+            pause 0.50
+            repeat
+
+        image textbox:
+            "images/textbox 1.png"
+            pause 0.50
+            "images/textbox 2.png"
+            pause 0.50
+            repeat 
+
+        image choice1:
+            "images/choice1 wibble.png"
+            pause 0.50
+            "images/choice1 wobble.png"
+            pause 0.50
+            repeat
+        image choice2:
+            "images/choice2 wibble.png"
+            pause 0.50
+            "images/choice2 wobble.png"
+            pause 0.50
+            repeat
+        image choice3:
+            "images/choice3 wibble.png"
+            pause 0.50
+            "images/choice3 wobble.png"
+            pause 0.50
+            repeat
+        image choice4:
+            "images/choice4 wibble.png"
+            pause 0.50
+            "images/choice4 wobble.png"
+            pause 0.50
+            repeat
+
+        transform choice1:
+            easein 4.00 xoffset -3
+            pause 1.00
+            easein 4.00 xoffset 3
+            pause 1.00
+            repeat
+        transform choice2:
+            easein 3.75 xoffset 3
+            pause 0.75
+            easein 3.75 xoffset -3
+            pause 0.75
+            repeat
+        transform choice3:
+            easein 3.50 xoffset -3
+            pause 1.25
+            easein 3.50 xoffset 3
+            pause 1.25
+            repeat
+        transform choice4:
+            easein 4.25 xoffset 3
+            pause 0.50
+            easein 4.25 xoffset -3
+            pause 0.50
+            repeat
+
+        image interface sun:
+            "images/interface sun 1.png"
+            pause 0.50
+            "images/interface sun 2.png"
+            pause 0.50
+            repeat
+        image interface moon:
+            "images/interface moon 1.png"
+            pause 0.50
+            "images/interface moon 2.png"
+            pause 0.50
+            repeat
+        image interface meteor:
+            "images/interface meteor 1.png"
+            pause 0.50
+            "images/interface meteor 2.png"
+            pause 0.50
+            repeat
+        image interface eclipse:
+            "images/interface eclipse 1.png"
+            pause 0.50
+            "images/interface eclipse 2.png"
+            pause 0.50
+            repeat
+        image interface point:
+            "images/interface point 1.png"
+            pause 0.50
+            "images/interface point 2.png"
+            pause 0.50
+            repeat
+        image interface analytical:
+            "images/interface analytical 1.png"
+            pause 0.50
+            "images/interface analytical 2.png"
+            pause 0.50
+            repeat
+        image interface writing:
+            "images/interface writing 1.png"
+            pause 0.50
+            "images/interface writing 2.png"
+            pause 0.50
+            repeat
+        image interface audience:
+            "images/interface audience 1.png"
+            pause 0.50
+            "images/interface audience 2.png"
+            pause 0.50
+            repeat
+
+    label transformations:
+
+        transform scrolloff:
+            xoffset 0
+            easeout 1.00 xoffset -1920
+
+        transform scrollon:
+            xoffset 1920
+            easein 4.00 xoffset 0
+
+        transform scrollonslow:
+            xoffset 1920
+            easein 4.50 xoffset 0
+
+        transform scrollonfast:
+            xoffset 1920
+            easein 3.50 xoffset 0
+
+        transform sunhover:
+            pause .5
+            easein 2 yoffset 10
+            pause .5
+            easein 2 yoffset -10
+            repeat
+        transform sunhoverslow:
+            pause 1.00
+            easein 4 yoffset -5
+            pause 1.00
+            easein 4 yoffset 5
+            repeat
+        transform moonhover:
+            pause .5
+            easein 2 yoffset -10
+            pause .5
+            easein 2 yoffset 10
+            repeat
+        transform rest:
+            easein 0.50 yoffset 0
+
+        transform rise:
+            easein .5 ypos -800
+        transform risehigh:
+            easein .5 ypos -1200
+        transform risetablet:
+            easein .5 ypos -365
+        transform set:
+            alpha 1.0
+            ypos -800
+            easein .5 ypos 0
+        transform settablet:
+            easein .5 ypos 0
+
+        transform shake:
+            yoffset 0
+            alpha 1.0
+            xoffset -5
+            pause 0.01
+            xoffset 10
+            pause 0.01
+            xoffset 0
+        transform shakesome:
+            xoffset -5
+            pause 0.01
+            xoffset 10
+            pause 0.01
+            xoffset 0
+            pause 5.0
+            repeat
+        transform shakelots:
+            xoffset -5
+            pause 0.01
+            xoffset 10
+            pause 0.01
+            xoffset 0
+            pause 0.01
+            repeat
+
+        transform bounce:
+            pause 3
+            easein 2 yoffset 10
+            pause .5
+            easein 2 yoffset 0
+            pause .5
+            easein 2 yoffset 10
+            pause .5
+            easein 2 yoffset 0
+            repeat
+
+
+        transform appear:
+            alpha 0.0
+            easein 2.00 alpha 1.0
+        transform disappear:
+            alpha 1.0
+            easein 2.00 alpha 0.0
+        transform reappear:
+            pause 2
+            easein 1 alpha 0.0
+            pause .5
+            easein 1 alpha 1.0
+            repeat
+        transform clear:
+            alpha 1.0
+
+        transform muralscroll:
+            linear 12 xoffset 3840
+            xoffset 0
+            repeat
+        transform scrollclose:
+            linear 3 xoffset -1920
+            xoffset 0
+            repeat
+        transform scrolldistant:
+            linear 12 xoffset -1920
+            xoffset 0
+            repeat
+        transform scrollworld:
+            linear 24 xoffset -1920
+            xoffset 0
+            repeat
+        transform scrollright40:
+            xoffset -1920
+            linear 40 xoffset 0
+            repeat
+
+        transform flash:
+            alpha 0.0
+            easein 0.05 alpha 1.0
+            easein 0.05 alpha 0.0
+            easein 0.05 alpha 1.0
+            easein 0.05 alpha 0.0
+            easein 0.05 alpha 1.0
+            easein 0.05 alpha 0.0
+
+        transform damage:
+            alpha 1.0
+            yoffset 0
+            easein 0.50 yoffset -20
+
+    label sound:
+        
+        init python:
+            renpy.music.register_channel("blablas", mixer="blablas", loop=False, tight=True, buffer_queue=True)
+            renpy.music.register_channel("soundloop", mixer="sound", loop=True, tight=True, buffer_queue=True)
+            renpy.music.register_channel("ambience", mixer="ambience", loop=True, tight=True, buffer_queue=True)
+            renpy.music.register_channel("weather", mixer="ambience", loop=True, tight=True, buffer_queue=True)
+            preferences.set_mixer("music", 1.00)
+            preferences.set_mixer("ambience", 1.00)
+            preferences.set_mixer("sound", 1.00)
+            preferences.set_mixer("blablas", 1.00)
+
+        define af = renpy.audio.filter
+
+    label text:
+        init python:
+
+            def alter_say_strings( str_to_test ):
+                str_map = {
+                    ". " : ". {w=0.4}", 
+                    "? " : "? {w=0.4}", 
+                    "! " : "! {w=0.4}", 
+                    ", " : ", {w=0.2}",
+                }
+                for key in str_map:
+                    str_to_test = str_to_test.replace( key, str_map[ key ] ) 
+                return str_to_test
+
+        define config.say_menu_text_filter = alter_say_strings
+
+    label functions:
+
+        label question:
+
+            show choice1 at shake, choice1
+            show choice2 at shake, choice2
+            show choice3 at shake, choice3
+            show choice4 at shake, choice4
+            if area == 7:
+                hide choice3
+                hide choice4
+            $ beeps = 0
+            if point == 1:
+                $ beeps = 5
+            if scrawl == 1:
+                $ beeps = 5
+            if area == 0:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 8)
+                    if randosound == 1:
+                        queue blablas "voice default 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice default 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice default 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice default 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice default 5.mp3"
+                    if randosound == 6:
+                        queue blablas "voice default 6.mp3"
+                    if randosound == 7:
+                        queue blablas "voice default 7.mp3"
+                    if randosound == 8:
+                        queue blablas "voice default 8.mp3"
+                    $ beeps += 1
+            if area == 1:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 8)
+                    if randosound == 1:
+                        queue blablas "voice default 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice default 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice default 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice default 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice default 5.mp3"
+                    if randosound == 6:
+                        queue blablas "voice default 6.mp3"
+                    if randosound == 7:
+                        queue blablas "voice default 7.mp3"
+                    if randosound == 8:
+                        queue blablas "voice default 8.mp3"
+                    $ beeps += 1
+            if area == 2:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 5)
+                    if randosound == 1:
+                        queue blablas "voice infirmary 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice infirmary 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice infirmary 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice infirmary 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice infirmary 5.mp3"
+                    $ beeps += 1
+            if area == 3:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 8)
+                    if randosound == 1:
+                        queue blablas "voice default 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice default 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice default 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice default 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice default 5.mp3"
+                    if randosound == 6:
+                        queue blablas "voice default 6.mp3"
+                    if randosound == 7:
+                        queue blablas "voice default 7.mp3"
+                    if randosound == 8:
+                        queue blablas "voice default 8.mp3"
+                    $ beeps += 1
+            if area == 4:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 8)
+                    if randosound == 1:
+                        queue blablas "voice default 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice default 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice default 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice default 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice default 5.mp3"
+                    if randosound == 6:
+                        queue blablas "voice default 6.mp3"
+                    if randosound == 7:
+                        queue blablas "voice default 7.mp3"
+                    if randosound == 8:
+                        queue blablas "voice default 8.mp3"
+                    $ beeps += 1
+            if area == 5:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 5)
+                    if randosound == 1:
+                        queue blablas "voice vault 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice vault 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice vault 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice vault 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice vault 5.mp3"
+                    $ beeps += 1
+            if area == 6:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 5)
+                    if randosound == 1:
+                        queue blablas "voice bath 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice bath 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice bath 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice bath 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice bath 5.mp3"
+                    $ beeps += 1
+            if area == 7:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 8)
+                    if randosound == 1:
+                        queue blablas "voice default 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice default 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice default 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice default 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice default 5.mp3"
+                    if randosound == 6:
+                        queue blablas "voice default 6.mp3"
+                    if randosound == 7:
+                        queue blablas "voice default 7.mp3"
+                    if randosound == 8:
+                        queue blablas "voice default 8.mp3"
+                    $ beeps += 1
+            if area == 8:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 8)
+                    if randosound == 1:
+                        queue blablas "voice default 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice default 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice default 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice default 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice default 5.mp3"
+                    if randosound == 6:
+                        queue blablas "voice default 6.mp3"
+                    if randosound == 7:
+                        queue blablas "voice default 7.mp3"
+                    if randosound == 8:
+                        queue blablas "voice default 8.mp3"
+                    $ beeps += 1
+            if area == 123:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 28)
+                    if randosound == 1:
+                        queue blablas "voice default 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice default 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice default 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice default 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice default 5.mp3"
+                    if randosound == 6:
+                        queue blablas "voice default 6.mp3"
+                    if randosound == 7:
+                        queue blablas "voice default 7.mp3"
+                    if randosound == 8:
+                        queue blablas "voice default 8.mp3"
+                    if randosound == 9:
+                        queue blablas "voice infirmary 1.mp3"
+                    if randosound == 10:
+                        queue blablas "voice infirmary 2.mp3"
+                    if randosound == 11:
+                        queue blablas "voice infirmary 3.mp3"
+                    if randosound == 12:
+                        queue blablas "voice infirmary 4.mp3"
+                    if randosound == 13:
+                        queue blablas "voice infirmary 5.mp3"
+                    if randosound == 14:
+                        queue blablas "voice vault 1.mp3"
+                    if randosound == 15:
+                        queue blablas "voice vault 2.mp3"
+                    if randosound == 16:
+                        queue blablas "voice vault 3.mp3"
+                    if randosound == 17:
+                        queue blablas "voice vault 4.mp3"
+                    if randosound == 18:
+                        queue blablas "voice vault 5.mp3"
+                    if randosound == 19:
+                        queue blablas "voice bath 1.mp3"
+                    if randosound == 20:
+                        queue blablas "voice bath 2.mp3"
+                    if randosound == 21:
+                        queue blablas "voice bath 3.mp3"
+                    if randosound == 22:
+                        queue blablas "voice bath 4.mp3"
+                    if randosound == 23:
+                        queue blablas "voice bath 5.mp3"
+                    if randosound == 24:
+                        queue blablas "voice cathedral 1.mp3"
+                    if randosound == 25:
+                        queue blablas "voice cathedral 2.mp3"
+                    if randosound == 26:
+                        queue blablas "voice cathedral 3.mp3"
+                    if randosound == 27:
+                        queue blablas "voice cathedral 4.mp3"
+                    if randosound == 28:
+                        queue blablas "voice cathedral 5.mp3"
+                    $ beeps += 1
+            if area == 321:
+                while beeps < 5:
+                    $ randosound = renpy.random.randint(1, 8)
+                    if randosound == 1:
+                        queue blablas "voice default 1.mp3"
+                    if randosound == 2:
+                        queue blablas "voice default 2.mp3"
+                    if randosound == 3:
+                        queue blablas "voice default 3.mp3"
+                    if randosound == 4:
+                        queue blablas "voice default 4.mp3"
+                    if randosound == 5:
+                        queue blablas "voice default 5.mp3"
+                    if randosound == 6:
+                        queue blablas "voice default 6.mp3"
+                    if randosound == 7:
+                        queue blablas "voice default 7.mp3"
+                    if randosound == 8:
+                        queue blablas "voice default 8.mp3"
+                    $ beeps += 1
+            if area == 123:
+                play sound "elevator_shut.mp3"
+            if question == 0:
+                play sound "what.mp3"
+                $ question = 1
+            show textbox at shake
+            return
+
+        label answer:
+            hide choice1
+            hide choice2
+            hide choice3
+            hide choice4
+            $ scrawl = 0
+            $ question = 0
+            if point == 0:
+                $ pointotal += 1
+            if point == 1:
+                $ point = 0
+            if area == 123:
+                play sound "elevator_shut.mp3"
+            return
+
+        label hidechoice:
+            hide choice1
+            hide choice2
+            hide choice3
+            hide choice4
+            return
+
+        label totalreset:
+
+            hide total24
+            hide total23
+            hide total22
+            hide total21
+            hide total20
+            hide total19
+            hide total18
+            hide total17
+            hide total16
+            hide total15
+            hide total14
+            hide total13
+            hide total12
+            hide total11
+            hide total10
+            hide total9
+            hide total8
+            hide total7
+            hide total6
+            hide total5
+            hide total4
+            hide total3
+            hide total2
+            hide total1
+            hide thoughtotal
+            return
+
+        label sun:
+            
+            show interface sun at shake
+            return
+
+        label moon:
+
+            show interface moon at shake
+            return
+
+        label meteor:
+
+            show interface meteor at shake
+            return
+
+        label eclipse:
+
+            show interface eclipse at shake
+            return
+
+        label analytical:
+
+            show interface analytical at shake
+            return
+
+        label writing:
+
+            show interface writing at shake
+            return
+
+        label audience:
+
+            show interface audience at shake
+            return
+
+        label vareset:
+            
+            $ pointotal = 0
+            $ pointa = 0
+            $ pointb = 0
+            $ pointc = 0
+            $ pointd = 0
+            $ pointe = 0
+            $ pointf = 0
+            $ pointg = 0
+            $ pointh = 0
+            $ pointi = 0
+            $ pointj = 0
+            $ pointk = 0
+            $ pointl = 0
+            $ pointm = 0
+            $ pointn = 0
+            $ pointo = 0
+            $ pointp = 0
+            $ pointq = 0
+            $ pointr = 0
+            $ points = 0
+            $ pointt = 0
+            $ pointu = 0
+            $ pointv = 0
+            $ pointw = 0
+            $ pointx = 0
+            $ pointy = 0
+            $ pointz = 0
+            return
+
+label start:
+
+    label splashscreen:
+        
+        $ _dismiss_pause = False
+        show screen options
+        show titlesun at offscreen
+        show titlemoon at offscreen
+        show titlefoole at offscreen
+        show titlepillars at offscreen
+        show titlethoutalia at offscreen
+        show titlescreen at offscreen
+        show titleappfoole at offscreen
+        show titleappheart at offscreen
+        show titleappunheart at offscreen
+        show titlerags at offscreen
+        show titlesale at offscreen
+        show titlepipes at offscreen
+        show titlepainting at offscreen
+        show titlecurtains at offscreen
+        show titledrink at offscreen
+        show titlebubble3 at offscreen
+        show titlebubble2 at offscreen
+        show titlebubble1 at offscreen
+        show titleplatter at offscreen
+        show titleorgan at offscreen
+        show titleelevator at offscreen
+        show titlepots at offscreen
+        scene space
+        pause 0.50
+        play sound "mus_jingle2.ogg"
+        show foologo gray at logoscrollon
+        pause 1.50
+        show foologo color at shake
+        pause 2.40
+        show foologo at logoscrolloff
+        pause 1.00
+        show starscroll at titlescrollelevatorstart
+        pause 0.25
+        show starscroll at titlescrollelevatorloop
+        pause 1.25
+        show starscroll at titlescrollelevatorend
+        pause 0.90
+        play music "mus_menu.ogg"
+
+    label main_menu:
+
+        label titletransformations:
+
+            transform offscreen:
+                yoffset -1080
+
+            transform logoscrollon:
+                yoffset -1080
+                easein 1.200 yoffset 0
+            transform logoscrolloff:
+                yoffset 0
+                easein 0.50 yoffset -50
+                pause 0.50
+                easein 0.10 yoffset 1080
+
+            transform titlestill:
+                easein 1.00 yoffset 0
+            transform titlescrollon:
+                yoffset -1080
+                easein 1.00 yoffset 0
+            transform titlescrolloff:
+                easeout 2.00 yoffset 1080
+
+            transform titlescrollelevatorloop:
+                yoffset -1080
+                linear 0.25 yoffset 0
+                repeat
+            transform titlescrollelevatorstart:
+                yoffset -2160
+                linear 0.50 yoffset 0
+            transform titlescrollelevatorend:
+                yoffset 0
+                easein 0.25 yoffset 1080
+
+            transform titlethoutalia:
+                pause 3.00
+                easein 6.00 yoffset 5
+                pause 3.00
+                easein 6.00 yoffset -5
+                repeat
+            transform titlepillars:
+                pause 2.75
+                easein 5.00 yoffset -6
+                pause 2.75
+                easein 5.00 yoffset 6
+                repeat
+            transform titlescreen:
+                pause 2.50
+                easein 4.50 yoffset 7
+                pause 2.50
+                easein 4.50 yoffset -7
+                repeat
+            transform titleappfoole:
+                pause 0.75
+                yoffset 2
+                pause 0.75
+                yoffset 0
+                pause 0.75
+                yoffset -2
+                pause 0.75
+                yoffset 0
+                repeat
+            transform titleappheart:
+                pause 1.00
+                yoffset 1
+                pause 1.00
+                yoffset 0
+                pause 1.00
+                yoffset -1
+                pause 1.00
+                yoffset 0
+                repeat
+            transform titleappunheart:
+                pause 1.10
+                yoffset -1
+                pause 1.10
+                yoffset 0
+                pause 1.10
+                yoffset 1
+                pause 1.10
+                yoffset 0
+                repeat
+            transform titlerags:
+                pause 2.25
+                easein 4.00 yoffset -8
+                pause 2.25
+                easein 4.00 yoffset 8
+                repeat
+            transform titlesale:
+                pause 0.65
+                yoffset -2
+                pause 0.65
+                yoffset 0
+                pause 0.65
+                yoffset 2
+                pause 0.65
+                yoffset 0
+                repeat
+            transform titlepipes:
+                pause 2.00
+                easein 3.50 yoffset 9
+                pause 2.00
+                easein 3.50 yoffset -9
+                repeat
+            transform titlepainting:
+                pause 1.85
+                easein 3.25 yoffset -10
+                pause 1.85
+                easein 3.25 yoffset 10
+                repeat
+            transform titledrink:
+                pause 1.85
+                easein 3.10 yoffset -10
+                pause 1.85
+                easein 3.10 yoffset 10
+                repeat
+            transform titleplatter:
+                pause 1.75
+                easein 3.00 yoffset -10
+                pause 1.75
+                easein 3.00 yoffset 10
+                repeat
+            transform titlebubble1:
+                pause 2.00
+                easein 4.00 yoffset -12
+                pause 2.00
+                easein 4.00 yoffset 12
+                repeat
+            transform titlebubble2:
+                pause 2.10
+                easein 4.20 yoffset -12
+                pause 2.10
+                easein 4.20 yoffset 12
+                repeat
+            transform titlebubble3:
+                pause 1.90
+                easein 3.80 yoffset -12
+                pause 1.90
+                easein 3.80 yoffset 12
+                repeat
+            transform titlecurtains:
+                pause 1.50
+                easein 2.75 yoffset 11
+                pause 1.50
+                easein 2.75 yoffset -11
+                repeat
+            transform titleaudience:
+                pause 1.75
+                easein 3.25 yoffset 9
+                pause 1.75
+                easein 3.25 yoffset -9
+                repeat
+            transform titleorgan:
+                pause 1.25
+                easein 2.50 yoffset -12
+                pause 1.25
+                easein 2.50 yoffset 12
+                repeat
+            transform titleelevator:
+                pause 1.00
+                easein 2.25 yoffset 13
+                pause 1.00
+                easein 2.25 yoffset -13
+                repeat
+            transform titlepots:
+                pause 0.90
+                easein 2.10 yoffset -14
+                pause 0.90
+                easein 2.10 yoffset 14
+                repeat
+            transform titlesun:
+                pause 3.00
+                easein 6.00 yoffset 6
+                pause 3.00
+                easein 6.00 yoffset -6
+                repeat
+            transform titlemoon:
+                pause 3.00
+                easein 6.00 yoffset -6
+                pause 3.00
+                easein 6.00 yoffset 6
+                repeat
+
+        label titleimages:
+
+            image titlefoole:
+                "images/title/titlefoole wibble.png"
+                pause 0.50
+                "images/title/titlefoole wobble.png"
+                pause 0.50
+                repeat
+            image titlesun:
+                "images/title/titlesun wibble.png"
+                pause 0.50
+                "images/title/titlesun wobble.png"
+                pause 0.50
+                repeat
+            image titlemoon:
+                "images/title/titlemoon wibble.png"
+                pause 0.50
+                "images/title/titlemoon wobble.png"
+                pause 0.50
+                repeat
+            image titlepillars = "images/title/titlepillars.png"
+            image titlescreen:
+                "images/title/titlescreen wibble.png"
+                pause 1.40
+                "images/title/titlescreen wobble.png"
+                pause 0.10
+                repeat
+            image titleappfoole = "images/title/titleappfoole.png"
+            image titleappheart = "images/title/titleappheart.png"
+            image titleappunheart = "images/title/titleappunheart.png"
+            image titlerags = "images/title/titlerags.png"
+            image titlesale = "images/title/titlesale.png"
+            image titlepipes:
+                "images/title/titlepipes wibble.png"
+                pause 0.30
+                "images/title/titlepipes wobble.png"
+                pause 0.05
+                "images/title/titlepipes wibble.png"
+                pause 1.80
+                "images/title/titlepipes wobble.png"
+                pause 0.05
+                "images/title/titlepipes wibble.png"
+                pause 1.25
+                "images/title/titlepipes wobble.png"
+                pause 0.05
+                "images/title/titlepipes wibble.png"
+                pause 2.40
+                "images/title/titlepipes wobble.png"
+                pause 0.05
+                repeat
+            image titlepainting = "images/title/titlepainting.png"
+            image titleplatter = "images/title/titleplatter.png"
+            image titledrink = "images/title/titledrink.png"
+            image titlebubble1 = "images/title/titlebubble1.png"
+            image titlebubble2 = "images/title/titlebubble2.png"
+            image titlebubble3 = "images/title/titlebubble3.png"
+            image titleaudience = "images/title/titleaudience.png"
+            image titlecurtains = "images/title/titlecurtains.png"
+            image titleorgan = "images/title/titleorgan.png"
+            image titleelevator = "images/title/titleelevator.png"
+            image titlepots = "images/title/titlepots.png"
+            image titlethoutalia = "images/title/titlethoutalia.png"
+
+        label variables:
+
+            $ scrawl = 0
+
+            $ alignment = 20
+            $ meteor = 0
+            $ comet = 0
+
+            $ point = 0
+
+            $ area = 0
+            $ encore = 0
+
+            $ health = 3
+            $ gender = 0
+            $ nightmares = 0
+            $ bodygood = 0
+            $ bodybad = 0
+            $ screen = 20
+            $ random = 0
+
+            $ art = 0
+            $ weapon = 1
+            $ worsttrait = 0
+            $ fear = 0
+            $ purpose = 0
+
+            $ wear = 1
+            $ mask = 1
+
+            $ question = 0
+
+            $ turn = 1
+            $ hp = 6
+
+            $ contotal = 0
+            $ conhand = 0
+            $ concane = 0
+            $ conhour = 0
+            $ conhill = 0
+            $ conline = 0
+            $ constar = 0
+            $ conflower = 0
+            $ congun = 0
+            $ conhat = 0
+            $ conhouse = 0
+            $ conantree = 0
+            $ conanbranch = 0
+            $ conanviolent = 0
+
+            $ pointotal = 0
+            $ pointa = 0
+            $ pointb = 0
+            $ pointc = 0
+            $ pointd = 0
+            $ pointe = 0
+            $ pointf = 0
+            $ pointg = 0
+            $ pointh = 0
+            $ pointi = 0
+            $ pointj = 0
+            $ pointk = 0
+            $ pointl = 0
+            $ pointm = 0
+            $ pointn = 0
+            $ pointo = 0
+            $ pointp = 0
+            $ pointq = 0
+            $ pointr = 0
+            $ points = 0
+            $ pointt = 0
+            $ pointu = 0
+            $ pointv = 0
+            $ pointw = 0
+            $ pointx = 0
+            $ pointy = 0
+            $ pointz = 0
+
+            $ gall = 0
+            $ ward = 0
+            $ bath = 0
+            $ thea = 0
+            $ nowhere = 0
+
+            $ time = 0
+            $ timejump = 0
+            $ fail = 0
+
+            $ starlove = 0
+
+            $ brought = 1
+            $ homeland = 1
+            $ fab = 1
+            $ skeletons = 1
+            $ pair = 0
+            $ endings = 1
+
+            $ sensitive = 0
+        
+        show titlesun at titlescrollon, titlesun
+        pause 0.01
+        show titlemoon at titlescrollon, titlemoon
+        pause 0.01
+        show titlefoole at titlescrollon
+        pause 0.01
+        show titlepillars at titlescrollon, titlepillars
+        pause 0.01
+        show titlethoutalia at titlescrollon, titlethoutalia
+        pause 0.01
+        show titlescreen at titlescrollon, titlescreen
+        pause 0.01
+        show titleappfoole at titlescrollon, titleappfoole
+        pause 0.01
+        show titleappheart at titlescrollon, titleappheart
+        pause 0.01
+        show titleappunheart at titlescrollon, titleappunheart
+        pause 0.01
+        show titlerags at titlescrollon, titlerags
+        pause 0.01
+        show titlesale at titlescrollon, titleappfoole
+        pause 0.01
+        show titlepipes at titlescrollon, titlepipes
+        pause 0.01
+        show titlepainting at titlescrollon, titlepainting
+        pause 0.01
+        show titleaudience at titlescrollon, titleaudience
+        pause 0.01
+        show titlecurtains at titlescrollon, titlecurtains
+        pause 0.01
+        show titledrink at titlescrollon, titledrink
+        pause 0.01
+        show titlebubble3 at titlescrollon, titlebubble3
+        pause 0.01
+        show titlebubble2 at titlescrollon, titlebubble2
+        pause 0.01
+        show titlebubble1 at titlescrollon, titlebubble1
+        pause 0.01
+        show titleplatter at titlescrollon, titleplatter
+        pause 0.01
+        show titleorgan at titlescrollon, titleorgan
+        pause 0.01
+        show titleelevator at titlescrollon, titleelevator
+        pause 0.01
+        show titlepots at titlescrollon, titlepots
+        pause 2.00
+        play sound "choice_hover.mp3"
+        call screen title
+        jump development
+
+    label development:
+
+        stop sound
+        stop music fadeout 4.00
+        show titlesun at titlescrolloff
+        show titlemoon at titlescrolloff
+        show titlefoole at titlescrolloff
+        show titlethoutalia at titlescrolloff
+        pause 0.01
+        show titlepillars at titlescrolloff
+        pause 0.01
+        show titlescreen at titlescrolloff
+        pause 0.01
+        show titleappfoole at titlescrolloff
+        pause 0.01
+        show titleappheart at titlescrolloff
+        pause 0.01
+        show titleappunheart at titlescrolloff
+        pause 0.01
+        show titlerags at titlescrolloff
+        pause 0.01
+        show titlesale at titlescrolloff
+        pause 0.01
+        show titlepipes at titlescrolloff
+        pause 0.01
+        show titlepainting at titlescrolloff
+        pause 0.01
+        show titleaudience at titlescrolloff
+        pause 0.01
+        show titlecurtains at titlescrolloff
+        pause 0.01
+        show titledrink at titlescrolloff
+        pause 0.01
+        show titlebubble3 at titlescrolloff
+        pause 0.01
+        show titlebubble2 at titlescrolloff
+        pause 0.01
+        show titlebubble1 at titlescrolloff
+        pause 0.01
+        show titleplatter at titlescrolloff
+        pause 0.01
+        show titleorgan at titlescrolloff
+        pause 0.01
+        show titleelevator at titlescrolloff
+        pause 0.01
+        show titlepots at titlescrolloff
+        pause 3.00
+        hide foologo
+        hide starscroll
+        hide titlesun
+        hide titlemoon
+        hide titlefoole
+        hide titlepillars
+        hide titlethoutalia
+        hide titlescreen
+        hide titlebook
+        hide titleappfoole
+        hide titleappheart
+        hide titleappunheart
+        hide titlerags
+        hide titlesale
+        hide titlepipes
+        hide titlepainting
+        hide titleplatter
+        hide titledrink
+        hide titlebubble1
+        hide titlebubble2
+        hide titlebubble3
+        hide titleaudience
+        hide titlecurtains
+        hide titleorgan
+        hide titleelevator
+        hide titlepots
+        pause 3.00
+        $ renpy.music.set_volume(1.00, channel='music')
+        jump cellintro 
+        show textbox at shake
+        show interface sun at shake
+        call question from _call_question
+        menu:
+            a "This is the development menu, stargazer. Under regular cicumstance, clicking upon me would begin the game in the cell!{fast}"
+
+            "CELL":
+                call answer from _call_answer
+                pause 2
+                jump cellintro
+
+            "HALL":
+                call answer from _call_answer_1
+                pause 2
+                jump hallintro
+
+            "INFIRMARY":
+                call answer from _call_answer_2
+                pause 2
+                jump infirmaryintro
+
+            "NEXT...":
+                jump guidemore
+
+        label guidemore:
+            menu:
+                a "This is the development menu, stargazer. Under regular cicumstance, clicking upon me would begin the game in the cell!{fast}"
+
+                "WARDROBE":
+                    call answer from _call_answer_3
+                    pause 0.50
+                    jump wardrobeintro
+
+                "GALLERY":
+                    call answer from _call_answer_4
+                    pause .5
+                    jump galleryintro
+
+                "VAULT":
+                    call answer from _call_answer_5
+                    pause 0.50
+                    jump vaultintro
+
+                "NEXT...":
+                    jump guidemorer
+
+        label guidemorer:
+            menu:
+                a "This is the development menu, stargazer. Under regular cicumstance, clicking upon me would begin the game in the cell!{fast}"
+
+                "BATH":
+                    call answer from _call_answer_6
+                    pause 0.50
+                    jump bathintro
+
+                "THEATER":
+                    call answer from _call_answer_7
+                    pause .5
+                    jump theaterintro
+
+                "CATHEDRAL":
+                    call answer from _call_answer_8
+                    pause 0.50
+                    jump cathedralintro
+
+                "NEXT...":
+                    jump guidemorest
+
+        label guidemorest:
+            menu:
+                a "Hey, if you intend to play this thing in the intended order, you'd best scroll your mouse wheel back and return to the previous page!{fast}"
+
+                "ELEVATOR":
+                    call answer from _call_answer_9
+                    pause .5
+                    jump elevatorintro
+
+                "TERRACE":
+                    call answer from _call_answer_10
+                    pause .5
+                    jump terraceintro
+
+                "ARENA":
+                    call answer from _call_answer_11
+                    pause .5
+                    jump arenaintro
+
+                "EXIT":
+                    call answer from _call_answer_12
+                    jump exit
+
+label cell:
+    
+    label cellimages:
+        
+        transform scrolloncell:
+            yoffset -1080
+            easein 3.00 yoffset 0
+        transform scrollontext:
+            yoffset -1080
+            easein 2.25 yoffset 0
+
+        image light = "image/cell/light"
+        image bars aligned:
+            "images/cell/bars 1.png"
+            pause 0.50
+            "images/cell/bars 2.png"
+            pause 0.50
+            repeat
+        image bars unaligned = "images/cell/bars 1.png"
+
+        image door = "images/cell/door.png"
+        image brickwalls = "images/cell/brickwalls.png"
+        image constellations:
+            "images/cell/constellations 1.png"
+            pause 0.50
+            "images/cell/constellations 2.png"
+            pause 0.50
+            repeat
+        image writing:
+            "images/cell/writing 1.png"
+            pause 0.50
+            "images/cell/writing 2.png"
+            pause 0.50
+            repeat
+        image foole cell shrug:
+            "images/cell/foole cell shrug wibble.png"
+            pause 0.50
+            "images/cell/foole cell shrug wobble.png"
+            pause 0.50
+            repeat
+        image foole cell mask:
+            "images/cell/foole cell mask wibble.png"
+            pause 0.50
+            "images/cell/foole cell mask wobble.png"
+            pause 0.50
+            repeat
+        image foole cell paint:
+            "images/cell/foole cell paint wibble.png"
+            pause 0.50
+            "images/cell/foole cell paint wobble.png"
+            pause 0.50
+            repeat
+        image foole cell switch:
+            "images/cell/foole cell switch wibble.png"
+            pause 0.50
+            "images/cell/foole cell switch wobble.png"
+            pause 0.50
+            repeat
+
+        label foolecellshrug:
+            show foole cell switch at shake
+            pause 0.10
+            show foole cell shrug at shake
+            return
+
+        label foolecellmask:
+            show foole cell switch at shake
+            pause 0.10
+            show foole cell mask at shake
+            return
+
+        label foolecellpaint:
+            show foole cell switch at shake
+            pause 0.10
+            show foole cell paint at shake
+            return
+
+        label foolecellswitch:
+            show foole cell switch at shake
+            return
+    
+    label cellintro:
+
+        hide textbox
+        hide writing
+        $ area = 0
+        stop music
+        show textbox at scrollontext
+        pause 0.05
+        show interface writing at scrollontext
+        pause 0.15
+        show light unaligned at scrolloncell
+        show bars aligned at scrolloncell
+        pause 0.10
+        show background cell at scrolloncell
+        show foole cell switch at scrolloncell
+        play music "mus_cell.ogg" fadein 5.00
+        pause 5.00
+        call sun from _call_sun
+        a "Long ago, a nameless someone wished within their cell."
+        call foolecellpaint from _call_foolecellpaint
+        show constellations at shake 
+        a "They made accessories of shackles, scrawled upon walls, and turned stone to starlit skies."
+        call foolecellshrug from _call_foolecellshrug
+        a "By nightfall,{w=0.50} the cell would give way to a world of their own,{w=0.50} wherein all things were possible."
+        stop music fadeout 1.50
+        show foole cell switch at shake
+        pause 0.10
+        a "Answer me now, stargazer."
+        call vareset from _call_vareset
+        stop music
+        call foolecellmask from _call_foolecellmask
+        show total1 at shake, total1, totalhov1
+        call question from _call_question_1
+        menu:
+            q "Do you believe this tall tale?"
+
+            "WHOLEHEARTEDLY":
+                call answer from _call_answer_13
+                $ alignment += 2
+
+            "HALFHEARTEDLY":
+                call answer from _call_answer_14
+                $ alignment += -2
+
+            "UNHEARTEDLY":
+                call answer from _call_answer_15
+                $ meteor += 1
+
+            "WHAT":
+                call answer from _call_answer_16
+                $ comet += 1
+    hide bars
+    hide light
+    call fooleswitch from _call_fooleswitch
+    hide foole
+    hide background
+    hide constellations
+    jump hallintro
+ 
+label hall:
+
+    label hallimages:
+        
+        image foole hall orbit:
+            "images/hall/foole hall orbit wibble.png"
+            pause 0.50
+            "images/hall/foole hall orbit wobble.png"
+            pause 0.50
+            repeat
+        image foole hall woah:
+            "images/hall/foole hall woah wibble.png"
+            pause 0.25
+            "images/hall/foole hall woah wobble.png"
+            pause 0.25
+            repeat
+        image foole hall shrug:
+            "images/hall/foole hall shrug wibble.png"
+            pause 0.50
+            "images/hall/foole hall shrug wobble.png"
+            pause 0.50
+            repeat
+        image foole hall switch:
+            "images/hall/foole hall switch wibble.png"
+            pause 0.50
+            "images/hall/foole hall switch wobble.png"
+            pause 0.50
+            repeat
+        image foole hall float:
+            "images/hall/foole hall float wibble.png"
+            pause 0.50
+            "images/hall/foole hall float wobble.png"
+            pause 0.50
+            repeat
+        image foole hall swoosh:
+            "images/hall/foole hall swoosh wibble.png"
+            pause 0.50
+            "images/hall/foole hall swoosh wobble.png"
+            pause 0.50
+            repeat
+        image fooleshadow:
+            "images/hall/fooleshadow wibble.png"
+            pause 0.50
+            "images/hall/fooleshadow wobble.png"
+            pause 0.50
+            repeat
+        image foole hall split:
+            "images/hall/foole hall split wibble.png"
+            pause 0.50
+            "images/hall/foole hall split wobble.png"
+            pause 0.50
+            repeat
+        image foole hall scrawl:
+            "images/hall/foole hall scrawl wibble.png"
+            pause 0.50
+            "images/hall/foole hall scrawl wobble.png"
+            pause 0.50
+            repeat
+        image foole hall giggle:
+            "images/hall/foole hall giggle wibble.png"
+            pause 0.15
+            "images/hall/foole hall giggle wobble.png"
+            pause 0.05
+            repeat
+        image columnsfront = "images/hall/columns front.png"
+        image columnsmiddle = "images/hall/columns middle.png"
+        image columnsback = "images/hall/columns back.png"
+        image rings = "images/hall/rings.png"
+        image muralclose:
+            "images/hall/muralclose wibble.png"
+            pause 0.50
+            "images/hall/muralclose wobble.png"
+            pause 0.50
+            repeat
+        image muralfar = "images/hall/muralfar.png"
+        image muralclose color:
+            "images/hall/muralclose color wibble.png"
+            pause 0.50
+            "images/hall/muralclose color wobble.png"
+            pause 0.50
+            repeat
+        image clouds:
+            "images/hall/clouds wibble.png"
+            pause 0.50
+            "images/hall/clouds wobble.png"
+            pause 0.50
+            repeat
+
+        image eyewall:
+            "images/hall/eyewall wibble.png"
+            pause 0.50
+            "images/hall/eyewall wobble.png"
+            pause 0.50
+            repeat
+        image blinklove:
+            "images/empty.png"
+            pause 3.45
+            "images/hall/blinklove.png"
+            pause 0.05
+            "images/empty.png"
+            pause 5.95
+            "images/hall/blinklove.png"
+            pause 0.05
+            "images/empty.png"
+            pause 1.45
+            "images/hall/blinklove.png"
+            pause 0.05
+            repeat
+        image blinkkat:
+            "images/hall/blinkkat.png"
+            pause 0.05
+            "images/empty.png"
+            pause 2.45
+            "images/hall/blinkkat.png"
+            pause 0.05
+            "images/empty.png"
+            pause 1.45
+            "images/hall/blinkkat.png"
+            pause 0.05
+            "images/empty.png"
+            pause 3.45
+            repeat
+        image blinkwonder:
+            "images/empty.png"
+            pause 0.95
+            "images/hall/blinkwonder.png"
+            pause 0.05
+            "images/empty.png"
+            pause 1.45
+            "images/hall/blinkwonder.png"
+            pause 0.05
+            "images/empty.png"
+            pause 2.95
+            "images/hall/blinkwonder.png"
+            pause 0.05
+            repeat
+        image blinklite:
+            "images/empty.png"
+            pause 1.95
+            "images/hall/blinklite.png"
+            pause 0.05
+            repeat
+
+        label fooleorbit:
+
+            hide fooleshadow
+            show foole hall switch at shake
+            pause 0.10
+            show foole hall orbit at shake
+            return
+
+        label foolewoah:
+
+            hide fooleshadow
+            show foole hall switch at shake
+            pause 0.10
+            show foole hall woah at shake
+            return
+
+        label fooleshrug:
+
+            hide fooleshadow
+            show foole hall switch at shake
+            pause 0.10
+            show foole hall shrug at shake
+            return
+
+        label foolefloat:
+
+            show foole hall switch at shake
+            pause 0.10
+            #show fooleshadow at shake
+            show foole hall float at shake, foolefloat
+            return
+
+        label foolesplit:
+
+            hide fooleshadow
+            show foole hall switch at shake
+            pause 0.10
+            show foole hall split at shake
+            return
+
+        label fooleswoosh:
+
+            hide fooleshadow
+            show foole hall switch at shake
+            pause 0.10
+            show foole hall swoosh at shake
+            return
+
+        label foolescrawl:
+
+            hide fooleshadow
+            show foole hall switch at shake
+            pause 0.10
+            show foole hall scrawl at shake
+            return
+
+        label foolegiggle:
+
+            hide fooleshadow
+            show foole hall switch at shake
+            play sound "giggle.mp3"
+            pause 0.30
+            show foole hall giggle wibble
+            pause 0.03
+            show foole hall giggle wobble
+            pause 0.03
+            show foole hall giggle wibble
+            pause 0.03
+            show foole hall giggle wobble
+            pause 0.03
+            show foole hall giggle wibble
+            pause 0.50
+            return
+
+        label fooleswitch:
+
+            hide fooleshadow
+            show foole hall switch at shake
+            pause 0.10
+            return
+    
+    label halltransformations:
+
+        transform tile1:
+            pause 1.00
+            easein 1.75 yoffset 3
+            pause 1.00
+            easein 1.75 yoffset -3
+            repeat
+        transform tile2:
+            pause 0.80
+            easein 2.00 yoffset -4
+            pause 0.80
+            easein 2.00 yoffset 4
+            repeat
+        transform tile3:
+            pause 1.25
+            easein 2.00 yoffset 3
+            pause 1.25
+            easein 2.00 yoffset -3
+            repeat
+        transform tile4:
+            pause 1.50
+            easein 2.00 yoffset -2
+            pause 1.50
+            easein 2.00 yoffset 2
+            repeat
+        transform tile5:
+            pause 1.00
+            easein 2.00 yoffset 3
+            pause 1.00
+            easein 2.00 yoffset -3
+            repeat
+        transform tile6:
+            pause 1.25
+            easein 2.00 yoffset -2
+            pause 1.25
+            easein 2.00 yoffset 2
+            repeat
+        transform tile7:
+            pause 1.00
+            easein 2.00 yoffset 3
+            pause 1.00
+            easein 2.00 yoffset -3
+            repeat
+        transform tile8:
+            pause 1.00
+            easein 2.00 yoffset -2
+            pause 1.00
+            easein 2.00 yoffset 2
+            repeat
+        transform tile9:
+            pause 1.50
+            easein 0.75 yoffset 4
+            pause 1.50
+            easein 0.75 yoffset -4
+            repeat
+        transform tile10:
+            pause 1.25
+            easein 2.00 yoffset -3
+            pause 1.25
+            easein 2.00 yoffset 3
+            repeat
+        transform scrollmuralclose:
+            easein 1.50 xoffset -192
+            pause 3.00
+            easein 1.50 xoffset -384
+            pause 3.00
+            easein 1.50 xoffset -576
+            pause 3.00
+            easein 1.50 xoffset -768
+            pause 3.00
+            easein 1.50 xoffset -960
+            pause 3.00
+            easein 1.50 xoffset -1152
+            pause 3.00
+            easein 1.50 xoffset -1344
+            pause 3.00
+            easein 1.50 xoffset -1536
+            pause 3.00
+            easein 1.50 xoffset -1728
+            pause 3.00
+            easein 1.50 xoffset -1920
+            pause 3.00
+            xoffset 0
+            repeat
+        transform scrollmuralfar:
+            easein 1.50 xoffset 96
+            xoffset 0
+            pause 3.00
+            repeat
+        transform scrollmuralclosefast:
+            easein 0.02 xoffset -192
+            pause 0.04
+            easein 0.02 xoffset -384
+            pause 0.04
+            easein 0.02 xoffset -576
+            pause 0.04
+            easein 0.02 xoffset -768
+            pause 0.04
+            easein 0.02 xoffset -960
+            pause 0.04
+            easein 0.02 xoffset -1152
+            pause 0.04
+            easein 0.02 xoffset -1344
+            pause 0.04
+            easein 0.02 xoffset -1536
+            pause 0.04
+            easein 0.02 xoffset -1728
+            pause 0.04
+            easein 0.02 xoffset -1920
+            pause 0.04
+            xoffset 0
+            repeat
+        transform scrollmuralfarfast:
+            easein 0.02 xoffset 96
+            xoffset 0
+            pause 0.04
+            repeat
+        transform scrollmuralreset:
+            easein 1.50 xoffset 0
+        transform foolefloat:
+            yoffset 8
+            easein 1.50 yoffset -8
+            pause 1.00
+            easein 1.50 yoffset 8
+            pause 1.00
+            repeat
+
+    label hallintro:
+
+        call vareset from _call_vareset_1
+        call totalreset from _call_totalreset
+        $ area = 1
+        show columnsfront at shake
+        show columnsmiddle behind columnsfront at shake
+        show columnsback behind columnsmiddle at shake
+        show foole hall orbit at shake
+        show muralclose behind columnsfront
+        show muralfar behind columnsmiddle
+        show eyewall
+        show clouds behind columnsmiddle at scrollright40
+        show blinklove
+        show blinkkat
+        show blinklite
+        show blinkwonder
+        show muralclose at scrollmuralclose
+        show muralfar at scrollmuralfar
+        show tile1 at tile1
+        show tile2 at tile2
+        show tile3 at tile3
+        show tile4 at tile4
+        show tile5 at tile5
+        show tile6 at tile6
+        show tile7 at tile7
+        show tile8 at tile8
+        show tile9 at tile9
+        show tile10 at tile10
+        play soundloop "mural.mp3"
+        play sound "appear.mp3"
+        play music "mus_fantasia.ogg"
+        show thoughtotal at shake, total15, totalhov15
+        show total13 at shake, total13, totalhov13
+        show total12 at shake, total12, totalhov12
+        show total11 at shake, total11, totalhov11
+        show total10 at shake, total10, totalhov10
+        show total9 at shake, total9, totalhov9
+        show total8 at shake, total8, totalhov8
+        show total7 at shake, total7, totalhov7
+        show total6 at shake, total6, totalhov6
+        show total5 at shake, total5, totalhov5
+        show total4 at shake, total4, totalhov4
+        show total3 at shake, total3, totalhov3
+        show total2 at shake, total2, totalhov2
+        show total1 at shake, total1, totalhov1
+        a "Well that tall tale now stands before you!"
+        call vareset from _call_vareset_2
+        call foolegiggle from _call_foolegiggle
+        call foolefloat from _call_foolefloat
+        a "Hopefully you appreciated my prologuerous performance, it was quite an effort to produce."
+        call fooleswoosh from _call_fooleswoosh
+        a "This little window into my world was constructed long ago in hopes that a stargazer like yourself might give me a glance."
+        call foolesplit from _call_foolesplit
+        a "To have company is so exciting that I can hardly hold myself together!"
+    label howareyou:
+
+        call fooleshrug from _call_fooleshrug
+        call question from _call_question_2
+        menu:
+            q "How are you feeling?"
+
+            "WONDERFUL":
+                call answer from _call_answer_17
+                $ alignment += 1
+                call foolewoah from _call_foolewoah
+                a "Then our feelings align, like an emotional eclipse!"
+                call fooleorbit from _call_fooleorbit
+
+            "ALRIGHT":
+                call answer from _call_answer_18
+                $ alignment += 1
+                call fooleshrug from _call_fooleshrug_1
+                a "Alright is much too moderate for my taste, I'll do my best to elevate your attitude!"
+
+            "BORED":
+                call answer from _call_answer_19
+                $ meteor += 1
+                $ points += 1
+                call fooleshrug from _call_fooleshrug_2
+                a "Fret not, I'm quite the entertainer!"
+
+            "CONFUSED":
+                call answer from _call_answer_20
+                $ comet += 1
+                call fooleshrug from _call_fooleshrug_3
+                a "That is understandable, considering these curious circumstances you have found yourself within!"
+    call foolefloat from _call_foolefloat_1
+    a "We will be each other's fascinations, even if only for a moment!"
+    call fooleorbit from _call_fooleorbit_1
+    label brought:
+
+        call question from _call_question_3
+        menu:
+            q "What has brought you to this world of my making?"
+
+            "CURIOSITY":
+                call answer from _call_answer_21
+                $ alignment += 2
+                $ brought = 1
+                call foolewoah from _call_foolewoah_1
+                a "I am quite a curious character myself, so our motivations are mutual!"
+
+            "BOREDOM":
+                call answer from _call_answer_22
+                $ pointr += 1
+                $ alignment += -2
+                $ brought = 2
+                call fooleshrug from _call_fooleshrug_4
+                a "I have grown quite bored myself, so our motivations are mutual!"
+
+            "MADNESS":
+                call answer from _call_answer_23
+                $ comet += 1
+                $ brought = 3
+                call foolewoah from _call_foolewoah_2
+                a "I am quite mad myself, so our motivations are mutual!"
+
+            "YOU":
+                call answer from _call_answer_24
+                $ starlove += 1
+                $ brought = 4
+                call foolegiggle from _call_foolegiggle_1
+                call foolefloat from _call_foolefloat_2
+                a "I have taken quite an interest in you as well, so our motivations are mutual!"
+    label birthday:
+
+        call fooleorbit from _call_fooleorbit_2
+        call question from _call_question_4
+        menu:
+            q "When were you born?"
+
+            "GOOD TIMES":
+                call answer from _call_answer_25
+                call foolewoah from _call_foolewoah_3
+                a "How lucky you are to have won the womb lottery!"
+
+            "BAD TIMES":
+                call answer from _call_answer_26
+                call fooleshrug from _call_fooleshrug_5
+                a "We can't all win the womb lottery, but I am sure you have made some good of your time regardless!"
+
+            "STRANGE TIMES":
+                call answer from _call_answer_27
+                $ comet += 1
+                call fooleshrug from _call_fooleshrug_6
+                a "Times are always strange, it is in their nature!"
+
+            "SOME TIMES":
+                call answer from _call_answer_28
+                $ meteor += 1
+                $ pointq = 1
+                call foolesplit from _call_foolesplit_1
+                a "How odd it is to describe your point of origin so plainly."
+    label homeland:
+
+        call fooleorbit from _call_fooleorbit_3
+        call question from _call_question_5
+        menu:
+            q "How would you describe your homeland?"
+
+            "GARDEN OF DELIGHTS":
+                call answer from _call_answer_29
+                $ alignment += 2
+                $ homeland = 1
+                call foolewoah from _call_foolewoah_4
+                a "Hopefully my abode can compare to such wonders!"
+                call fooleshrug from _call_fooleshrug_7
+
+            "DESOLATE WASTELAND":
+                call answer from _call_answer_30
+                $ alignment += -2
+                $ homeland = 2
+                call fooleshrug from _call_fooleshrug_8
+                if pointr == 1:
+                    a "Well no wonder why you are so bored then."
+                call foolefloat from _call_foolefloat_3
+                a "Hopefully you find my abode to be an improvement."
+
+            "SPRAWLING MAZE":
+                call answer from _call_answer_31
+                $ comet += 1
+                $ homeland = 3
+                call foolefloat from _call_foolefloat_4
+                a "Then you will find yourself at home in my abode."
+
+            "SIMPLY SOMEPLACE":
+                call answer from _call_answer_32
+                $ meteor += -1
+                $ homeland = 4
+                if pointq == 0:
+                    call fooleshrug from _call_fooleshrug_9
+                    a "Hopefully you find my abode far more exciting than your point of origin."
+                if pointq == 1:
+                    call fooleswitch from _call_fooleswitch_1
+                    $ renpy.music.set_volume(0.00, channel='music')
+                    a "Somebody is being somewhat repetitive with their answers."
+                    $ renpy.music.set_volume(1.00, channel='music')
+                    call fooleshrug from _call_fooleshrug_10
+                    a "Some specifics would be lovely, stargazer!"
+    call fooleorbit from _call_fooleorbit_4
+    a "Perhaps we ought to quicken this introductory questionaire with the aid of the infirmary's technology."
+    call fooleshrug from _call_fooleshrug_11
+    a "Do feel free to glance about the hall along the way, stargazer."
+    label hallpoint:
+
+        if pointotal >= 13 and pointx > 0:
+            jump hallend
+        if pointotal >= 13:
+            call fooleswoosh from _call_fooleswoosh_1
+            a "We must move along from the hall in a moment or more, stargazer."
+            call fooleshrug from _call_fooleshrug_12
+            a "Just take one last look about, you never know what sort of secrets might echo across this world of mine."
+            call foolesplit from _call_foolesplit_2
+            a "Even the slightest speck may hold some significance."
+            call fooleorbit from _call_fooleorbit_5
+            a "Though we ought not waste nightlight, so from hereonout there will be no time for staring around after all is answered."
+            show dummyarrow
+        $ point += 1
+        call fooleorbit from _call_fooleorbit_6
+        call writing from _call_writing
+        call question from _call_question_6
+        call hidechoice from _call_hidechoice
+        call screen hallpoint
+
+        label pointrobes:
+
+            call answer from _call_answer_33
+            call sun from _call_sun_1
+            $ pointa = 1
+            call foolewoah from _call_foolewoah_5
+            a "These robes are fashioned from the fabric of time and space, hence why you see shimmering stars and far future within them."
+            call foolefloat from _call_foolefloat_5
+            call question from _call_question_7
+            menu:
+                q "Are you interested in fashion?"
+
+                "FABSOLUTELY":
+                    call answer from _call_answer_34
+                    $ alignment += 1
+                    $ fab = 1
+                    call fooleshrug from _call_fooleshrug_13
+                    a "Then I must make sure to take you to the wardrobe posthaste!"
+
+                "FABULIGHTLY":
+                    call answer from _call_answer_35
+                    $ alignment += -1
+                    $ fab = 2
+                    call fooleshrug from _call_fooleshrug_14
+                    a "Then I ought to take you to the wardrobe posthaste."
+
+                "FABULAZILY":
+                    call answer from _call_answer_36
+                    $ comet += 1
+                    $ fab = 3
+                    call fooleshrug from _call_fooleshrug_15
+                    a "Perhaps you will find something that sparks your fashinterest once we visit the wardrobe."
+
+                "NO":
+                    call answer from _call_answer_37
+                    $ meteor += 1
+                    $ fab = 4
+                    call fooleshrug from _call_fooleshrug_16
+                    a "Perhaps you will find something that sparks your fashinterest once we visit the wardrobe."
+            jump hallpoint
+        
+        label pointlimbs:
+
+            call answer from _call_answer_38
+            call sun from _call_sun_2
+            $ pointb = 1
+            call foolesplit from _call_foolesplit_3
+            a "My limbs are merely suggestions, lines drawn between the swirling lights which make up my matter."
+            call fooleswoosh from _call_fooleswoosh_2
+            a "One could consider them a sort of constellatory skeleton."
+            call fooleswitch from _call_fooleswitch_2
+            call question from _call_question_8
+            menu:
+                q "Do you have skeletons in your closet?"
+
+                "SKELENONE":
+                    call answer from _call_answer_39
+                    $ alignment += 1
+                    $ skeletons = 1
+                    call fooleshrug from _call_fooleshrug_17
+                    a "A bone or two would not hurt, go scrape some skin and see what happens!"
+
+                "SKELEONE":
+                    call answer from _call_answer_40
+                    $ alignment += -1
+                    $ skeletons = 2
+                    call fooleshrug from _call_fooleshrug_18
+                    a "I cannot judge, I have some skeletons stacked myself."
+
+                "SKELESOME":
+                    call answer from _call_answer_41
+                    $ alignment += -1
+                    $ skeletons = 3
+                    call fooleshrug from _call_fooleshrug_19
+                    a "I cannot judge, I have some skeletons stacked myself."
+
+                "SKELEGIGATONS":
+                    call answer from _call_answer_42
+                    $ alignment += 1
+                    $ skeletons = 4
+                    call foolesplit from _call_foolesplit_4
+                    a "You ought to start burying them, the closet can only hold so much."
+            jump hallpoint
+
+        label pointhead:
+
+            call answer from _call_answer_43
+            call sun from _call_sun_3
+            $ pointc = 1
+            call fooleswoosh from _call_fooleswoosh_3
+            a "The stars out the cell window were my only true companions while locked away, and so I modeled myself after them in admiration!"
+            call fooleorbit from _call_fooleorbit_7
+            call question from _call_question_9
+            menu:
+                q "What catches your eye in the sky?"
+
+                "STARS":
+                    call answer from _call_answer_44
+                    $ alignment += 1
+                    if starlove == 0:
+                        call foolewoah from _call_foolewoah_6
+                        a "The both of us are starry eyed!"
+                    if starlove > 0:
+                        call foolegiggle from _call_foolegiggle_2
+                        call foolefloat from _call_foolefloat_6
+                        $ starlove += 1
+                        a "Then it is no wonder why you seem to love looking upon me so very much."
+
+                "CLOUDS":
+                    call answer from _call_answer_45
+                    $ alignment += -1
+                    call fooleshrug from _call_fooleshrug_20
+                    a "Much as they bother me when blocking stars, during daytime they are quite a lovely sight."
+
+                "AVIANS":
+                    call answer from _call_answer_46
+                    call fooleshrug from _call_fooleshrug_21
+                    a "Soft and songful comets streaking across the sky, what wonderful creatures they are."
+
+                "AIRCRAFTS":
+                    call answer from _call_answer_47
+                    a "Manmade comets are quite a magnificent sight to behold."
+            jump hallpoint
+
+        label pointtear:
+
+            call answer from _call_answer_48
+            call sun from _call_sun_4
+            $ pointd = 1
+            call foolesplit from _call_foolesplit_5
+            a "I was brought to tears long ago and never returned."
+            call fooleorbit from _call_fooleorbit_8
+            call question from _call_question_10
+            menu:
+                q "How often do you cry?"
+
+                "PERPETUALLY":
+                    call answer from _call_answer_49
+                    $ alignment += 2
+                    call fooleswoosh from _call_fooleswoosh_4
+                    a "It is both a blessing and a curse to have eyes which are never dry."
+
+                "REGULARLY":
+                    call answer from _call_answer_50
+                    $ alignment += 1
+                    call foolesplit from _call_foolesplit_6
+                    a "Bottling tears is such a burden, better to let them flow."
+
+                "OCCASIONALLY":
+                    call answer from _call_answer_51
+                    $ alignment += -1
+                    call foolesplit from _call_foolesplit_7
+                    a "Bottling tears is such a burden, better to let them flow."
+
+                "NEVEREVERLY":
+                    call answer from _call_answer_52
+                    $ meteor += 1
+                    call fooleshrug from _call_fooleshrug_22
+                    a "Whatever you say, stargazer."
+            jump hallpoint
+
+        label pointeyes:
+
+            call answer from _call_answer_53
+            call sun from _call_sun_5
+            $ pointe = 1
+            call fooleshrug from _call_fooleshrug_23
+            a "Those prying eyes are creations of mine which have yet to find their place."
+            call fooleorbit from _call_fooleorbit_9
+            call question from _call_question_11
+            menu:
+                q "Have you found your place?"
+
+                "YESINDEED":
+                    call answer from _call_answer_54
+                    call fooleshrug from _call_fooleshrug_24
+                    a "I ought to come over to your place sometime."
+
+                "NOTEVER":
+                    call answer from _call_answer_55
+                    call fooleshrug from _call_fooleshrug_25
+                    a "Perhaps your place is here, stargazer."
+
+                "MAYBESO":
+                    call answer from _call_answer_56
+                    $ comet += 1
+                    call fooleshrug from _call_fooleshrug_26
+                    a "Perhaps your place is here, stargazer."
+
+                "NEVERWILL":
+                    call answer from _call_answer_57
+                    $ meteor += 1
+                    call foolesplit from _call_foolesplit_8
+                    a "You never know when you will stumble upon your place."
+                    call fooleshrug from _call_fooleshrug_27
+                    a "Perhaps your place is here, stargazer."
+            jump hallpoint
+
+        label pointmural:
+
+            call answer from _call_answer_58
+            call sun from _call_sun_6
+            $ pointf = 1
+            call foolewoah from _call_foolewoah_7
+            a "Marvel at my magnificent moving murals!"
+            call fooleshrug from _call_fooleshrug_28
+            a "I do hope that you appreciate how much effort details like this demand of me, stargazer."
+            call fooleorbit from _call_fooleorbit_10
+            call question from _call_question_12
+            menu:
+                q "Are you detail oriented?"
+
+                "OBSESSIVELY":
+                    call answer from _call_answer_59
+                    $ alignment += 1
+                    call fooleswoosh from _call_fooleswoosh_5
+                    a "Then you shall surely appreciate all of the impending intricacies of my world!"
+
+                "VERY":
+                    call answer from _call_answer_60
+                    $ alignment += 1
+                    call fooleswoosh from _call_fooleswoosh_6
+                    a "Then you shall surely appreciate all of the impending intricacies of my world!"
+
+                "SLIGHTLY":
+                    call answer from _call_answer_61
+                    $ alignment += -1
+                    call fooleshrug from _call_fooleshrug_29
+                    a "A slight should still be enough to appreciate the impending intricacies of my world!"
+
+                "NOTATALL":
+                    call answer from _call_answer_62
+                    $ alignment += -1
+                    call foolesplit from _call_foolesplit_9
+                    a "Then I suppose much of this was not needed."
+                    call fooleshrug from _call_fooleshrug_30
+                    a "Hopefully you reorient yourself posthaste!"
+            jump hallpoint
+
+        label pointcell:
+
+            call answer from _call_answer_63
+            call sun from _call_sun_7
+            $ pointg = 1
+            call fooleshrug from _call_fooleshrug_31
+            a "Do not be intimidated by the bars, they are merely remnants of the cell which once confined this world of mine."
+            call fooleswoosh from _call_fooleswoosh_7
+            a "They stand tall as reminders of the freedom I fought so very fervently for."
+            call fooleorbit from _call_fooleorbit_11
+            call question from _call_question_13
+            menu:
+                q "Are you free?"
+
+                "FOREVERMORE":
+                    call answer from _call_answer_64
+                    $ alignment += 3
+                    call foolewoah from _call_foolewoah_8
+                    a "We are freedom friends forevermore!"
+
+                "FORAWHILE":
+                    call answer from _call_answer_65
+                    $ alignment += -2
+                    call fooleshrug from _call_fooleshrug_32
+                    a "Then we ought to make the most of this while!"
+
+                "SOONENOUGH":
+                    call answer from _call_answer_66
+                    $ alignment += 3
+                    a "We shall soon be freedom friends!"
+
+                "NEVEREVER":
+                    call answer from _call_answer_67
+                    $ meteor += 1
+                    call fooleorbit from _call_fooleorbit_12
+                    a "I hope you find a semblance of freedom within this world, stargazer."
+            jump hallpoint
+
+        label pointnature:
+
+            call answer from _call_answer_68
+            call sun from _call_sun_8
+            $ pointh = 1
+            call foolesplit from _call_foolesplit_10
+            a "That path is unknown to me."
+            call fooleshrug from _call_fooleshrug_33
+            a "This world may be of my making, but that does not mean I am familiar with every corner of it."
+            call fooleorbit from _call_fooleorbit_13
+            call question from _call_question_14
+            menu:
+                q "Have you seen everything there is to see in your world?"
+
+                "EVERYTHING":
+                    call answer from _call_answer_69
+                    $ alignment += 3
+                    call fooleswoosh from _call_fooleswoosh_8
+                    a "Everything up until now, that is."
+                    call foolewoah from _call_foolewoah_9
+                    a "After all, this world of mine is now a part of yours, and I am certain that this world has sights unseen to you!"
+
+                "MANYTHING":
+                    call answer from _call_answer_70
+                    $ alignment += -1
+                    call foolewoah from _call_foolewoah_10
+                    a "Then prepare to see manymore!"
+
+                "SOMETHING":
+                    call answer from _call_answer_71
+                    $ alignment += -1
+                    call foolewoah from _call_foolewoah_11
+                    a "Then prepare to see muchmore!"
+
+                "NOTHING":
+                    call answer from _call_answer_72
+                    $ meteor += 1
+                    call fooleswoosh from _call_fooleswoosh_9
+                    a "Then prepare to open your eyes for the very first time."
+            jump hallpoint
+
+        label pointcharm:
+
+            call answer from _call_answer_73
+            call sun from _call_sun_9
+            $ pointi = 1
+            call fooleshrug from _call_fooleshrug_34
+            a "Just a little trinket is all."
+            call fooleorbit from _call_fooleorbit_14
+            a "Not everything in my abode holds substantial signifigance."
+            call fooleshrug from _call_fooleshrug_35
+            a "Though I suppose I do not have final say on such things."
+            call fooleorbit from _call_fooleorbit_15
+            call question from _call_question_15
+            menu:
+                q "Do you believe that all things signifigant?"
+
+                "ALLTHINGS":
+                    call answer from _call_answer_74
+                    $ alignment += 3
+                    call foolewoah from _call_foolewoah_12
+                    a "Then this trinket must belong to a long lost lover of mine or somesuch!"
+                    if starlove > 0:
+                        call foolefloat from _call_foolefloat_7
+                        a "Perhaps it will belong to you, in due time."
+                        call foolegiggle from _call_foolegiggle_3
+
+                "MANYTHINGS":
+                    call answer from _call_answer_75
+                    $ alignment += 2
+                    call foolewoah from _call_foolewoah_13
+                    a "Then this trinket must belong to a long lost lover of mine or somesuch!"
+                    if starlove > 0:
+                        call foolefloat from _call_foolefloat_8
+                        a "Perhaps it will belong to you, in due time."
+
+                "SOMETHINGS":
+                    call answer from _call_answer_76
+                    $ alignment += -1
+                    call fooleshrug from _call_fooleshrug_36
+                    a "Then this trinket may be some such thing."
+
+                "NOTHINGS":
+                    call answer from _call_answer_77
+                    $ meteor += 1
+                    call fooleswitch from _call_fooleswitch_3
+                    a "Then I suppose we ought to trash the trinket and not think twice about it."
+            jump hallpoint
+            
+    label hallend:
+
+        hide dummyarrow
+        call fooleshrug from _call_fooleshrug_37
+        a "That is enough idle lookseeing for now, stargazer!"
+        stop music
+        stop soundloop
+        call fooleorbit from _call_fooleorbit_16
+        call writing from _call_writing_1
+        play sound "foole appear.mp3"
+        play sound "mural.mp3"
+        show muralfar at scrollmuralreset
+        show muralclose color at scrollmuralreset
+        pause 3.00
+        call foolewoah from _call_foolewoah_14
+        play soundloop "mural fast.mp3"
+        show muralfar at scrollmuralfarfast
+        show muralclose color at scrollmuralclosefast
+        call sun from _call_sun_10
+        a "Infirmary, come to be!"
+        call writing from _call_writing_2
+        show glitch cell
+        play sound "appear.mp3"
+        play music "mus_infirmary.ogg"
+        call blipi from _call_blipi
+        stop soundloop
+        hide foole
+        hide columnsfront at appear
+        hide columnsmiddle
+        hide columnsback
+        hide muralclose
+        hide muralfar
+        hide eyewall at appear
+        hide clouds
+        hide blinklove
+        hide blinkkat
+        hide blinklite
+        hide blinkwonder
+        hide tile1
+        hide tile2
+        hide tile3
+        hide tile4
+        hide tile5
+        hide tile6
+        hide tile7
+        hide tile8
+        hide tile9
+        hide tile10
+        hide glitch cell
+        hide error
+        call vareset from _call_vareset_3
+        jump infirmaryintro
+
+label infirmary:
+
+    label infirmaryfail:
+        call answer from _call_answer_78
+        call blipx from _call_blipx
+        call writing from _call_writing_3
+        show timer at shake, hoverappup
+        play sound "timeup.mp3"
+        call sun from _call_sun_11
+        $ comet += 1
+        $ fail += 1
+        if fail == 1:
+            ai "Answering speed insufficient."
+        if fail == 2:
+            ai "Answering speed cringeworthy."
+        if fail == 3:
+            ai "Answering speed abysmal."
+        if fail == 4:
+            $ meteor += 1
+            ai "Terminating timed questionaire per skill related issues."
+            $ pointotal = 12
+            jump infirmarypointintro
+        jump infirmaryrapid
+
+    label infirmaryimages:
+        
+        image timer = ConditionSwitch("time<0", "images/infirmary/timer0.png", "time<1", "images/infirmary/timer1.png", "time<2", "images/infirmary/timer2.png", "time<3", "images/infirmary/timer3.png", "time<4", "images/infirmary/timer4.png", "time<5", "images/infirmary/timer5.png", "time<6", "images/infirmary/timer6.png", "time>6", "images/infirmary/timer7.png", )
+
+        image foole infirmary:
+            "images/infirmary/foole infirmary wibble.png"
+            pause 0.50
+            "images/infirmary/foole infirmary wobble.png"
+            pause 0.50
+            repeat
+        image beat:
+            "images/infirmary/beatoff.png"
+            pause 0.90
+            "images/infirmary/beaton.png"
+            pause 0.10
+            "images/infirmary/beatoff.png"
+            pause 0.90
+            "images/infirmary/beatonandon.png"
+            pause 0.10
+            repeat
+        image lightsfirst = "images/infirmary/lightsfirst.png"
+        image lightssecond:
+            "images/infirmary/lightssecond.png"
+            pause 3.0
+            "images/infirmary/lightssecondblink.png"
+            pause 9.0
+            "images/infirmary/lightssecondblink.png"
+            pause .2
+            "images/infirmary/lightssecond.png"
+            pause .1
+            "images/infirmary/lightssecondblink.png"
+            pause .2
+            repeat
+        image lightsthird = "images/infirmary/lightsthird.png"
+        image lightsfourth:
+            "images/infirmary/lightsfourth.png"
+            pause 7.0
+            "images/infirmary/lightsfourthblink.png"
+            pause 0.1
+            "images/infirmary/lightsfourth.png"
+            pause 4.0
+            "images/infirmary/lightsfourthblink.png"
+            pause 0.1
+            "images/infirmary/lightsfourth.png"
+            pause 0.1
+            "images/infirmary/lightsfourthblink.png"
+            pause 0.1
+            "images/infirmary/lightsfourth.png"
+            pause 0.1
+            "images/infirmary/lightsfourthblink.png"
+            pause 0.6
+            repeat
+        image chart = "images/infirmary/chart.png"
+        image stands = "images/infirmary/stands.png"
+        image error i:
+            "images/infirmary/error i wibble.png"
+            pause 0.50
+            "images/infirmary/error i wobble.png"
+            pause 0.50
+            repeat
+        image error q:
+            "images/infirmary/error q wibble.png"
+            pause 0.50
+            "images/infirmary/error q wobble.png"
+            pause 0.50
+            repeat
+        image error x:
+            "images/infirmary/error x wibble.png"
+            pause 0.50
+            "images/infirmary/error x wobble.png"
+            pause 0.50
+            repeat
+        image error c:
+            "images/infirmary/error c wibble.png"
+            pause 0.50
+            "images/infirmary/error c wobble.png"
+            pause 0.50
+            repeat
+        image error blip = "images/infirmary/error blip.png"
+        image error s = "images/infirmary/error scrawl.png"
+        image applite = "images/infirmary/applite.png"
+        image appfoole = "images/infirmary/appfoole.png"
+        image appenpsy = "images/infirmary/appenpsy.png"
+        image apppsi = "images/infirmary/apppsi.png"
+        image appmiyu = "images/infirmary/appmiyu.png"
+
+        label blipi:
+            show error blip at shake
+            pause 0.10
+            show error i at shake, hovererror
+            return
+
+        label blipq:
+            show error blip at shake
+            pause 0.10
+            show error q at shake, hovererror
+            return
+
+        label blipx:
+            show error blip at shake
+            pause 0.10
+            show error x at shake, hovererror
+            return
+
+        label blipc:
+            show error blip at shake
+            pause 0.10
+            show error c at shake, hovererror
+            return
+
+        label blips:
+            show error blip at shake
+            pause 0.10
+            show error s at shake, hovererror
+            return
+
+    label infirmarytransformation:
+
+        transform hoverappup:
+            pause 0.75
+            yoffset 2
+            pause 0.75
+            yoffset 0
+            pause 0.75
+            yoffset -2
+            pause 0.75
+            yoffset 0
+            repeat
+        transform hoverappdown:
+            pause 0.75
+            yoffset -2
+            pause 0.75
+            yoffset 0
+            pause 0.75
+            yoffset 2
+            pause 0.75
+            yoffset 0
+            repeat
+        transform hoverappslight:
+            pause 1.00
+            yoffset 1
+            pause 1.00
+            yoffset 0
+            pause 1.00
+            yoffset -1
+            pause 1.00
+            yoffset 0
+            repeat
+        transform hovererror:
+            pause 0.50
+            yoffset 2
+            pause 0.50
+            yoffset 0
+            pause 0.50
+            yoffset -2
+            pause 0.50
+            yoffset 0
+            repeat
+
+    label infirmaryintro:
+
+        $ area = 2
+        call vareset from _call_vareset_4
+        call analytical from _call_analytical
+        show beat
+        show background infirmary
+        show applite at hoverappup
+        show appmiyu at hoverappdown
+        show appenpsy at hovererror
+        show apppsi at hoverappup
+        show appfoole at hoverappslight
+        show foole infirmary
+        call totalreset from _call_totalreset_1
+        show thoughtotal at shake, total19, totalhov19
+        show total17 at shake, total17, totalhov17
+        show total16 at shake, total16, totalhov16
+        show total15 at shake, total15, totalhov15
+        show total14 at shake, total14, totalhov14
+        show total13 at shake, total13, totalhov13
+        show total12 at shake, total12, totalhov12
+        show total11 at shake, total11, totalhov11
+        show total10 at shake, total10, totalhov10
+        show total9 at shake, total9, totalhov9
+        show total8 at shake, total8, totalhov8
+        show total7 at shake, total7, totalhov7
+        show total6 at shake, total6, totalhov6
+        show total5 at shake, total5, totalhov5
+        show total4 at shake, total4, totalhov4
+        show total3 at shake, total3, totalhov3
+        show total2 at shake, total2, totalhov2
+        show total1 at shake, total1, totalhov1
+        call blipi from _call_blipi_1
+        ai "Please complete the questionaire in a timely manner."
+        $ time = 7
+        show timer at shake, hoverappdown
+        play sound "appear.mp3"
+        ai "Stargazer will have 7 secs to complete each question."
+        $ turn = 0
+    label infirmaryrapid:
+        hide screen timer
+        show timer at shake, hoverappup
+        $ time = 7
+        $ timejump = 'infirmaryfail'
+        if turn < 12:
+            call blipq from _call_blipq
+            show screen timer
+            call question from _call_question_16
+        $ turn += 1
+        if turn == 1:
+            label name:
+                menu:
+                    q "What is your name?"
+
+                    "STRING OF LETTERS":
+                        call answer from _call_answer_79
+                        $ alignment += -1
+                        jump infirmaryrapid
+
+                    "GIFT FROM PARENTS":
+                        call answer from _call_answer_80
+                        $ alignment += 1
+                        jump infirmaryrapid
+
+                    "CURSE UPON ME":
+                        call answer from _call_answer_81
+                        $ meteor += 1
+                        jump namegeneration
+
+                    "MERELY A PLACEHOLDER":
+                        call answer from _call_answer_82
+                        $ comet += 1
+                        jump namegeneration
+            label namegeneration:
+                
+                hide screen timer
+                call blipi from _call_blipi_2
+                ai "Randomly generating new Name{w=1.00}.{w=1.00}.{w=1.00}.{w=1.00}{nw}"
+                $ random = renpy.random.randint(1, 29)
+                call blipi from _call_blipi_3
+                if random == 1:
+                    ai "Your new Name is {w=1.00}Varisole."
+                if random == 2:
+                    ai "Your new Name is {w=1.00}Vizzabelle."
+                if random == 3:
+                    ai "Your new Name is {w=1.00}Lulianna."
+                if random == 4:
+                    ai "Your new Name is {w=1.00}Wellie."
+                if random == 5:
+                    ai "Your new Name is {w=1.00}Lilio."
+                if random == 6:
+                    ai "Your new Name is {w=1.00}Emora."
+                if random == 7:
+                    ai "Your new Name is {w=1.00}Vixalina."
+                if random == 8:
+                    ai "Your new Name is {w=1.00}Minalisa."
+                if random == 9:
+                    ai "Your new Name is {w=1.00}Catticus."
+                if random == 10:
+                    ai "Your new Name is {w=1.00}Timm."
+                if random == 11:
+                    ai "Your new Name is {w=1.00}Konstince."
+                if random == 12:
+                    ai "Your new Name is {w=1.00}Sparkelle."
+                if random == 13:
+                    ai "Your new Name is {w=1.00}Karlotte."
+                if random == 14:
+                    ai "Your new Name is {w=1.00}Sherribelle."
+                if random == 15:
+                    ai "Your new Name is {w=1.00}Alotta."
+                if random == 16:
+                    ai "Your new Name is {w=1.00}Zhalina."
+                if random == 17:
+                    ai "Your new Name is {w=1.00}Quinbi."
+                if random == 18:
+                    ai "Your new Name is {w=1.00}Ymellie."
+                if random == 19:
+                    ai "Your new Name is {w=1.00}Xavid."
+                if random == 20:
+                    ai "Your new Name is {w=1.00}Izadonna."
+                if random == 21:
+                    ai "Your new Name is {w=1.00}Aerington."
+                if random == 22:
+                    ai "Your new Name is {w=1.00}Yedoriah."
+                if random == 23:
+                    ai "Your new Name is {w=1.00}Hoomah."
+                if random == 24:
+                    ai "Your new Name is {w=1.00}Beebs."
+                if random == 25:
+                    ai "Your new Name is {w=1.00}Kroy."
+                if random == 26:
+                    ai "Your new Name is {w=1.00}Agalia."
+                if random == 27:
+                    ai "Your new Name is {w=1.00}Kay."
+                if random == 28:
+                    ai "Your new Name is {w=1.00}Pennissimo."
+                if random == 29:
+                    ai "Your new Name is {w=1.00}Garrence."
+                jump infirmaryrapid
+        if turn == 2:
+            label age:
+
+                menu:
+                    q "What is your age?"
+
+                    "PRIME":
+                        call answer from _call_answer_83
+                        $ alignment += 1
+
+                    "UNBEFITTING":
+                        call answer from _call_answer_84
+                        $ alignment += 1
+
+                    "VELOCIOUS":
+                        call answer from _call_answer_85
+                        $ alignment += -1
+
+                    "UNIMPORTANT":
+                        call answer from _call_answer_86
+                        $ meteor += 1
+                jump infirmaryrapid
+        if turn == 3:
+            label gender:
+
+                menu:
+                    q "What is your gender?"
+
+                    "MALE":
+                        call answer from _call_answer_87
+                        $ gender += 1
+                        jump infirmaryrapid
+
+                    "FEMALE":
+                        call answer from _call_answer_88
+                        $ gender += 2
+                        jump infirmaryrapid
+
+                    "INDETERMINATE":
+                        call answer from _call_answer_89
+                        $ comet += 1
+                        $ gender += 0
+                        jump infirmaryrapid
+
+                    "EVERCHANGING":
+                        $ comet += 1
+                        $ gender += 0
+                        call answer from _call_answer_90
+                        jump infirmaryrapid                
+        if turn == 4:
+            label family:
+
+                menu:
+                    q "What is the nature of your bloodline?"
+
+                    "LEGENDARY":
+                        call answer from _call_answer_91
+                        $ alignment += 2
+
+                    "DISPARATE":
+                        call answer from _call_answer_92
+                        $ alignment += -2
+
+                    "MYSTERIOUS":
+                        call answer from _call_answer_93
+                        $ comet += 1
+
+                    "UNREMARKABLE":
+                        call answer from _call_answer_94
+                        $ meteor += 1
+                jump infirmaryrapid
+        if turn == 5:
+            label work:
+
+                menu:
+                    q "What is your profession?"
+
+                    "PAPER PUSHING":
+                        call answer from _call_answer_95
+                        $ alignment += -1
+
+                    "MOUNTAIN MOVING":
+                        call answer from _call_answer_96
+                        $ alignment += 1
+
+                    "CHIT CHATTING":
+                        call answer from _call_answer_97
+                        $ alignment += 1
+
+                    "NONEXISTANT":
+                        call answer from _call_answer_98
+                        call blipq from _call_blipq_1
+                        call question from _call_question_17
+                        menu:
+                            q "What is the reason for your lack of employment?"
+
+                            "RETIREMENT":
+                                call answer from _call_answer_99
+                                $ alignment += -1
+
+                            "SCHOOLING":
+                                call answer from _call_answer_100
+                                $ alignment += 0
+
+                            "UNCERTAINTY":
+                                call answer from _call_answer_101
+                                $ comet += 1
+
+                            "LAZINESS":
+                                call answer from _call_answer_102
+                                $ meteor += 1
+                jump infirmaryrapid
+        if turn == 6:
+            label proportions:
+
+                menu:
+                    q "What are your proportions?"
+
+                    "MINIATURE":
+                        call answer from _call_answer_103
+
+                    "TITANIC":
+                        call answer from _call_answer_104
+
+                    "GANGLY":
+                        call answer from _call_answer_105
+
+                    "ROTUND":
+                        call answer from _call_answer_106
+                jump infirmaryrapid
+        if turn == 7:
+            label diet:
+                
+                menu:
+                    q "What is your diet?"
+
+                    "VIRTUOUS":
+                        call answer from _call_answer_107
+
+                    "SUICIDAL":
+                        call answer from _call_answer_108
+                        $ meteor += 1
+
+                    "MINAMALIST":
+                        call answer from _call_answer_109
+                        $ comet += 1
+
+                    "INCOMPREHENSIBLE":
+                        call answer from _call_answer_110
+                        $ meteor += 1
+                jump infirmaryrapid
+        if turn == 8:
+            label sleep:
+
+                menu:
+                    q "How is your slumber?"
+
+                    "DREAMY":
+                        call answer from _call_answer_111
+                        $ alignment += 2
+
+                    "NIGHTMARISH":
+                        call answer from _call_answer_112
+                        $ health -=1
+                        $ nightmares += 1
+
+                    "DEEP":
+                        call answer from _call_answer_113
+                        $ alignment += -1
+
+                    "EMPTY":
+                        call answer from _call_answer_114
+                        $ meteor += 1
+                jump infirmaryrapid
+        if turn == 9:
+            label bodypositive:
+
+                menu:
+                    q "What is your highest physical stat?"
+
+                    "STRENGTH":
+                        call answer from _call_answer_115
+                        $ bodygood += 1
+                        $ alignment += -2
+
+                    "DURABILITY":
+                        call answer from _call_answer_116
+                        $ bodygood += 2
+                        $ alignment += 2
+
+                    "DEXTERITY":
+                        call answer from _call_answer_117
+                        $ bodygood += 3
+                        $ alignment += -2
+
+                    "BEAUTY":
+                        call answer from _call_answer_118
+                        $ bodygood += 4
+                        $ alignment += 2
+                jump infirmaryrapid
+        if turn == 10:
+            label bodynegative:
+
+                menu:
+                    q "What is your lowest physical stat?"
+
+                    "STRENGTH":
+                        call answer from _call_answer_119
+                        $ bodybad += 1
+                        $ alignment += -2
+                        if bodygood == 1:
+                            call blipx from _call_blipx_1
+                            $ comet += 1
+                            ai "Contradiction detected."
+
+                    "DURABILITY":
+                        call answer from _call_answer_120
+                        $ bodybad += 2
+                        $ alignment += 2
+                        if bodygood == 2:
+                            call blipx from _call_blipx_2
+                            $ comet += 1
+                            ai "Contradiction detected."
+
+                    "DEXTERITY":
+                        call answer from _call_answer_121
+                        $ bodybad += 3
+                        $ alignment += -2
+                        if bodygood == 3:
+                            call blipx from _call_blipx_3
+                            $ comet += 1
+                            ai "Contradiction detected."
+
+                    "BEAUTY":
+                        call answer from _call_answer_122
+                        $ bodybad += 4
+                        $ alignment += 2
+                        if bodygood == 4:
+                            call blipx from _call_blipx_4
+                            $ comet += 1
+                            ai "Contradiction detected."
+                jump infirmaryrapid
+        if turn == 11:
+            label mentalpositive:
+                
+                menu:
+                    q "What is your highest mental stat?"
+
+                    "INTELLIGENCE":
+                        call answer from _call_answer_123
+                        $ weapon = 1
+
+                    "CREATIVITY":
+                        call answer from _call_answer_124
+                        $ weapon = 2
+
+                    "CHARISMA":
+                        call answer from _call_answer_125
+                        $ weapon = 3
+
+                    "DETERMINATION":
+                        call answer from _call_answer_126
+                        $ weapon = 4
+                        $ meteor += 1
+                jump infirmaryrapid
+        if turn == 12:
+            label mentalnegative:
+                
+                menu:
+                    q "What is your lowest mental stat?"
+
+                    "INTELLIGENCE":
+                        call answer from _call_answer_127
+                        if weapon == 1:
+                            call blipx from _call_blipx_5
+                            $ comet += 1
+                            ai "Contradiction detected."
+
+                    "CREATIVITY":
+                        call answer from _call_answer_128
+                        if weapon == 2:
+                            call blipx from _call_blipx_6
+                            $ comet += 1
+                            ai "Contradiction detected."
+
+                    "CHARISMA":
+                        call answer from _call_answer_129
+                        if weapon == 3:
+                            call blipx from _call_blipx_7
+                            $ comet += 1
+                            ai "Contradiction detected."
+
+                    "DETERMINATION":
+                        call answer from _call_answer_130
+                        $ meteor += -1
+                        if weapon == 4:
+                            call blipx from _call_blipx_8
+                            $ comet += 1
+                            ai "Contradiction detected."
+                jump infirmaryrapid
+    label infirmarypointintro:
+        hide timer
+        play sound "appear.mp3"
+        if fail < 4:
+            call blipc from _call_blipc
+            ai "Timed questionaire complete."
+        call blipi from _call_blipi_4
+        ai "We will conclude your appointment with an eye examination."
+        call blipi from _call_blipi_5
+        ai "Use your eyes to look at things."
+    label infirmarypoint:
+
+        if pointotal >= 17:
+            jump infirmaryend
+        $ point = 1
+        call blipq from _call_blipq_2
+        call writing from _call_writing_4
+        call question from _call_question_18
+        call hidechoice from _call_hidechoice_1
+        call screen infirmarypoint
+        
+        label pointnurse:
+
+            $ pointa += 1
+            call answer from _call_answer_131
+            call blipi from _call_blipi_6
+            call analytical from _call_analytical_1
+            ai "Equipment is working hard rather than hardly working."
+            call blipq from _call_blipq_3
+            call question from _call_question_19
+            menu:
+                q "Do you work hard?"
+
+                "WORK HARD":
+                    call answer from _call_answer_132
+                    $ alignment += -1
+
+                "HARDLY WORK":
+                    call answer from _call_answer_133
+                    $ alignment += 1
+
+                "WORKLY HARD":
+                    call answer from _call_answer_134
+                    $ meteor += 1
+
+                "HARDLY WORKLY":
+                    call answer from _call_answer_135
+                    $ meteor += 1
+            jump infirmarypoint
+
+        label pointcamera:
+
+            call analytical from _call_analytical_2
+            call answer from _call_answer_136
+            $ pointb = 1
+            call blipi from _call_blipi_7
+            ai "Camera designed to gaze at stargazer as stargazer gazes at the stargazing camera."
+            call blipq from _call_blipq_4
+            call question from _call_question_20
+            menu:
+                q "What do you photograph most frequently?"
+
+                "PERSONS":
+                    call answer from _call_answer_137
+                    $ alignment += -1
+
+                "ANIMALS":
+                    call answer from _call_answer_138
+                    $ alignment += 1
+
+                "SCENERY":
+                    call answer from _call_answer_139
+                    $ alignment += 1
+
+                "NONSENSE":
+                    call answer from _call_answer_140
+                    $ meteor += 1
+            jump infirmarypoint
+
+        label pointbones:
+
+            call analytical from _call_analytical_3
+            call answer from _call_answer_141
+            $ pointc = 1
+            call blipx from _call_blipx_9
+            ai "Pile of wasted potential."
+            call blipq from _call_blipq_5
+            call question from _call_question_21
+            menu:
+                q "Have you maximized your potential?"
+
+                "FULLY":
+                    call answer from _call_answer_142
+                    $ alignment += -2
+
+                "APPROXIMATELY":
+                    call answer from _call_answer_143
+                    $ alignment += -1
+
+                "PARTIALLY":
+                    call answer from _call_answer_144
+                    $ alignment += 2
+
+                "MINIMALLY":
+                    call answer from _call_answer_145
+                    $ alignment += 1
+            jump infirmarypoint
+
+        label pointcurtain:
+
+            call analytical from _call_analytical_4
+            call answer from _call_answer_146
+            $ pointd = 1
+            call blipx from _call_blipx_10
+            ai "Looking behind the curtain is against the rules of this eye examination."
+            call blipq from _call_blipq_6
+            call question from _call_question_22
+            menu:
+                q "What is your relation to rules?"
+
+                "MAKER":
+                    call answer from _call_answer_147
+                    $ alignment += 2
+
+                "BREAKER":
+                    call answer from _call_answer_148
+                    $ meteor += 1
+
+                "FOLLOWER":
+                    call answer from _call_answer_149
+                    $ alignment += -2
+
+                "OBSERVER":
+                    call answer from _call_answer_150
+                    $ alignment += -1
+            jump infirmarypoint
+
+        label pointexam:
+
+            call analytical from _call_analytical_5
+            call answer from _call_answer_151
+            $ pointe = 1
+            call blipi from _call_blipi_8
+            ai "The eye examination chart is not particularly relevant to this eye examination."
+            call blipq from _call_blipq_7
+            call question from _call_question_23
+            menu:
+                q "How do you see?"
+
+                "CLEARLY":
+                    call answer from _call_answer_152
+                    $ alignment += 1
+
+                "BEYOND":
+                    call answer from _call_answer_153
+                    $ alignment += -1
+
+                "THROUGH":
+                    call answer from _call_answer_154
+                    $ alignment += -1
+
+                "DOUBLE":
+                    call answer from _call_answer_155
+                    $ alignment += -1
+            jump infirmarypoint
+
+    label infirmaryend:
+
+        call analytical from _call_analytical_6
+        call blipi from _call_blipi_9
+        show applite at shake
+        show appmiyu at shake
+        show appenpsy at shake
+        show apppsi at shake
+        show appfoole at shake
+        ai "Memory overloaded."
+        call blipx from _call_blipx_11
+        ai "Unloading infirmary."
+        call writing from _call_writing_5
+        play sound "appear.mp3"
+        hide background
+        hide applite
+        hide appmiyu
+        hide appenpsy
+        hide apppsi
+        hide appfoole
+        show glitchinfirmary behind error
+        call blipx from _call_blipx_12
+        hide error
+        hide beat
+        hide background
+        hide foole
+        hide error
+        hide glitchinfirmary
+        stop music
+        call vareset from _call_vareset_5
+        jump pickplease
+
+label pickplease:
+    
+    call totalreset from _call_totalreset_2
+    show total1 at shake, total1, totalhov1
+    $ area = 1
+    play music "mus_fantasia.ogg"
+    show background split
+    show foole hall split
+    pause 2.00
+    call sun from _call_sun_12
+    call fooleorbit from _call_fooleorbit_17
+    a "Allow your priorities to imprint upon this world of mine, stargazer!"
+    call fooleshrug from _call_fooleshrug_38
+    call question from _call_question_24
+    menu:
+        q "Where would you like to go next?"
+
+        "WARDROBE":
+            call answer from _call_answer_156
+            $ alignment += -1
+            $ ward = 1
+            call foolewoah from _call_foolewoah_15
+            a "You choose wisely, we ought to get you decorated before we continue this tour!"
+            call fooleswoosh from _call_fooleswoosh_10
+            stop music fadeout 0.40
+            call doorslam from _call_doorslam
+            jump wardrobeintro
+
+        "GALLERY":
+            call answer from _call_answer_157
+            $ alignment += 1
+            $ gall = 1
+            call foolewoah from _call_foolewoah_16
+            a "You choose kindly, I am flattered that you are so eager to see my artistry!"
+            jump galleryintro
+
+        "WHEREVER":
+            call answer from _call_answer_158
+            $ comet += 1
+            $ ward = 1
+            call fooleorbit from _call_fooleorbit_18
+            a "How kind of you to leave it up to my preference."
+            call fooleshrug from _call_fooleshrug_39
+            a "We ought to get you decorated before we continue this tour, so the wardrobe it is!"
+            call fooleswoosh from _call_fooleswoosh_11
+            stop music fadeout 0.40
+            call doorslam from _call_doorslam_1
+            jump wardrobeintro
+
+        "NOWHERE":
+            call answer from _call_answer_159
+            $ meteor += 1
+            $ gall = 1
+            $ nowhere += 1
+            call foolewoah from _call_foolewoah_17
+            a "Whatever you wish, stargazer."
+            call fooleorbit from _call_fooleorbit_19
+            call writing from _call_writing_6
+            pause 7.00
+            call fooleswitch from _call_fooleswitch_4
+            pause 3.00
+            call foolegiggle from _call_foolegiggle_4
+            call sun from _call_sun_13
+            call foolewoah from _call_foolewoah_18
+            a "This is dreadfully dull, stargazer!"
+            call fooleorbit from _call_fooleorbit_20
+            a "Unfortunately I must override your autonomy and take us somewhere after all."
+            jump galleryintro
+
+label wardrobe:
+
+    label wardrobeimages:
+
+        label hoodfoole:
+            show hoodfoole shut at shake
+            hide face foole
+            pause 0.10
+            show hoodfoole open at shake
+            show face foole at shake
+            return
+        label hooddoctor:
+            show hooddoctor shut at shake
+            hide face doctor
+            pause 0.10
+            show hooddoctor open at shake
+            show face doctor at shake
+            return
+        label hoodnoble:
+            show hoodnoble shut at shake
+            hide face noble
+            pause 0.10
+            show hoodnoble open at shake
+            show face noble at shake
+            return
+        label hoodbeggar:
+            show hoodbeggar shut at shake
+            hide face beggar
+            pause 0.10
+            show hoodbeggar open at shake
+            show face beggar at shake
+            return
+        label hoodstudent:
+            show hoodstudent shut at shake
+            hide face student
+            pause 0.10
+            show hoodstudent open at shake
+            show face student at shake
+            return
+        label hoodsaege:
+            show hoodsaege shut at shake
+            hide face saege
+            pause 0.10
+            show hoodsaege open at shake
+            show face saege at shake
+            return
+        label hoodkeeper:
+            show hoodkeeper shut at shake
+            hide face keeper
+            pause 0.10
+            show hoodkeeper open at shake
+            show face keeper at shake
+            return
+        image background wardrobe = "images/wardrobe/background wardrobe"
+        image bannerad = "images/wardrobe/bannerad.png"
+        image bannertext:
+            "images/wardrobe/bannertext.png"
+            pause 0.50
+            "images/empty.png"
+            pause 0.50
+            repeat
+        image face foole:
+            "images/wardrobe/face foole wibble.png"
+            pause 0.50
+            "images/wardrobe/face foole wobble.png"
+            pause 0.50
+            repeat
+        image face doctor:
+            "images/wardrobe/face doctor wibble.png"
+            pause 0.50
+            "images/wardrobe/face doctor wobble.png"
+            pause 0.50
+            repeat
+        image face noble:
+            "images/wardrobe/face noble wibble.png"
+            pause 0.50
+            "images/wardrobe/face noble wobble.png"
+            pause 0.50
+            repeat
+        image face beggar:
+            "images/wardrobe/face beggar wibble.png"
+            pause 0.50
+            "images/wardrobe/face beggar wobble.png"
+            pause 0.50
+            repeat
+        image face student:
+            "images/wardrobe/face student wibble.png"
+            pause 0.50
+            "images/wardrobe/face student wobble.png"
+            pause 0.50
+            repeat
+        image face saege:
+            "images/wardrobe/face saege wibble.png"
+            pause 0.50
+            "images/wardrobe/face saege wobble.png"
+            pause 0.50
+            repeat
+        image face keeper:
+            "images/wardrobe/face keeper wibble.png"
+            pause 0.50
+            "images/wardrobe/face keeper wobble.png"
+            pause 0.50
+            repeat
+        image face scrawl:
+            "images/wardrobe/face scrawl wibble.png"
+            pause 0.50
+            "images/wardrobe/face scrawl wobble.png"
+            pause 0.50
+            repeat
+        image cart = "images/wardrobe/cart"
+        image halfoff:
+            "images/wardrobe/halfoff on.png"
+            pause 0.48
+            "images/wardrobe/halfoff off.png"
+            pause 0.02
+            repeat
+
+    label wardrobetransformations:
+
+        transform bannertextscroll:
+            linear 15.00 xoffset -1920
+            xoffset 0
+            repeat
+
+        transform doorleft:
+            xoffset -1920
+            easein 0.15 xoffset 0
+        transform doorright:
+            xoffset 1920
+            easein 0.15 xoffset 0
+
+    label doorslam:
+        show doorleft at doorleft
+        show doorright at doorright
+        stop music
+        play sound "appear.mp3"
+        pause 0.15
+        hide foole
+        hide background
+        hide cstar
+        hide cmachine
+        hide cbeast
+        hide cslime
+        hide cbug
+        hide cdivine
+        hide cshadow
+        pause 1.00
+        hide foole
+        return
+
+    label wardrobeintro:
+        
+        $ area = 3
+        call vareset from _call_vareset_6
+        call sun from _call_sun_14
+        hide doorleft
+        hide doorright
+        play sound "appear.mp3"
+        show bannertext behind background at bannertextscroll
+        show background wardrobe open at shake
+        show hoodfoole open
+        show hooddoctor open
+        show hoodnoble open
+        show hoodbeggar open
+        show hoodstudent open
+        show hoodsaege open
+        show hoodkeeper open
+        show cart empty at hoverappup
+        show halfoff at hoverappdown
+        play music "mus_wardrobe.ogg"
+        call totalreset from _call_totalreset_3
+        show thoughtotal at shake, total10, totalhov10
+        show total8 at shake, total8, totalhov8
+        show total7 at shake, total7, totalhov7
+        show total6 at shake, total6, totalhov6
+        show total5 at shake, total5, totalhov5
+        show total4 at shake, total4, totalhov4
+        show total3 at shake, total3, totalhov3
+        show total2 at shake, total2, totalhov2
+        show total1 at shake, total1, totalhov1
+        call hoodstudent from _call_hoodstudent
+        a "Please do peruse my guises, stargazer!"
+        if fab == 1:
+            call hoodstudent from _call_hoodstudent_1
+            a "Surely this is exciting for a fashionista like yourself!"
+        if fab == 4:
+            call hoodstudent from _call_hoodstudent_2
+            a "While I recall you are not fond of fashion, you may find some fun in here regardless."
+        show hoodstudent shut at shake
+        hide face
+        pause 0.10
+        show hoodstudent open at shake
+    
+    label wardrobepoint:
+
+        $ point = 1
+        if pointotal >= 7:
+            call writing from _call_writing_7
+            call hoodkeeper from _call_hoodkeeper
+            call hoodsaege from _call_hoodsaege
+            call hoodstudent from _call_hoodstudent_3
+            call hoodbeggar from _call_hoodbeggar
+            call hoodnoble from _call_hoodnoble
+            call hooddoctor from _call_hooddoctor
+            call hoodfoole from _call_hoodfoole
+            call sun from _call_sun_15
+            a "Now that you have seen my selection, prettily please pick a favorite!"
+            hide face foole
+            show hoodfoole shut at shake
+            pause 0.10
+            show hoodfoole open at shake
+            call writing from _call_writing_8
+            call question from _call_question_25
+            call hidechoice from _call_hidechoice_2
+            call screen wearpoint
+        call writing from _call_writing_9
+        call question from _call_question_26
+        call hidechoice from _call_hidechoice_3
+        show cart empty at shake, hoverappup
+        call screen wardrobepoint
+
+        label pointragfoole:
+
+            call answer from _call_answer_160
+            call sun from _call_sun_16
+            call hoodfoole from _call_hoodfoole_1
+            show cart full at shake
+            $ pointa = 1
+            a "These rags are a backup of my very own, the key to my amorphous abilities."
+            call hoodfoole from _call_hoodfoole_2
+            a "I have been hoping to hand down this secondary pair down for ages."
+            call hoodfoole from _call_hoodfoole_3
+            call question from _call_question_27
+            menu:
+                q "How many things have been handed down to you throughout life?"
+
+                "EVERYTHINGS":
+                    call answer from _call_answer_161
+                    $ comet += 1
+
+                "SOMETHINGS":
+                    call answer from _call_answer_162
+
+                "FEWTHINGS":
+                    call answer from _call_answer_163
+
+                "NOTHINGS":
+                    call answer from _call_answer_164
+                    $ meteor += 1
+            hide face foole
+            show hoodfoole shut at shake
+            pause 0.10
+            show hoodfoole open at shake
+            jump wardrobepoint
+
+        label pointragdoctor:
+
+            call answer from _call_answer_165
+            call sun from _call_sun_17
+            call hooddoctor from _call_hooddoctor_1
+            show cart full at shake
+            $ pointb = 1
+            a "These rags were torn to shreds and turned to bandages as a matter of survival."
+            call hooddoctor from _call_hooddoctor_2
+            a "While made with function over form, I still find them fairly fashionable."
+            call hooddoctor from _call_hooddoctor_3
+            call question from _call_question_28
+            menu:
+                q "Do you put function over form?"
+
+                "ALWAYS":
+                    call answer from _call_answer_166
+                    $ alignment += 2
+
+                "OCCASSIONALLY":
+                    call answer from _call_answer_167
+                    $ alignment += -1
+
+                "RARELY":
+                    call answer from _call_answer_168
+                    $ alignment += -1
+
+                "NEVER":
+                    call answer from _call_answer_169
+                    $ alignment += -1
+            hide face doctor
+            show hooddoctor shut at shake
+            pause 0.10
+            show hooddoctor open at shake
+            jump wardrobepoint
+
+        label pointragwarrior:
+
+            call answer from _call_answer_170
+            call sun from _call_sun_18
+            call hoodnoble from _call_hoodnoble_1
+            show cart full at shake
+            $ pointc = 1
+            a "I find these rags needlessly gaudy, fitted for large bodies and egos alike."
+            call hoodnoble from _call_hoodnoble_2
+            a "Though their expensivity makes no difference to me, as I acquired them at a five finger discount."
+            call hoodnoble from _call_hoodnoble_3
+            call question from _call_question_29
+            menu:
+                q "How expensive is your taste?"
+
+                "PRICELESS":
+                    call answer from _call_answer_171
+                    $ alignment += 1
+
+                "EXORBITANT":
+                    call answer from _call_answer_172
+                    $ alignment += 1
+
+                "AFFORDABLE":
+                    call answer from _call_answer_173
+                    $ alignment += -1
+
+                "CHEAP":
+                    call answer from _call_answer_174
+                    $ alignment += -1
+            hide face noble
+            show hoodnoble shut at shake
+            pause 0.10
+            show hoodnoble open at shake
+            jump wardrobepoint
+
+        label pointragbeggar:
+
+            call answer from _call_answer_175
+            call sun from _call_sun_19
+            call hoodbeggar from _call_hoodbeggar_1
+            show cart full at shake
+            $ pointd = 1
+            a "These rags leave little to the imagination, which is a shame for someone as imaginative as yours truly."
+            call hoodbeggar from _call_hoodbeggar_2
+            call question from _call_question_30
+            menu:
+                q "Would you bare your body for the world to see?"
+
+                "CONFIDENTLY":
+                    call answer from _call_answer_176
+                    $ alignment += -1
+
+                "CARELESSLY":
+                    call answer from _call_answer_177
+                    $ meteor += 1
+
+                "HESITANTLY":
+                    call answer from _call_answer_178
+                    $ comet += 1
+
+                "NEVERLY":
+                    call answer from _call_answer_179
+                    $ alignment += 1
+            hide face beggar
+            show hoodbeggar shut at shake
+            pause 0.10
+            show hoodbeggar open at shake
+            jump wardrobepoint
+
+        label pointragstudent:
+
+            call answer from _call_answer_180
+            call sun from _call_sun_20
+            call hoodstudent from _call_hoodstudent_4
+            show cart full at shake
+            $ pointe = 1
+            a "These rags are one of a pair, though their match is not presently on display."
+            call hoodstudent from _call_hoodstudent_5
+            call question from _call_question_31
+            menu:
+                q "What are you one of?"
+
+                "A KIND":
+                    call answer from _call_answer_181
+                    call hoodstudent from _call_hoodstudent_6
+                    $ alignment += -2
+                    a "I must agree, stargazer."
+
+                "A PAIR":
+                    call answer from _call_answer_182
+                    $ pair = 1
+                    call hoodstudent from _call_hoodstudent_7
+                    a "If only your other half could join us here."
+                    call hoodstudent from _call_hoodstudent_8
+                    a "Perhaps they have."
+                    call hoodstudent from _call_hoodstudent_9
+                    a "My perception of you is somewhat{w=0.50} approximative, per the distortions of this barrier between us."
+
+                "A DOZEN":
+                    call answer from _call_answer_183
+                    call hoodstudent from _call_hoodstudent_10
+                    $ alignment += 1
+                    a "You are more rare than you might assume."
+
+                "A HUNDRED":
+                    call answer from _call_answer_184
+                    call hoodstudent from _call_hoodstudent_11
+                    $ alignment += 1
+                    a "You are more rare than you might assume."
+            hide face student
+            show hoodstudent shut at shake
+            pause 0.10
+            show hoodstudent open at shake
+            jump wardrobepoint
+
+        label pointragsaege:
+
+            call answer from _call_answer_185
+            call sun from _call_sun_21
+            call hoodsaege from _call_hoodsaege_1
+            show cart full at shake
+            $ pointf = 1
+            a "These rags are merely a replacement, the originals were lost to time."
+            call hoodsaege from _call_hoodsaege_2
+            call question from _call_question_32
+            menu:
+                q "Are you replaceable?"
+
+                "ABSOLUTELY":
+                    call answer from _call_answer_186
+                    $ alignment += -2
+
+                "EVENTUALLY":
+                    call answer from _call_answer_187
+                    $ alignment += -1
+
+                "POSSIBLY":
+                    call answer from _call_answer_188
+                    $ comet += 1
+
+                "NEVERLY":
+                    call answer from _call_answer_189
+                    $ alignment += 2
+            hide face saege
+            show hoodsaege shut at shake
+            pause 0.10
+            show hoodsaege open at shake
+            jump wardrobepoint
+
+        label pointragkeeper:
+
+            call answer from _call_answer_190
+            call sun from _call_sun_22
+            call hoodkeeper from _call_hoodkeeper_1
+            show cart full at shake
+            $ pointg = 1
+            a "These rags lack an opening for that fabulous face of yours."
+            call hoodkeeper from _call_hoodkeeper_2
+            call question from _call_question_33
+            menu:
+                q "How do you face the world?"
+
+                "HEAD ON":
+                    call answer from _call_answer_191
+                    call hoodkeeper from _call_hoodkeeper_3
+                    $ alignment += -1
+                    a "Then these rags are not fitted for you."
+
+                "TEETH BARED":
+                    call answer from _call_answer_192
+                    call hoodkeeper from _call_hoodkeeper_4
+                    a "Then these rags are not fitted for you."
+
+                "EYES CLOSED":
+                    call answer from _call_answer_193
+                    call hoodkeeper from _call_hoodkeeper_5
+                    $ meteor += 1
+                    a "Then these rags are fitted for you."
+
+                "ASS OUT":
+                    call answer from _call_answer_194
+                    call hoodkeeper from _call_hoodkeeper_6
+                    if pointd == 0:
+                        a "Then perhaps you ought to look to the loincloth a lot to your left."
+                    if pointd == 1:
+                        a "Then keep your attention a lot to your left, the loincloth is far more fitted for you."
+            hide face keeper
+            show hoodkeeper shut at shake
+            pause 0.10
+            show hoodkeeper open at shake
+            jump wardrobepoint
+
+    label wears:
+
+        label wearfoole:
+            $ pointotal += 1
+            $ alignment += 1
+            $ wear = 1
+            call answer from _call_answer_195
+            call hoodfoole from _call_hoodfoole_4
+            jump wardrobeend
+        label weardoctor:
+            $ pointotal += 1
+            $ alignment += -1
+            $ wear = 2
+            call answer from _call_answer_196
+            call hooddoctor from _call_hooddoctor_4
+            jump wardrobeend
+        label wearnoble:
+            $ pointotal += 1
+            $ alignment += 1
+            $ wear = 3
+            call answer from _call_answer_197
+            call hoodnoble from _call_hoodnoble_4
+            jump wardrobeend
+        label wearbeggar:
+            $ pointotal += 1
+            $ alignment += 1
+            $ wear = 4
+            call answer from _call_answer_198
+            call hoodbeggar from _call_hoodbeggar_3
+            jump wardrobeend
+        label wearstudent:
+            $ pointotal += 1
+            $ alignment += 1
+            $ wear = 5
+            call answer from _call_answer_199
+            call hoodstudent from _call_hoodstudent_12
+            jump wardrobeend
+        label wearsaege:
+            $ pointotal += 1
+            $ alignment += -1
+            $ wear = 6
+            call answer from _call_answer_200
+            call hoodsaege from _call_hoodsaege_3
+            jump wardrobeend
+        label wearkeeper:
+            $ pointotal += 1
+            $ meteor += 1
+            $ wear = 7
+            call answer from _call_answer_201
+            call hoodkeeper from _call_hoodkeeper_7
+            jump wardrobeend
+
+    label wardrobeend:
+        
+        $ ward = 1
+        show cart full at shake
+        a "Wear it well, stargazer."
+        call writing from _call_writing_10
+        if gall == 0:
+            hide bannertext
+            hide halfoff
+            hide cart
+            hide hoodfoole open
+            hide hooddoctor open
+            hide hoodnoble open
+            hide hoodbeggar open
+            hide hoodstudent open
+            hide hoodsaege open
+            hide hoodkeeper open
+            hide face
+            hide bannerad
+            hide background wardrobe
+            call vareset from _call_vareset_7
+            jump galleryintro
+        if gall == 1:
+            stop music fadeout 3.00
+            show halfoff at vaultsink
+            pause 0.01
+            show cart full at vaultsink
+            pause 0.01
+            show hoodfoole open at vaultsink
+            show hooddoctor open at vaultsink
+            show hoodnoble open at vaultsink
+            show hoodbeggar open at vaultsink
+            show hoodstudent open at vaultsink
+            show hoodsaege open at vaultsink
+            show hoodkeeper open at vaultsink
+            show face at vaultsink
+            show bannertext at vaultsink
+            show bannertext at vaultsink
+            show background at vaultsink
+            pause 0.01
+            show interface at vaultsink
+            pause 0.01
+            show textbox at vaultsink
+            pause 0.01
+            show thoughtotal at vaultsink
+            show total8 at vaultsink
+            show total7 at vaultsink
+            show total6 at vaultsink
+            show total5 at vaultsink
+            show total4 at vaultsink
+            show total3 at vaultsink
+            show total2 at vaultsink
+            show total1 at vaultsink
+            pause 5.00
+            call vareset from _call_vareset_8
+            hide bannertext
+            hide halfoff
+            hide cart
+            hide hoodfoole open
+            hide hooddoctor open
+            hide hoodnoble open
+            hide hoodbeggar open
+            hide hoodstudent open
+            hide hoodsaege open
+            hide hoodkeeper open
+            hide face
+            hide bannerad
+            hide background wardrobe
+            jump vaultintro
+
+label gallery:
+
+    label galleryimages:
+        
+        image foole gallery positive:
+            "images/gallery/foole gallery positive wibble.png"
+            pause 0.50
+            "images/gallery/foole gallery positive wobble.png"
+            pause 0.50
+            repeat
+        image foole gallery negative:
+            "images/gallery/foole gallery negative wibble.png"
+            pause 0.50
+            "images/gallery/foole gallery negative wobble.png"
+            pause 0.50
+            repeat
+        image foole gallery circles:
+            "images/gallery/foole gallery circles wibble.png"
+            pause 0.50
+            "images/gallery/foole gallery circles wobble.png"
+            pause 0.50
+            repeat
+        image foole gallery scribble:
+            "images/gallery/foole gallery scribble wibble.png"
+            pause 0.50
+            "images/gallery/foole gallery scribble wobble.png"
+            pause 0.50
+            repeat
+        image foole gallery abstract:
+            "images/gallery/foole gallery abstract wibble.png"
+            pause 0.50
+            "images/gallery/foole gallery abstract wobble.png"
+            pause 0.50
+            repeat
+        image foole gallery pinup:
+            "images/gallery/foole gallery pinup wibble.png"
+            pause 0.50
+            "images/gallery/foole gallery pinup wobble.png"
+            pause 0.50
+            repeat
+        image foole gallery scrawl:
+            "images/gallery/foole gallery scrawl wibble.png"
+            pause 0.50
+            "images/gallery/foole gallery scrawl wobble.png"
+            pause 0.50
+            repeat
+        image foole gallery void = "images/gallery/foole gallery void.png"
+        image foole gallery wardrobe = "images/gallery/foole gallery wardrobe.png"
+        image foole gallery switch = "images/gallery/foole gallery switch.png"
+
+        image background gallery = "images/gallery/background gallery.png"
+
+        image cstar dull = "images/gallery/cstar dull.png"
+        image cstar select:
+            "images/gallery/cstar wibble.png"
+            pause 0.50
+            "images/gallery/cstar wobble.png"
+            pause 0.50
+            repeat
+        image cmachine dull = "images/gallery/cmachine dull.png"
+        image cmachine select:
+            "images/gallery/cmachine wibble.png"
+            pause 0.50
+            "images/gallery/cmachine wobble.png"
+            pause 0.50
+            repeat
+        image cbeast dull = "images/gallery/cbeast dull.png"
+        image cbeast select:
+            "images/gallery/cbeast wibble.png"
+            pause 0.50
+            "images/gallery/cbeast wobble.png"
+            pause 0.50
+            repeat
+        image cslime dull = "images/gallery/cslime dull.png"
+        image cslime select:
+            "images/gallery/cslime wibble.png"
+            pause 0.50
+            "images/gallery/cslime wobble.png"
+            pause 0.50
+            repeat
+        image cbug dull = "images/gallery/cbug dull.png"
+        image cbug select:
+            "images/gallery/cbug wibble.png"
+            pause 0.50
+            "images/gallery/cbug wobble.png"
+            pause 0.50
+            repeat
+        image cdivine dull = "images/gallery/cdivine dull.png"
+        image cdivine select:
+            "images/gallery/cdivine wibble.png"
+            pause 0.50
+            "images/gallery/cdivine wobble.png"
+            pause 0.50
+            repeat
+        image cshadow dull = "images/gallery/cshadow dull.png"
+        image cshadow select:
+            "images/gallery/cshadow wibble.png"
+            pause 0.50
+            "images/gallery/cshadow wobble.png"
+            pause 0.50
+            repeat
+
+        label foolepositive:
+            show foole gallery switch at shake
+            pause 0.10
+            show foole gallery positive at shake
+            return
+
+        label foolenegative:
+            show foole gallery switch at shake
+            pause 0.10
+            show foole gallery negative at shake
+            return
+
+        label foolescribble:
+            show foole gallery switch at shake
+            pause 0.10
+            show foole gallery scribble at shake
+            return
+
+        label fooleabstract:
+            show foole gallery switch at shake
+            pause 0.10
+            show foole gallery abstract at shake
+            return
+
+        label foolepinup:
+            show foole gallery switch at shake
+            pause 0.10
+            show foole gallery pinup at shake
+            return
+
+        label foolecircles:
+            show foole gallery switch at shake
+            pause 0.10
+            show foole gallery circles at shake
+            return
+
+    label gallerytransformations:
+
+        transform hung:
+            pause 3.00
+            linear 0.20 yoffset 20
+            easein 0.10 yoffset 15
+            easein 0.05 yoffset 20
+            pause 2.00
+            easein 5.00 yoffset 0
+            repeat
+
+        transform hovercreation:
+            pause 1.00
+            easein 2.00 yoffset -4
+            pause 1.00
+            easein 2.00 yoffset 4
+            repeat
+
+    label galleryintro:
+
+        $ renpy.music.set_volume(0.50, channel='music')
+        $ renpy.music.set_audio_filter("music", af.Lowpass(1000), replace=True)
+        if ward == 0:
+            show foole gallery void at shake
+        if ward == 1:
+            show foole gallery wardrobe at shake
+        $ area = 4
+        call vareset from _call_vareset_9
+        show cstar dull
+        show cmachine dull
+        show cbeast dull
+        show cslime dull
+        show cbug dull
+        show cdivine dull
+        show cshadow dull
+        show background gallery
+        play sound "appear.mp3"
+        call totalreset from _call_totalreset_4
+        show thoughtotal at shake, total9, totalhov9
+        show total7 at shake, total7, totalhov7
+        show total6 at shake, total6, totalhov6
+        show total5 at shake, total5, totalhov5
+        show total4 at shake, total4, totalhov4
+        show total3 at shake, total3, totalhov3
+        show total2 at shake, total2, totalhov2
+        show total1 at shake, total1, totalhov1
+        pause 3.00
+        call foolepositive from _call_foolepositive
+        call sun from _call_sun_23
+        $ renpy.music.set_volume(1.00, channel='music')
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        play music "mus_gallery.ogg"
+        a "I ought to properly present some of my creations for you!"
+        call foolescribble from _call_foolescribble
+        a "They may not be perfectly refined as of now, but we would have no world at all were I awaiting such."
+        call foolecircles from _call_foolecircles
+        a "Pick a frame for us, stargazer!"
+    label gallerypoint:
+        
+        call foolepositive from _call_foolepositive_1
+        if pointotal >= 7:
+            jump galleryend
+        $ point =+ 1
+        call writing from _call_writing_11
+        call question from _call_question_34
+        call hidechoice from _call_hidechoice_4
+        call screen gallerypoint
+
+        label pointstar:
+
+            call answer from _call_answer_202
+            $ pointa += 1
+            show cstar switch at shake
+            pause 0.10
+            show cstar select at shake
+            call sun from _call_sun_24
+            call foolecircles from _call_foolecircles_1
+            a "That is the star, made to save the world with their whimsy and whatnot!"
+            call foolescribble from _call_foolescribble_1
+            a "While they may seem somewhat familiar, I swear any resemblance to stars living or dead is merely coincidental."
+            call foolenegative from _call_foolenegative
+            call question from _call_question_35
+            menu:
+                q "How much of your self seeps into your creations?"
+
+                "ALL":
+                    call answer from _call_answer_203
+                    $ alignment += 1
+                    call foolepositive from _call_foolepositive_2
+                    a "I would accept nothing less."
+                    call fooleabstract from _call_fooleabstract
+                    a "Smear yourself across every last inch of the canvas, stargazer."
+
+                "SOME":
+                    call answer from _call_answer_204
+                    call fooleabstract from _call_fooleabstract_1
+                    a "Yes, it is inevitable that you smear some of your self upon the canvas when creating."
+
+                "TRACES":
+                    call answer from _call_answer_205
+                    call fooleabstract from _call_fooleabstract_2
+                    a "Yes, it is inevitable that you smear some of your self upon the canvas when creating."
+
+                "NONE":
+                    call answer from _call_answer_206
+                    $ meteor += 1
+                    call foolescribble from _call_foolescribble_2
+                    a "That is an impossibility, stargazer."
+                    call fooleabstract from _call_fooleabstract_3
+                    a "It is inevitable that you smear some of your self upon the canvas when creating."
+            show cstar switch at shake
+            pause 0.10
+            show cstar done at shake
+            jump gallerypoint
+
+        label pointmachine:
+
+            call answer from _call_answer_207
+            $ pointb += 1
+            call sun from _call_sun_25
+            show cmachine switch at shake
+            pause 0.10
+            show cmachine select at shake
+            call foolecircles from _call_foolecircles_2
+            a "That is the machine, made to exposit complicated lore and logistics."
+            call foolepinup from _call_foolepinup
+            a "While initially concocted out of necessity, I have grown attached to this mechanical contrivance of mine."
+            call foolenegative from _call_foolenegative_1
+            call question from _call_question_36
+            menu:
+                q "What sort of worldbuilding is your favorite?"
+
+                "CULTURAL":
+                    call answer from _call_answer_208
+                    $ alignment += 1
+                    call foolescribble from _call_foolescribble_3
+                    a "Considering that I am{w=0.25} the{w=0.50} sole living inhabitant of this world, there is unfortunately no culture to speak of."
+                    call foolecircles from _call_foolecircles_3
+                    a "Though you and I could make a culture of our own, if you would like."
+
+                "GEOGRAPHICAL":
+                    call answer from _call_answer_209
+                    $ alignment += -1
+                    call foolescribble from _call_foolescribble_4
+                    a "My geography is{w=0.50} perhaps a little simplistic for your tastes, then."
+                    call foolecircles from _call_foolecircles_4
+                    a "But this world will expand evermore, so I assure you the maps will be magnificent someday soon!"
+
+                "LINGUISTICAL":
+                    call answer from _call_answer_210
+                    $ alignment += 1
+                    call foolepositive from _call_foolepositive_3
+                    a "My linguistical lore is all of the lovely words which I make up!"
+                    call fooleabstract from _call_fooleabstract_4
+                    a "Neverwill, fabsolutely, farewondrous, so onwards."
+                    call foolecircles from _call_foolecircles_5
+                    a "I would question what you think of my words if I were not already certain that you adore them."
+
+                "COSMOLOGICAL":
+                    call answer from _call_answer_211
+                    $ alignment += -1
+                    call foolescribble from _call_foolescribble_5
+                    a "My cosmology is{w=0.50} perhaps a little simplistic for your tastes, then."
+                    call foolecircles from _call_foolecircles_6
+                    a "I have a sun, a moon, some stars, all similar to your world I imagine."
+            show cmachine switch at shake
+            pause 0.10
+            show cmachine done at shake
+            jump gallerypoint
+
+        label pointbeast:
+
+            call answer from _call_answer_212
+            $ pointc += 1
+            call sun from _call_sun_26
+            show cbeast switch at shake
+            pause 0.10
+            show cbeast select at shake
+            call foolescribble from _call_foolescribble_6
+            a "That is the beast, made for long forgotten reasons."
+            call foolecircles from _call_foolecircles_7
+            a "While I cannot bring myself to erase his existence, I do have contempt for this purposeless creation of mine."
+            call foolenegative from _call_foolenegative_2
+            call question from _call_question_37
+            menu:
+                q "What is your purpose?{fast}"
+
+                "HELPING OTHERS":
+                    call answer from _call_answer_213
+                    $ alignment += 2
+                    call foolepinup from _call_foolepinup_1
+                    a "You have helped alleviate my boredom, so your purpose is presently fulfilled!"
+
+                "MASTERING TALENTS":
+                    call answer from _call_answer_214
+                    $ alignment += 2
+                    call foolepositive from _call_foolepositive_4
+                    a "You and I are alike in purpose!"
+                    call foolescribble from _call_foolescribble_7
+                    a "Becoming better is the ultimate neverending ecstasy!"
+
+                "REVEALING TRUTHS":
+                    call answer from _call_answer_215
+                    $ alignment += -2
+                    call foolepositive from _call_foolepositive_5
+                    a "Quite a curious purpose."
+                    call fooleabstract from _call_fooleabstract_5
+                    a "I must warn you that this world of ours is somewhat subjective."
+                    call foolecircles from _call_foolecircles_8
+                    a "You may have to make your own truths, from time to time."
+
+                "NOTHING WHATSOEVER":
+                    call answer from _call_answer_216
+                    $ meteor += 1
+                    call foolecircles from _call_foolecircles_9
+                    a "Well you are free to make your own whenever you like, stargazer."
+            show cbeast switch at shake
+            pause 0.10
+            show cbeast done at shake
+            jump gallerypoint
+
+        label pointslime:
+
+            call answer from _call_answer_217
+            $ pointd += 1
+            call sun from _call_sun_27
+            show cslime switch at shake
+            pause 0.10
+            show cslime select at shake
+            call foolenegative from _call_foolenegative_3
+            a "That is the slime, made to bear the burden of tragedy."
+            call foolecircles from _call_foolecircles_10
+            a "It pains me so that I cannot give her a happy ending."
+            call foolenegative from _call_foolenegative_4
+            call question from _call_question_38
+            menu:
+                q "What sort of endings do you appreciate most?"
+
+                "HAPPY":
+                    call answer from _call_answer_218
+                    $ alignment += 1
+                    $ endings = 1
+                    call foolecircles from _call_foolecircles_11
+                    a "Mayhaps you might steal the slime from me and make it so."
+                    call fooleabstract from _call_fooleabstract_6
+                    a "I would not fault you for it."
+
+                "TRAGIC":
+                    call answer from _call_answer_219
+                    $ alignment += -1
+                    $ endings = 2
+                    call fooleabstract from _call_fooleabstract_7
+                    a "Terrible as it is, I too revel in tragedy from time to time."
+
+                "AMBIGUOUS":
+                    call answer from _call_answer_220
+                    $ alignment +=  1
+                    $ endings = 3
+                    call foolepositive from _call_foolepositive_6
+                    a "And so we agree wholeheartedly!"
+                    call fooleabstract from _call_fooleabstract_8
+                    a "It is wonderful when a story permits your mind to wander wherever it wants."
+
+                "NEVER":
+                    call answer from _call_answer_221
+                    $ alignment += 1
+                    $ endings = 4
+                    call foolecircles from _call_foolecircles_12
+                    a "There is nothing I desire more than the neverending."
+                    call foolepinup from _call_foolepinup_2
+                    a "Perhaps you and I could achieve such a thing together, stargazer."
+            show cslime switch at shake
+            pause 0.10
+            show cslime done at shake
+            jump gallerypoint
+
+        label pointbug:
+
+            call answer from _call_answer_222
+            $ pointe += 1
+            call sun from _call_sun_28
+            show cbug switch at shake
+            pause 0.10
+            show cbug select at shake
+            call foolecircles from _call_foolecircles_13
+            a "Those are the bugs, made for amusement!"
+            call foolepositive from _call_foolepositive_7
+            a "They are of little importance narratively, yet of utmost importance to my self."
+            call fooleabstract from _call_fooleabstract_9
+            a "One does not have to be a main character to be worthwhile, after all."
+            call foolenegative from _call_foolenegative_5
+            call question from _call_question_39
+            menu:
+                q "What type of character are you?"
+
+                "PROTAGONIST":
+                    call answer from _call_answer_223
+                    $ alignment += 2
+                    call foolescribble from _call_foolescribble_8
+                    a "Then you must have usurped yours truly!"
+                    call foolepinup from _call_foolepinup_3
+                    a "Promise me a supporting role and we will hold no hard feelings, stargazer."
+
+                "DEUTERAGONIST":
+                    call answer from _call_answer_224
+                    $ alignment += -1
+                    call foolepinup from _call_foolepinup_4
+                    a "Second only to yours truly, but of course!"
+                    call foolecircles from _call_foolecircles_14
+                    a "You have performed excellently in your supporting role, thus far."
+
+                "TRITAGONIST":
+                    call answer from _call_answer_225
+                    $ alignment += -1
+                    call foolepinup from _call_foolepinup_5
+                    a "That is an exciting role, as three is a party and such!"
+                    call foolecircles from _call_foolecircles_15
+                    a "As the protagonist, I am surely invited to this threefull party of yours."
+
+                "ANTAGONIST":
+                    call answer from _call_answer_226
+                    $ meteor += 1
+                    call foolescribble from _call_foolescribble_9
+                    a "I was not aware that there was a great evil in my midst."
+                    call foolepinup from _call_foolepinup_6
+                    a "Well I have be known to be a little bad myself, so this is not a worry."
+            show cbug switch at shake
+            pause 0.10
+            show cbug done at shake
+            jump gallerypoint
+
+        label pointdivine:
+
+            call answer from _call_answer_227
+            $ pointf += 1
+            call sun from _call_sun_29
+            show cdivine switch at shake
+            pause 0.10
+            show cdivine select at shake
+            call foolecircles from _call_foolecircles_16
+            a "This is the divine, made for romance."
+            call foolepinup from _call_foolepinup_7
+            a "They are far and away my most adored amongst them all, much as it pains me to pick favorites."
+            call foolepositive from _call_foolepositive_8
+            a "I am helplessly captivated by romantic storylines, so this favoritism was inevitable."
+            call foolenegative from _call_foolenegative_6
+            call question from _call_question_40
+            menu:
+                q "What sort of romantics please you most?"
+
+                "SWEETASTIC":
+                    call answer from _call_answer_228
+                    $ alignment += -1
+
+                "FORBIDDEN":
+                    call answer from _call_answer_229
+                    $ alignment += 1
+
+                "TRIANGULISTIC":
+                    call answer from _call_answer_230
+                    $ alignment += 1
+
+                "UNREQUITED":
+                    call answer from _call_answer_231
+                    $ meteor += 1
+            show cdivine switch at shake
+            pause 0.10
+            show cdivine done at shake
+            jump gallerypoint
+
+        label pointshadow:
+
+                call answer from _call_answer_232
+                $ pointg += 1
+                call sun from _call_sun_30
+                show cshadow switch at shake
+                pause 0.10
+                show cshadow select at shake
+                call foolenegative from _call_foolenegative_7
+                a "That is the shadow, made to be conquered by my beloved heroes."
+                call foolecircles from _call_foolecircles_17
+                a "They are an amalgamation of the evils I faced before nightfall."
+                call foolenegative from _call_foolenegative_8
+                call question from _call_question_41
+                menu:
+                    q "What do you find evilest of all?"
+
+                    "APATHY":
+                        call answer from _call_answer_233
+
+                    "BIGOTRY":
+                        call answer from _call_answer_234
+
+                    "CRUELTY":
+                        call answer from _call_answer_235
+
+                    "GREED":
+                        call answer from _call_answer_236
+                show cshadow switch at shake
+                pause 0.10
+                show cshadow done at shake
+                jump gallerypoint
+    label galleryend:
+
+        $ gall = 1
+        a "Thank you so very sincerely for looking up my creations, stargazer."
+        call fooleabstract from _call_fooleabstract_10
+        a "I hope that you might show me some of your own, somenight."
+        call foolenegative from _call_foolenegative_9
+        if ward == 0:
+            call foolepinup from _call_foolepinup_8
+            a "Now come along to the wardrobe!"
+            call writing from _call_writing_12
+            call doorslam from _call_doorslam_2
+            jump wardrobeintro
+        if ward == 1:
+            call writing from _call_writing_13
+            stop music fadeout 3.00
+            show cstar at vaultsink
+            show cmachine at vaultsink
+            show cbeast at vaultsink
+            show cslime at vaultsink
+            show cbug at vaultsink
+            show cdivine at vaultsink
+            show cshadow at vaultsink
+            show foole at vaultsink
+            pause 0.01
+            show background at vaultsink
+            pause 0.01
+            show interface at vaultsink
+            pause 0.01
+            show textbox at vaultsink
+            pause 0.01
+            show thoughtotal at vaultsink
+            show total7 at vaultsink
+            show total6 at vaultsink
+            show total5 at vaultsink
+            show total4 at vaultsink
+            show total3 at vaultsink
+            show total2 at vaultsink
+            show total1 at vaultsink
+            pause 5.00
+            hide cstar
+            hide cmachine
+            hide cbeast
+            hide cslime
+            hide cbug
+            hide cdivine
+            hide cshadow
+            jump vaultintro
+
+label vault:
+
+    label vaultimages:
+
+        image foole vault eye:
+            "images/vault/foole vault eye wibble.png"
+            pause 0.50
+            "images/vault/foole vault eye wobble.png"
+            pause 0.50
+            repeat
+        image foole vault yey:
+            "images/vault/foole vault yey wibble.png"
+            pause 0.50
+            "images/vault/foole vault yey wobble.png"
+            pause 0.50
+            repeat
+
+        image spider:
+            "images/vault/spider wibble.png"
+            pause 0.50
+            "images/vault/spider wobble.png"
+            pause 0.50
+            repeat
+        image spideye see:
+            "images/vault/spideye wibble.png"
+            pause 0.50
+            "images/vault/spideye wobble.png"
+            pause 0.50
+            repeat
+
+        label eye:
+            show foole vault switch at shake
+            pause 0.10
+            show foole vault eye at shake
+            return
+        label yey:
+            show foole vault switch at shake
+            pause 0.10
+            show foole vault yey at shake
+            return
+
+    label vaulttransform:
+
+        transform vaultsink:
+            yoffset 0
+            easeout 3.00 yoffset -1080
+        transform vaultrise:
+            yoffset 1080
+            easein 2.00 yoffset 0
+
+    label vaultintro:
+
+        $ area = 5
+        call vareset from _call_vareset_10
+        call totalreset from _call_totalreset_5
+        show lightbulb at vaultrise
+        play weather "weather_thunder.mp3" fadein 3.00
+        pause 5.00
+        hide lightbulb
+        show thoughtotal at shake, total6, totalhov6
+        show total4 at shake, total4, totalhov4
+        show total3 at shake, total3, totalhov3
+        show total2 at shake, total2, totalhov2
+        show total1 at shake, total1, totalhov1
+        show textbox at shake
+        show interface at shake
+        show background vault at shake
+        show spider
+        show foole vault eye
+        play music "mus_vault.ogg"
+
+    label vaultpoint:
+
+        if pointotal >= 4:
+            jump vaultend
+        $ point = 1
+        call writing from _call_writing_14
+        call eye from _call_eye
+        call question from _call_question_42
+        call hidechoice from _call_hidechoice_5
+        call screen vaultpoint
+
+        label pointcorpse:
+
+            call sun from _call_sun_31
+            call answer from _call_answer_237
+            $ pointa = 1
+            call yey from _call_yey
+            call question from _call_question_43
+            menu:
+                q "What is your greatest regret?"
+
+                "LOVE LOST":
+                    call answer from _call_answer_238
+                    $ alignment += 2
+
+                "TIME WASTED":
+                    call answer from _call_answer_239
+                    $ alignment += -1
+
+                "HARM DONE":
+                    call answer from _call_answer_240
+                    $ alignment += 1
+
+                "NOTHING WHATSOEVER":
+                    call answer from _call_answer_241
+                    $ meteor += 1
+            jump vaultpoint
+
+        label pointspider:
+
+            call sun from _call_sun_32
+            call answer from _call_answer_242
+            $ pointb = 1
+            call yey from _call_yey_1
+            call question from _call_question_44
+            menu:
+                q "What do you fear most?"
+
+                "DEEP DARKNESS":
+                    call answer from _call_answer_243
+                    $ alignment += -1
+                    $ fear = 1
+                    
+                "CREEPY CRAWLIES":
+                    call answer from _call_answer_244
+                    $ alignment += 1
+                    $ fear = 2
+
+                "SOCIAL HUMILIATION":
+                    call answer from _call_answer_245
+                    $ alignment += 1
+                    $ fear = 3
+
+                "GREAT UNKNOWNS":
+                    call answer from _call_answer_246
+                    $ comet += 1
+                    $ fear = 4
+            jump vaultpoint
+
+        label pointeyez:
+
+            call sun from _call_sun_33
+            call answer from _call_answer_247
+            $ pointc = 1
+            call yey from _call_yey_2
+            call question from _call_question_45
+            menu:
+                q "What have you lost sight of?"
+
+                "MY SELF":
+                    call answer from _call_answer_248
+                    $ alignment += 2
+                    
+                "MY LOVE":
+                    call answer from _call_answer_249
+                    $ alignment += -2
+
+                "MY DREAM":
+                    call answer from _call_answer_250
+                    $ alignment += -2
+
+                "MY DUTY":
+                    call answer from _call_answer_251
+                    $ alignment += 2
+            jump vaultpoint
+
+        label pointlightbulb:
+
+            call sun from _call_sun_34
+            call answer from _call_answer_252
+            $ pointd = 1
+            call yey from _call_yey_3
+            call question from _call_question_46
+            menu:
+                q "How do you find your way out of a dark place?"
+
+                "ENLIGHTENMENT":
+                    call answer from _call_answer_253
+                    $ alignment += 1
+
+                "DETERMINATION":
+                    call answer from _call_answer_254
+                    $ alignment += -1
+
+                "INSTINCT":
+                    call answer from _call_answer_255
+                    $ comet += 1
+
+                "HELP":
+                    call answer from _call_answer_256
+                    $ meteor += 1
+            jump vaultpoint
+
+    label vaultend:
+        
+        call flicker from _call_flicker
+        hide flicker
+        pause 1.00
+        call flicker from _call_flicker_1
+        hide flicker
+        pause 0.25
+        call flicker from _call_flicker_2
+        hide flicker
+        pause 0.05
+        pause 1.00
+        play sound "chain.mp3"
+        show flicker
+        pause 0.05
+        hide background
+        hide foole
+        hide spider
+        stop weather
+        stop music
+        call writing from _call_writing_15
+        jump pickagain
+
+        label flicker:
+            play sound "chain.mp3"
+            show flicker
+            pause 0.05
+            return
+
+label pickagain:
+
+    $ area = 1
+    call vareset from _call_vareset_11
+    show lightbulb
+    show foole hall switch
+    show background void
+    hide flicker
+    call totalreset from _call_totalreset_6
+    show total1 at shake, total1, totalhov1
+    pause 3.00
+    call fooleswitch from _call_fooleswitch_5
+    call sun from _call_sun_35
+    call foolesplit from _call_foolesplit_11
+    a "My apologies, it seems that I took a turn for the worse and wound up in a dark place."
+    call foolefloat from _call_foolefloat_9
+    a "I ought to take you somewhere especially lovely to make up for such nastiness."
+    call fooleorbit from _call_fooleorbit_21
+    call question from _call_question_47
+    menu:
+        q "Where would you like to go next?"
+
+        "BATH":
+            call answer from _call_answer_257
+            $ alignment += -1
+            $ bath = 1
+            call foolefloat from _call_foolefloat_10
+            a "You choose delightfully, we ought to wash away all that awfulness and relax alongside one another!"
+            $ renpy.music.set_audio_filter("music", None, replace=True)
+            jump bathintro
+
+        "THEATER":
+            call answer from _call_answer_258
+            $ alignment += 1
+            $ thea = 1
+            call foolewoah from _call_foolewoah_19
+            a "You choose boldly, I cannot wait to see your act!"
+            call curtaincall from _call_curtaincall
+            $ renpy.music.set_audio_filter("music", None, replace=True)
+            jump theaterintro
+
+        "WHEREVER":
+            call answer from _call_answer_259
+            $ comet += 1
+            $ bath = 1
+            call fooleorbit from _call_fooleorbit_22
+            a "How kind of you to leave it up to my preference."
+            call fooleshrug from _call_fooleshrug_40
+            a "We ought to wash away all that awfulness which lingers on us, so the bath would be ideal."
+            $ renpy.music.set_audio_filter("music", None, replace=True)
+            jump bathintro
+
+        "NOWHERE":
+            call answer from _call_answer_260
+            $ meteor += 1
+            $ thea = 1
+            if nowhere == 0:
+                call foolewoah from _call_foolewoah_20
+                a "Whatever you wish, stargazer."
+                call fooleorbit from _call_fooleorbit_23
+                call writing from _call_writing_16
+                pause 7.00
+                call fooleswitch from _call_fooleswitch_6
+                pause 3.00
+                call foolegiggle from _call_foolegiggle_5
+                call sun from _call_sun_36
+                call foolewoah from _call_foolewoah_21
+                a "This is dreadfully dull, stargazer!"
+                call fooleorbit from _call_fooleorbit_24
+                a "Unfortunately I must override your autonomy and take us somewhere after all."
+            if nowhere == 1:
+                call foolesplit from _call_foolesplit_12
+                a "Don't you recall how dreadfully dull that was some moments ago?"
+                call fooleorbit from _call_fooleorbit_25
+                a "I must override your autonomy once more and take us somewhere rather than nowhere!"
+            call curtaincall from _call_curtaincall_1
+            $ renpy.music.set_audio_filter("music", None, replace=True)
+            jump theaterintro
+
+label bath:
+
+    label bathimages:
+
+        label foolejelly:
+            show foole jelly switch
+            pause 0.10
+            show interface sun at shake
+            show foole bath jelly at shake, sunhover
+            return
+
+        label foolelimp:
+            show foole jelly switch
+            pause 0.10
+            show interface sun at shake
+            show foole bath limp at shake, sunhover
+            return
+
+        label foolewelp:
+            show foole jelly switch
+            pause 0.10
+            show interface sun at shake
+            show foole bath welp at shake, sunhover
+            return
+
+        label foolejellyscrawl:
+            show foole jelly switch
+            pause 0.10
+            show interface sun at shake
+            show foole bath scrawl at shake, sunhover
+            return
+
+        image bathwater:
+            "images/bath/bathwater wibble.png"
+            pause 0.25
+            "images/bath/bathwater wobble.png"
+            pause 0.25
+            repeat
+
+        image foole bath jelly:
+            "images/bath/foole jelly wibble.png"
+            pause 0.50
+            "images/bath/foole jelly wobble.png"
+            pause 0.50
+            repeat
+
+        image foole bath limp:
+            "images/bath/foole jelly limp wibble.png"
+            pause 0.50
+            "images/bath/foole jelly limp wobble.png"
+            pause 0.50
+            repeat
+
+        image foole bath welp:
+            "images/bath/foole jelly welp wibble.png"
+            pause 0.50
+            "images/bath/foole jelly welp wobble.png"
+            pause 0.50
+            repeat
+
+        image foole bath scrawl:
+            "images/bath/foole jelly scrawl wibble.png"
+            pause 0.50
+            "images/bath/foole jelly scrawl wobble.png"
+            pause 0.50
+            repeat
+
+        image bubbles:
+            "images/bath/bubbles wibble.png"
+            pause 0.50
+            "images/bath/bubbles wobble.png"
+            pause 0.50
+            repeat
+
+        image waterfalls:
+            "images/bath/waterfalls wibble.png"
+            pause 0.10
+            "images/bath/waterfalls wobble.png"
+            pause 0.10
+            repeat
+
+        image background bath:
+            "images/bath/background bath wibble.png"
+            pause 0.50
+            "images/bath/background bath wobble.png"
+            pause 0.50
+            repeat
+
+    label bathtransformations:
+
+        transform bathrise:
+            yoffset 1080
+            easein 1.00 yoffset 0
+        transform bathdrain:
+            yoffset 0
+            easein 1.00 yoffset 1080
+
+        transform scrollbubbles:
+            linear 60 xoffset -1920
+            xoffset 0
+            repeat
+
+        transform bub1:
+            pause 1.50
+            easein 3.00 yoffset 10
+            pause 1.50
+            easein 3.00 yoffset -10
+            repeat
+        transform bub2:
+            pause 2.00
+            easein 4.00 yoffset 6
+            pause 2.00
+            easein 4.00 yoffset -6
+            repeat
+        transform bub3:
+            pause 3.00
+            easein 4.50 yoffset 4
+            pause 3.00
+            easein 4.50 yoffset -4
+            repeat
+        transform bub4:
+            pause 1.25
+            easein 2.75 yoffset 12
+            pause 1.25
+            easein 2.75 yoffset -12
+            repeat
+        transform bub5:
+            pause 1.75
+            easein 3.00 yoffset 9
+            pause 1.75
+            easein 3.00 yoffset -9
+            repeat
+        transform bub6:
+            pause 2.75
+            easein 3.50 yoffset 7
+            pause 2.75
+            easein 3.50 yoffset -7
+            repeat
+
+    label bathintro:
+
+        show bathwater at bathrise
+        play sound "wavein.mp3"
+        pause 2.00
+        play sound "waveout.mp3"
+        hide background
+        hide foole
+        hide lightbulb
+        hide foole
+        hide curtains
+        hide masktragedy
+        hide maskcomedy
+        hide maskmystery
+        hide audience
+        hide playreal
+        hide playpretend
+        hide playshadows
+        hide bricklines
+        $ area = 6
+        show background bath
+        show foole bath limp at sunhover
+        show bubbles behind background at scrollbubbles
+        $ renpy.music.set_volume(0.05, channel='ambience')
+        play ambience "ambience_waterfalls.mp3" fadein 1.00
+        show waterfalls behind bubbles
+        show bub1 at bub1
+        show bub2 at bub2
+        show bub3 at bub3
+        show bub4 at bub4
+        show bub5 at bub5
+        show bub6 at bub6
+        call vareset from _call_vareset_12
+        call totalreset from _call_totalreset_7
+        show thoughtotal at shake, total6, totalhov6
+        show total4 at shake, total4, totalhov4
+        show total3 at shake, total3, totalhov3
+        show total2 at shake, total2, totalhov2
+        show total1 at shake, total1, totalhov1
+        hide bathwater
+        show bathwater at bathdrain
+        pause 3.00
+        play music "mus_bath.ogg" fadein 1.00
+        ab "Relax yourself, stargazer."
+
+    label bathpoint:
+
+        if pointotal >= 4:
+            jump bathend
+        $ point =+ 1
+        call writing from _call_writing_17
+        call foolejelly from _call_foolejelly
+        call question from _call_question_48
+        call hidechoice from _call_hidechoice_6
+        call screen bathpoint
+
+        label pointjelly:
+
+            call answer from _call_answer_261
+            call foolewelp from _call_foolewelp
+            $ pointa = 1
+            ab "Some find my words much too cryptic, so I thought I ought to make myself clear for a change."
+            call foolelimp from _call_foolelimp
+            ab "I am a very funny specimen."
+            call foolewelp from _call_foolewelp_1
+            call question from _call_question_49
+            menu:
+                q "What do you find funniest?"
+
+                "WORDPLAY":
+                    call answer from _call_answer_262
+                    $ alignment += -1
+                    call foolelimp from _call_foolelimp_1
+                    ab "Then my previous pun was surely appreciated."
+
+                "SATIRE":
+                    call answer from _call_answer_263
+                    $ alignment += -1
+
+                "SLAPSTICK":
+                    call answer from _call_answer_264
+                    $ alignment += 1
+
+                "NONSENSE":
+                    call answer from _call_answer_265
+                    $ meteor += 1
+                    call foolelimp from _call_foolelimp_2
+                    ab "I am full of it, so this is lovely to hear."
+            jump bathpoint
+
+        label pointwater:
+
+            call answer from _call_answer_266
+            call foolewelp from _call_foolewelp_2
+            $ pointb = 1
+            call question from _call_question_50
+            menu:
+                q "What sort of water is your favorite?"
+
+                "DEEP":
+                    call answer from _call_answer_267
+                    call foolelimp from _call_foolelimp_3
+                    $ alignment += 1
+                    ab "You and I ought to sink together."
+
+                "SMOOTH":
+                    call answer from _call_answer_268
+                    call foolelimp from _call_foolelimp_4
+                    $ alignment += -1
+                    ab "Then float alongside me."
+
+                "UNCHARTED":
+                    call answer from _call_answer_269
+                    call foolelimp from _call_foolelimp_5
+                    $ alignment += 1
+                    ab "Then I will discard my charts."
+
+                "WET":
+                    call answer from _call_answer_270
+                    call foolelimp from _call_foolelimp_6
+                    $ meteor += 1
+                    ab "You are somewhat silly, stargazer."
+            jump bathpoint
+
+        label pointwaterfalls:
+
+            call answer from _call_answer_271
+            call foolelimp from _call_foolelimp_7
+            $ pointc = 1
+            ab "My tears flow forth in perpetuity, powering many mechanisms of the palace as they churn mills."
+            call foolejelly from _call_foolejelly_1
+            ab "All art demands some misery of you, architecture is no different."
+            call foolewelp from _call_foolewelp_3
+            call question from _call_question_51
+            menu:
+                q "What sort of drinks do you enjoy?"
+
+                "WATERY TEAS":
+                    call answer from _call_answer_272
+                    call foolelimp from _call_foolelimp_8
+                    $ alignment += -1
+                    ab "Then I will clear my mind and weep purest tears for you."
+
+                "CIDEROUS JUICES":
+                    call answer from _call_answer_273
+                    call foolelimp from _call_foolelimp_9
+                    $ alignment += 1
+                    ab "Then I will think happy thoughts so that my tears are sugary sweet."
+
+                "ENERGIZING SODALIKES":
+                    call answer from _call_answer_274
+                    call foolelimp from _call_foolelimp_10
+                    $ alignment += 1
+                    ab "Then my mind will race so that my crying may caffeinate you."
+
+                "ALCHOHOLIC SOMETHINGS":
+                    call answer from _call_answer_275
+                    call foolelimp from _call_foolelimp_11
+                    $ meteor += 1
+                    ab "Then I will daze myself so that my tears might inebriate you."
+            jump bathpoint
+
+        label pointbubbles:
+
+            call answer from _call_answer_276
+            call foolewelp from _call_foolewelp_4
+            $ pointd = 1
+            ab "Bubbles!"
+            call foolejelly from _call_foolejelly_2
+            call question from _call_question_52
+            menu:
+                q "What do you do with bubbles?"
+
+                "BLOW":
+                    call answer from _call_answer_277
+                    call foolelimp from _call_foolelimp_12
+                    $ alignment += 1
+                    ab "Good of you to guide them."
+
+                "POP":
+                    call answer from _call_answer_278
+                    call foolelimp from _call_foolelimp_13
+                    $ alignment += 1
+                    ab "I too struggle to resist this destructive urge."
+
+                "BURST":
+                    call answer from _call_answer_279
+                    call foolelimp from _call_foolelimp_14
+                    $ meteor += 1
+                    ab "I too struggle to resist this destructive urge."
+
+                "OBSERVE":
+                    call answer from _call_answer_280
+                    call foolelimp from _call_foolelimp_15
+                    $ alignment += -1
+                    ab "How kind of you, allowing them to find their own way."
+            jump bathpoint
+
+    label bathend:
+
+        call writing from _call_writing_18
+        if thea == 0:
+            call foolejelly from _call_foolejelly_3
+            ab "That is enough rest for now."
+            call foolewelp from _call_foolewelp_5
+            ab "You and I ought to catch a show together."
+            call curtaincall from _call_curtaincall_2
+            jump theaterintro
+        if thea == 1:
+            show thoughtotal at shake, cathedralscrolloff
+            show total4 at shake, cathedralscrolloff
+            show total3 at shake, cathedralscrolloff
+            show total2 at shake, cathedralscrolloff
+            show total1 at shake, cathedralscrolloff
+            pause 0.10
+            show textbox at shake, cathedralscrolloff
+            pause 0.10
+            show interface at shake, cathedralscrolloff
+            pause 0.10
+            stop ambience fadeout 4.00
+            stop music fadeout 4.00
+            hide bathwater
+            show bub1 at shake, cathedralscrolloff
+            show bub2 at shake, cathedralscrolloff
+            show bub3 at shake, cathedralscrolloff
+            show bub4 at shake, cathedralscrolloff
+            show bub5 at shake, cathedralscrolloff
+            show bub6 at shake, cathedralscrolloff
+            show bubbles at cathedralscrolloff
+            show foole at cathedralscrolloff
+            show background at cathedralscrolloff
+            show waterfalls at cathedralscrolloff
+            pause 4.00
+            $ renpy.music.set_volume(1.00, channel='ambience')
+            hide bub1
+            hide bub2
+            hide bub3
+            hide bub4
+            hide bub5
+            hide bub6
+            hide bubbles
+            hide foole
+            hide background
+            hide waterfalls
+            pause 3.00
+            jump cathedralintro
+
+label theater:
+
+    label theaterimages:
+
+        label curtaincall:
+            show curtains open at curtaincall
+            pause 0.75
+            stop music
+            stop ambience
+            play sound "appear.mp3"
+            show curtains closed at shake
+            hide applite
+            hide appmiyu
+            hide appenpsy
+            hide apppsi
+            hide appfoole
+            hide error
+            hide beat
+            hide background
+            hide foole
+            hide error
+            hide lightbulb
+            hide foole
+            hide background
+            hide bub1
+            hide bub2
+            hide bub3
+            hide bub4
+            hide bub5
+            hide bub6
+            hide bubbles
+            hide foole
+            hide background
+            hide waterfalls
+            pause 0.50
+            play sound "appear.mp3"
+            show curtains open at shake
+            return
+
+        transform curtaincall:
+            yoffset -1080
+            easein 0.50 yoffset 0
+        transform curtainrise:
+            yoffset 0
+            easein 0.50 yoffset -1080
+
+        image foole mask:
+            "images/theater/foole mask wibble.png"
+            pause 0.50
+            "images/theater/foole mask wobble.png"
+            pause 0.50
+            repeat
+        image foole mask scrawl:
+            "images/theater/foole mask scrawl wibble.png"
+            pause 0.50
+            "images/theater/foole mask scrawl wobble.png"
+            pause 0.50
+            repeat
+        image curtains = "images/theater/curtains.png"
+        image audience:
+            "images/theater/audience wibble.png"
+            pause 0.50
+            "images/theater/audience wobble.png"
+            pause 0.50
+            repeat
+        image audience leaving:
+            "images/theater/audience leaving wibble.png"
+            pause 0.50
+            "images/theater/audience leaving wobble.png"
+            pause 0.50
+            repeat
+        image empty seat = "images/theater/empty seats.png"
+        image bricklines = "images/theater/bricklines.png"
+        image playpretend:
+            "images/theater/playpretend wibble.png"
+            pause 0.50
+            "images/theater/playpretend wobble.png"
+            pause 0.50
+            repeat
+        image playreal:
+            "images/theater/playreal wibble.png"
+            pause 0.50
+            "images/theater/playreal wobble.png"
+            pause 0.50
+            repeat
+        image playshadows = "images/theater/playshadows.png"
+
+        label maskswitch:
+            show foole mask switch at shake
+            pause 0.10
+            show foole mask at shake
+            return
+
+        label maskswitchscrawl:
+            show foole mask switch at shake
+            pause 0.10
+            show foole mask scrawl at shake
+            return
+
+    label theatertransformations:
+
+        transform scrollplaypretend:
+
+            linear 80 xoffset -1920
+            xoffset 0
+            repeat
+
+        transform scrollplayreal:
+
+            xoffset -1920
+            linear 20 xoffset 0
+            xoffset 0
+            repeat
+
+    label theaterintro:
+
+        $ area = 7
+        call vareset from _call_vareset_13
+        stop music
+        show bricklines
+        show playreal behind bricklines at scrollplayreal
+        show playpretend behind bricklines at scrollplaypretend
+        show audience
+        hide curtains
+        show curtains open
+        show masktragedy
+        show maskcomedy
+        show maskmystery
+        show foole mask
+        call totalreset from _call_totalreset_8
+        show thoughtotal at shake, total13, totalhov13
+        show total11 at shake, total11, totalhov11
+        show total10 at shake, total10, totalhov10
+        show total9 at shake, total9, totalhov9
+        show total8 at shake, total8, totalhov8
+        show total7 at shake, total7, totalhov7
+        show total6 at shake, total6, totalhov6
+        show total5 at shake, total5, totalhov5
+        show total4 at shake, total4, totalhov4
+        show total3 at shake, total3, totalhov3
+        show total2 at shake, total2, totalhov2
+        show total1 at shake, total1, totalhov1
+        call sun from _call_sun_37
+        play sound "appear.mp3"
+        $ renpy.music.set_audio_filter("blablas", af.Lowpass(2000), replace=True)
+        call maskswitch from _call_maskswitch
+        a "You are tonight's entertainment, stargazer!"
+        call maskswitch from _call_maskswitch_1
+        a "Tell the audience what to think, and keep your answers simple!"
+        play music "mus_theater.ogg"
+
+    label morality:
+
+        call maskswitch from _call_maskswitch_2
+        call question from _call_question_53
+        menu:
+            q "Does truth take priority over kindness?"
+
+            "YES":
+                call answer from _call_answer_281
+                $ alignment += -2
+
+            "NO":
+                call answer from _call_answer_282
+                $ alignment += 2
+        call maskswitch from _call_maskswitch_3
+        call question from _call_question_54
+        menu:
+            q "Is one inherently obligated to help others?"
+
+            "YES":
+                call answer from _call_answer_283
+                $ alignment += 2
+
+            "NO":
+                call answer from _call_answer_284
+                $ alignment += -2
+        call maskswitch from _call_maskswitch_4
+        call question from _call_question_55
+        menu:
+            q "Is the life of a child more valuable than that of an adult?"
+
+            "YES":
+                call answer from _call_answer_285
+                $ alignment += 2
+
+            "NO":
+                call answer from _call_answer_286
+                $ alignment += -2
+        call maskswitch from _call_maskswitch_5
+        call question from _call_question_56
+        menu:
+            q "Do certain offenses warrant a penalty of death?"
+
+            "YES":
+                call answer from _call_answer_287
+                $ alignment += -2
+
+            "NO":
+                call answer from _call_answer_288
+                $ alignment += 2
+        call maskswitch from _call_maskswitch_6
+        call question from _call_question_57
+        menu:
+            q "Is killing out of mercy acceptable?"
+
+            "YES":
+                call answer from _call_answer_289
+                $ alignment += 2
+
+            "NO":
+                call answer from _call_answer_290
+                $ alignment += -2
+        call maskswitch from _call_maskswitch_7
+        call question from _call_question_58
+        menu:
+            q "Could a just god allow suffering?"
+
+            "YES":
+                call answer from _call_answer_291
+                $ alignment += 2
+
+            "NO":
+                call answer from _call_answer_292
+                $ alignment += -2
+        call maskswitch from _call_maskswitch_8
+        call question from _call_question_59
+        menu:
+            q "Is morality subjective?"
+
+            "YES":
+                call answer from _call_answer_293
+                $ alignment += -2
+
+            "NO":
+                call answer from _call_answer_294
+                $ alignment += 2
+        call maskswitch from _call_maskswitch_9
+        a "Thank you for telling the audience what to think, stargazer."
+        call maskswitch from _call_maskswitch_10
+        a "Now gaze about the stage and perform with some props."
+
+    label theaterpoint:
+
+        if pointotal >= 11:
+            jump theaterend
+        $ point = 1
+        call maskswitch from _call_maskswitch_11
+        call writing from _call_writing_19
+        call question from _call_question_60
+        call hidechoice from _call_hidechoice_7
+        call screen theaterpoint
+
+        label pointfoolemask:
+
+            call sun from _call_sun_38
+            call answer from _call_answer_295
+            $ pointa = 1
+            call maskswitch from _call_maskswitch_12
+            a "This mask of mine is nothing special, merely one among millions."
+            call maskswitch from _call_maskswitch_13
+            a "I've yet to uncover what lay beneath them all."
+            call maskswitch from _call_maskswitch_14
+            call question from _call_question_61
+            show choice3 at shake, choice3
+            show choice4 at shake, choice4
+            menu:
+                q "What lies beneath your masks?"
+
+                "TRUTH":
+                    call answer from _call_answer_296
+                    $ alignment += 1
+                    call maskswitch from _call_maskswitch_15
+                    a "Some might call it that."
+
+                "MASKS":
+                    call answer from _call_answer_297
+                    $ alignment += -1
+                    call maskswitch from _call_maskswitch_16
+                    a "So we share the same predicament."
+
+                "UNKNOWNS":
+                    call answer from _call_answer_298
+                    $ comet += 1
+                    call maskswitch from _call_maskswitch_17
+                    a "Please do show your face before the masks become too tight."
+
+                "NOTHING":
+                    call answer from _call_answer_299
+                    $ meteor += 1
+                    call maskswitch from _call_maskswitch_18
+                    a "Then make your mask your self."
+            jump theaterpoint
+
+        label pointfrytes:
+
+            call sun from _call_sun_39
+            call answer from _call_answer_300
+            $ pointb = 1
+            call maskswitch from _call_maskswitch_19
+            a "Tragedy, comedy, and mystery, my trinity of solaces in this great alone."
+            call maskswitch from _call_maskswitch_20
+            call question from _call_question_62
+            show choice3 at shake, choice3
+            show choice4 at shake, choice4
+            menu:
+                q "Which mask suits your life story?"
+
+                "TRAGEDY":
+                    call answer from _call_answer_301
+                    $ mask = 1
+
+                "COMEDY":
+                    call answer from _call_answer_302
+                    $ mask = 2
+
+                "MYSTERY":
+                    call answer from _call_answer_303
+                    $ mask = 3
+
+                "NONE":
+                    call answer from _call_answer_304
+                    $ comet += 1
+                    $ meteor += 1
+                    $ mask = 0
+            jump theaterpoint
+
+        
+        label pointaudience:
+
+            call sun from _call_sun_40
+            call answer from _call_answer_305
+            $ pointc = 1
+            call maskswitch from _call_maskswitch_21
+            a "Do not fret judgement, they have no minds of their own."
+            call maskswitch from _call_maskswitch_22
+            call question from _call_question_63
+            show choice3 at shake, choice3
+            show choice4 at shake, choice4
+            menu:
+                q "Who has made up your mind?"
+
+                "FAMILY":
+                    call answer from _call_answer_306
+                    $ alignment += 2
+
+                "FRIENDS":
+                    call answer from _call_answer_307
+                    $ alignment += 2
+
+                "CORPORATIONS":
+                    call answer from _call_answer_308
+                    $ alignment += -2
+
+                "GOVERNMENTS":
+                    call answer from _call_answer_309
+                    $ alignment += -2
+            jump theaterpoint
+
+        label pointexit:
+
+            call sun from _call_sun_41
+            call answer from _call_answer_310
+            $ pointd = 1
+            call maskswitch from _call_maskswitch_23
+            a "One of countless exits."
+            call maskswitch from _call_maskswitch_24
+            call question from _call_question_64
+            show choice3 at shake, choice3
+            show choice4 at shake, choice4
+            menu:
+                q "How will youe exit when the curtains call?"
+
+                "GRACEFULLY":
+                    call answer from _call_answer_311
+                    $ alignment += 2
+
+                "GRANDLY":
+                    call answer from _call_answer_312
+                    $ alignment += 1
+
+                "HASTILY":
+                    call answer from _call_answer_313
+                    $ alignment += -1
+
+                "RELUCTANTLY":
+                    call answer from _call_answer_314
+                    $ comet += 1
+            jump theaterpoint
+
+    label theaterend:
+
+        play sound "appear.mp3"
+        hide playreal
+        hide playpretend
+        hide bricklines
+        stop music
+        call maskswitch from _call_maskswitch_25
+        a "Let us retire this act of yours before it becomes stale, stargazer."
+        call writing from _call_writing_20
+        $ renpy.music.set_audio_filter("blablas", None, replace=True)
+        if bath == 0:
+            jump bathintro
+        if bath == 1:
+            show thoughtotal at shake, total13, terracescrolloff
+            show total11 at shake, total11, terracescrolloff
+            show total10 at shake, total10, terracescrolloff
+            show total9 at shake, total9, terracescrolloff
+            show total8 at shake, total8, terracescrolloff
+            show total7 at shake, total7, terracescrolloff
+            show total6 at shake, total6, terracescrolloff
+            show total5 at shake, total5, terracescrolloff
+            show total4 at shake, total4, terracescrolloff
+            show total3 at shake, total3, terracescrolloff
+            show total2 at shake, total2, terracescrolloff
+            show total1 at shake, total1, terracescrolloff
+            pause 0.10
+            show textbox at cathedralscrolloff
+            pause 0.10
+            show interface at cathedralscrolloff
+            pause 0.10
+            show masktragedy at cathedralscrolloff
+            show maskcomedy at cathedralscrolloff
+            show maskmystery at cathedralscrolloff
+            show curtains open at cathedralscrolloff
+            show audience at cathedralscrolloff
+            show foole at cathedralscrolloff
+            stop music fadeout 3.00
+            pause 3.50
+            hide foole
+            hide curtains
+            hide masktragedy
+            hide maskcomedy
+            hide maskmystery
+            hide audience
+            jump cathedralintro
+
+label cathedral:
+
+    label cathedralimages:
+
+        image foreground cathedral:
+            "images/cathedral/foreground cathedral wibble.png"
+            pause 0.50
+            "images/cathedral/foreground cathedral wobble.png"
+            pause 0.50
+            repeat
+
+        image stains:
+            "images/cathedral/stains wibble.png"
+            pause 0.50
+            "images/cathedral/stains wobble.png"
+            pause 0.50
+            repeat
+
+        label foolecdown:
+            show foole cathedral blink at shake
+            pause 0.10
+            show foole cathedral down at shake
+            return
+        label foolecup:
+            show foole cathedral blink at shake
+            pause 0.10
+            show foole cathedral up at shake
+            return
+        label foolecleft:
+            show foole cathedral blink at shake
+            pause 0.10
+            show foole cathedral left at shake
+            return
+        label foolecright:
+            show foole cathedral blink at shake
+            pause 0.10
+            show foole cathedral right at shake
+            return
+        label foolecwide:
+            show foole cathedral blink at shake
+            pause 0.10
+            show foole cathedral wide at shake
+            return
+        label foolecblink:
+            show foole cathedral blink at shake
+            pause 0.10
+            return
+
+        image shard1 = "images/cathedral/shard1.png"
+        image shard2 = "images/cathedral/shard2.png"
+        image shard3 = "images/cathedral/shard3.png"
+        image shard4 = "images/cathedral/shard4.png"
+        image shard5 = "images/cathedral/shard5.png"
+        image shard6 = "images/cathedral/shard6.png"
+        image shard7 = "images/cathedral/shard7.png"
+        image shard8 = "images/cathedral/shard8.png"
+        image shard9 = "images/cathedral/shard9.png"
+        image shard10 = "images/cathedral/shard10.png"
+        image shard11 = "images/cathedral/shard11.png"
+        image shard12 = "images/cathedral/shard12.png"
+        image shard13 = "images/cathedral/shard13.png"
+        image windows:
+            "images/cathedral/windows wibble.png"
+            pause 0.50
+            "images/cathedral/windows wobble.png"
+            pause 0.50
+            repeat
+
+    label cathedraltransformations:
+
+        transform cathedralscrollon:
+            yoffset 0
+            yoffset -1080
+            easein 3.00 yoffset 0
+        transform cathedralscrolloff:
+            yoffset 0
+            easeout 3.00 yoffset 1080
+        transform shard1:
+            pause 2.50
+            easein 4.00 yoffset 2
+            pause 2.50
+            easein 4.00 yoffset -2
+            repeat
+        transform shard2:
+            pause 2.25
+            easein 3.50 yoffset -1
+            pause 2.25
+            easein 3.50 yoffset 1
+            repeat
+        transform shard3:
+            pause 2.00
+            easein 3.25 yoffset 3
+            pause 2.00
+            easein 3.25 yoffset -3
+            repeat
+        transform shard4:
+            pause 1.75
+            easein 3.25 yoffset -4
+            pause 1.75
+            easein 3.25 yoffset 4
+            repeat
+        transform shard5:
+            pause 1.50
+            easein 3.00 yoffset -4
+            pause 1.50
+            easein 3.00 yoffset 4
+            repeat
+        transform shard6:
+            pause 1.50
+            easein 2.75 yoffset 6
+            pause 1.50
+            easein 2.75 yoffset -6
+            repeat
+        transform shard7:
+            pause 1.75
+            easein 2.75 yoffset -6
+            pause 1.75
+            easein 2.75 yoffset 6
+            repeat
+        transform shard8:
+            pause 1.50
+            easein 2.50 yoffset 7
+            pause 1.50
+            easein 2.50 yoffset -7
+            repeat
+        transform shard9:
+            pause 1.75
+            easein 3.00 yoffset -6
+            pause 1.75
+            easein 3.00 yoffset 6
+            repeat
+        transform shard10:
+            pause 1.25
+            easein 2.25 yoffset 9
+            pause 1.25
+            easein 2.25 yoffset -9
+            repeat
+        transform shard11:
+            pause 2.00
+            easein 3.00 yoffset -10
+            pause 2.00
+            easein 3.00 yoffset 10
+            repeat
+        transform shard12:
+            pause 1.75
+            easein 2.50 yoffset 8
+            pause 1.75
+            easein 2.50 yoffset -8
+            repeat
+        transform shard13:
+            pause 1.50
+            easein 2.50 yoffset -7
+            pause 1.50
+            easein 2.50 yoffset 7
+            repeat
+
+    label cathedralintro:
+        
+        call vareset from _call_vareset_14
+        $ area = 8
+        play music "mus_organ.ogg" fadein 3.00 noloop
+        call totalreset from _call_totalreset_9
+        show total1 at cathedralscrollon, total1, totalhov1
+        show total2 at cathedralscrollon, total2, totalhov2
+        show total3 at cathedralscrollon, total3, totalhov3
+        show total4 at cathedralscrollon, total4, totalhov4
+        show total5 at cathedralscrollon, total5, totalhov5
+        show total6 at cathedralscrollon, total6, totalhov6
+        show total7 at cathedralscrollon, total7, totalhov7
+        show total8 at cathedralscrollon, total8, totalhov8
+        show thoughtotal at cathedralscrollon, total10, totalhov10
+        pause 0.10
+        show textbox at cathedralscrollon
+        pause 0.10
+        show interface writing at cathedralscrollon
+        pause 0.05
+        #show background cathedral at cathedralscrollon
+        show foreground cathedral at cathedralscrollon
+        show stains behind foreground at cathedralscrollon
+        show foole cathedral down at cathedralscrollon
+        show windows behind stains at cathedralscrollon
+        pause 0.01
+        show shard1 at cathedralscrollon, shard1
+        pause 0.01
+        show shard2 at cathedralscrollon, shard2
+        pause 0.01
+        show shard3 at cathedralscrollon, shard3
+        pause 0.01
+        show shard4 at cathedralscrollon, shard4
+        pause 0.01
+        show shard5 at cathedralscrollon, shard5
+        pause 0.01
+        show shard6 at cathedralscrollon, shard6
+        pause 0.01
+        show shard7 at cathedralscrollon, shard7
+        pause 0.01
+        show shard8 at cathedralscrollon, shard8
+        pause 0.01
+        show shard9 at cathedralscrollon, shard9
+        pause 0.01
+        show shard10 at cathedralscrollon, shard10
+        pause 0.01
+        show shard11 behind shard10 at cathedralscrollon, shard11
+        pause 0.01
+        show shard12 behind shard10 at cathedralscrollon, shard12
+        pause 0.01
+        show shard13 behind shard10 at cathedralscrollon, shard13
+        pause 8.00
+        call sun from _call_sun_42
+    call foolecwide from _call_foolecwide
+    ac "Please recite a prayer with me, before this world of my making goes to the great beyond."
+    call foolecup from _call_foolecup
+    label higher:
+        call question from _call_question_65
+        menu:
+            q "Hear us now, almighty..."
+
+            "GOD":
+                $ alignment += 1
+
+            "GODS":
+                $ alignment += 2
+
+            "WHATEVER":
+                $ comet += 1
+
+            "EMPTINESS":
+                $ meteor += 1
+    call answer from _call_answer_315
+    call foolecleft from _call_foolecleft
+    label afterlife:
+        call question from _call_question_66
+        menu:
+            q "As all things comes to an end, we prepare our spirits to enter the..."
+
+            "HEAVENS":
+                $ alignment += 2
+
+            "ENCORE":
+                $ alignment += 1
+
+            "WHATEVER":
+                $ comet += 1
+
+            "VOID":
+                $ meteor += 1
+    call answer from _call_answer_316
+    call foolecdown from _call_foolecdown
+    label damnation:
+        call question from _call_question_67
+        menu:
+            q "May all those who have wronged us..."
+
+            "REPENT":
+                $ alignment += 2
+
+            "AGONIZE":
+                $ alignment += -2
+
+            "VANISH":
+                $ comet += 1
+
+            "EXPLODE":
+                $ meteor += 1
+    call answer from _call_answer_317
+    call foolecright from _call_foolecright
+    label virtue:
+        call question from _call_question_68
+        menu:
+            q "And may all the virtuous find..."
+
+            "EUPHORIA":
+                $ alignment += 0
+
+            "PEACE":
+                $ alignment += 0
+
+            "SOMETHING":
+                $ comet += 1
+
+            "DISAPPOINTMENT":
+                $ meteor += 1
+    call answer from _call_answer_318
+    call foolecblink from _call_foolecblink
+    play music "mus_organ.ogg" noloop
+    pause 8.00
+    call foolecdown from _call_foolecdown_1
+    ac "Praise be to you, stargazer."
+    play music "mus_cathedral.ogg"
+    label cathedralpoint:
+
+        if pointotal >= 8:
+            jump cathedralend
+        $ point =+ 1
+        call writing from _call_writing_21
+        call foolecblink from _call_foolecblink_1
+        call question from _call_question_69
+        call hidechoice from _call_hidechoice_8
+        call screen cathedralpoint
+
+        label pointstained:
+
+            call answer from _call_answer_319
+            call sun from _call_sun_43
+            $ pointa += 1
+            call foolecdown from _call_foolecdown_2
+            ac "Suns enforce orbit with pessimistic pragmatism."
+            call foolecup from _call_foolecup_1
+            ac "Moons observe orbit with optimistic whimsy."
+            call foolecright from _call_foolecright_1
+            ac "Comets seek orbit in uncertain curiosity."
+            call foolecleft from _call_foolecleft_1
+            ac "Meteors break orbit in careless defiance."
+            call foolecwide from _call_foolecwide_1
+            call question from _call_question_70
+            menu:
+                q "Which celestial body are you aligned with?"
+
+                "SUN":
+                    call answer from _call_answer_320
+                    $ alignment += 3
+
+                "MOON":
+                    call answer from _call_answer_321
+                    $ alignment += -3
+
+                "COMET":
+                    call answer from _call_answer_322
+                    $ comet += 1
+
+                "METEOR":
+                    call answer from _call_answer_323
+                    $ meteor += 1
+            call foolecdown from _call_foolecdown_3
+            ac "We shall see if I agree once all is said and done."
+            jump cathedralpoint
+
+        label pointshards:
+
+            call sun from _call_sun_44
+            call answer from _call_answer_324
+            $ pointb = 1
+            call foolecright from _call_foolecright_2
+            ac "Some things are better when broken."
+            call foolecleft from _call_foolecleft_2
+            call question from _call_question_71
+            menu:
+                q "Have you been broken?"
+
+                "NEVERLY":
+                    call answer from _call_answer_325
+                    call foolecdown from _call_foolecdown_4
+                    ac "I pray that my power may keep it this way."
+
+                "FORMERLY":
+                    call answer from _call_answer_326
+                    call foolecdown from _call_foolecdown_5
+                    ac "I pray that my power may make you forever whole."
+
+                "REGULARLY":
+                    call answer from _call_answer_327
+                    call foolecdown from _call_foolecdown_6
+                    ac "I pray that my power may fix you time and time again."
+
+                "IRREPARABLY":
+                    call answer from _call_answer_328
+                    $ meteor += 1
+                    call foolecdown from _call_foolecdown_7
+                    ac "I pray my power may prove you wrong."
+            jump cathedralpoint
+
+        label pointcandles:
+
+            call sun from _call_sun_45
+            call answer from _call_answer_329
+            $ pointc = 1
+            call foolecleft from _call_foolecleft_3
+            ac "Flame is paramount in holy grounds, one must make smoke for their mirrors."
+            call foolecwide from _call_foolecwide_2
+            call question from _call_question_72
+            menu:
+                q "What do you burn to fuel your flame?"
+
+                "MONEY":
+                    call answer from _call_answer_330
+                    $ alignment += 1
+                    call foolecdown from _call_foolecdown_8
+                    ac "Best to be rid of it."
+
+                "BRIDGES":
+                    call answer from _call_answer_331
+                    $ meteor += 1
+                    call foolecdown from _call_foolecdown_9
+                    ac "Such a selfish sort of fuel."
+                    call foolecright from _call_foolecright_3
+                    ac "Others may need the infrastructure."
+
+                "PASSION":
+                    call answer from _call_answer_332
+                    $ alignment += -1
+                    call foolecdown from _call_foolecdown_10
+                    ac "Do not dare to burn it all at once."
+
+                "DAYLIGHT":
+                    call answer from _call_answer_333
+                    $ comet += 1
+                    call foolecup from _call_foolecup_2
+                    ac "It burns you in return."
+            jump cathedralpoint
+
+        label pointglasseyefoole:
+
+            call sun from _call_sun_46
+            call answer from _call_answer_334
+            $ pointd = 1
+            call foolecdown from _call_foolecdown_11
+            ac "One eye will see a lie,{w=0.50} two will see the truth,{w=0.50} a third will see something more."
+            call foolecwide from _call_foolecwide_3
+            call question from _call_question_73
+            menu:
+                q "How many of your eyes are open?"
+
+                "NONE":
+                    call answer from _call_answer_335
+                    $ meteor += 1
+                    call foolecblink from _call_foolecblink_2
+                    ac "I see."
+
+                "ONE":
+                    call answer from _call_answer_336
+                    $ alignment += -1
+                    call foolecdown from _call_foolecdown_12
+                    ac "I see."
+
+                "TWO":
+                    call answer from _call_answer_337
+                    $ alignment += -2
+                    call foolecdown from _call_foolecdown_13
+                    ac "I see."
+
+                "THREE":
+                    call answer from _call_answer_338
+                    $ alignment += 2
+                    call foolecdown from _call_foolecdown_14
+                    ac "Then we are eye to eye."
+            jump cathedralpoint
+
+    label cathedralend:
+
+        call writing from _call_writing_22
+        show thoughtotal at shake, total10, terracescrolloff
+        show total8 at shake, total8, terracescrolloff
+        show total7 at shake, total7, terracescrolloff
+        show total6 at shake, total6, terracescrolloff
+        show total5 at shake, total5, terracescrolloff
+        show total4 at shake, total4, terracescrolloff
+        show total3 at shake, total3, terracescrolloff
+        show total2 at shake, total2, terracescrolloff
+        show total1 at shake, total1, terracescrolloff
+        pause 0.10
+        show textbox at shake, cathedralscrolloff
+        pause 0.10
+        show interface writing at shake, cathedralscrolloff
+        pause 0.05
+        show stains at cathedralscrolloff
+        show foreground cathedral at cathedralscrolloff
+        show foole at cathedralscrolloff
+        show windows at cathedralscrolloff
+        show shard1 at shake, cathedralscrolloff
+        show shard2 at shake, cathedralscrolloff
+        show shard3 at shake, cathedralscrolloff
+        show shard4 at shake, cathedralscrolloff
+        show shard5 at shake, cathedralscrolloff
+        show shard6 at shake, cathedralscrolloff
+        show shard7 at shake, cathedralscrolloff
+        show shard8 at shake, cathedralscrolloff
+        show shard9 at shake, cathedralscrolloff
+        show shard10 at shake, cathedralscrolloff
+        show shard11 at shake, cathedralscrolloff
+        show shard12 at shake, cathedralscrolloff
+        show shard13 at shake, cathedralscrolloff
+        call totalreset from _call_totalreset_10
+        stop music fadeout 3.00
+        pause 3.00
+        $ renpy.music.set_volume(1.00, channel='ambience')
+        play ambience "ambience_elevator.mp3" fadein 3.00
+        call vareset from _call_vareset_15
+        hide stains
+        hide foreground cathedral
+        hide foole
+        hide windows
+        hide shard1
+        hide shard2
+        hide shard3
+        hide shard4
+        hide shard5
+        hide shard6
+        hide shard7
+        hide shard8
+        hide shard9
+        hide shard10
+        hide shard11
+        hide shard12
+        hide shard13
+        pause 3.00
+        jump elevatorintro 
+
+label elevator:
+
+    label elevatortransformations:
+
+        transform elevatorcatchup:
+            yoffset 1080
+            easein 0.50 yoffset 0
+
+        transform scrollelevatorstart:
+            yoffset -3240
+            linear 2.00 yoffset -1080
+        transform scrollelevatormid:
+            yoffset -1080
+            linear 1.00 yoffset 0
+            repeat
+        transform scrollelevatorend:
+            yoffset -1080
+            easein 3.00 yoffset 0
+        transform scrollvfast:
+            yoffset -1840
+            linear 10 yoffset 0
+            repeat
+        transform scrollslow:
+            linear 6 xoffset 1920
+            xoffset 0
+            repeat
+        transform elevatorenter:
+            yoffset -2160
+            easein 1.50 yoffset 0
+
+        transform elevator:
+            xoffset -5
+            pause 0.01
+            xoffset 10
+            pause 0.01
+            xoffset 0
+            pause 1.00
+            xoffset -5
+            pause 0.01
+            xoffset 10
+            pause 0.01
+            xoffset 0
+            pause 2.00
+            repeat
+
+    label elevatorimages:
+
+        image starscroll = "images/elevator/starscroll.png"
+
+        image elevator closed:
+            "images/elevator/elevator closed wibble.png"
+            pause 0.25
+            "images/elevator/elevator closed wobble.png"
+            pause 0.25
+            repeat
+
+        image elevator foole:
+            "images/elevator/elevator foole wibble.png"
+            pause 0.50
+            "images/elevator/elevator foole wobble.png"
+            pause 0.50
+            repeat
+
+        image background elevator = "images/elevator/background elevator.png"
+
+    label elevatorintro:
+
+        $ area = 123
+        call vareset from _call_vareset_16
+        call totalreset from _call_totalreset_11
+        show interface at elevatorcatchup
+        pause 0.05
+        show textbox at elevatorcatchup
+        pause 0.05
+        show starblock behind textbox at elevatorcatchup
+        show starscroll behind starblock at scrollelevatorstart
+        show elevator closed at elevatorenter
+        pause 2.00
+        label randomwait:
+
+            call writing from _call_writing_23
+            stop music
+            show elevator closed at elevator
+            show starscroll behind starblock at scrollelevatormid
+            $ renpy.music.set_volume(1.00, channel='ambience')
+            if encore > 0:
+                play ambience "ambience_elevator.mp3"
+            $ random = renpy.random.randint(4, 7)
+            pause 1.00*random
+            show starscroll at scrollelevatorend
+            pause 3.00
+            if encore == 0:
+                show total7 at shake, total7, totalhov7
+                show total6 at shake, total6, totalhov6
+                show total5 at shake, total5, totalhov5
+                show total4 at shake, total4, totalhov4
+                show total3 at shake, total3, totalhov3
+                show total2 at shake, total2, totalhov2
+                show total1 at shake, total1, totalhov1
+            if encore > 6:
+                jump elevatorend
+            call sun from _call_sun_47
+            call question from _call_question_74
+            show elevator foole at shake
+            stop ambience
+            label randomretry:
+
+                $ random = renpy.random.randint(1, 10)
+                if random == 1:
+                    jump again
+                if random == 2:
+                    jump bestfriend
+                if random == 3:
+                    jump chores
+                if random == 4:
+                    jump what
+                if random == 5:
+                    jump someoneelse
+                if random == 6:
+                    jump timeofday
+                if random == 7:
+                    jump timetodie
+                if random == 8:
+                    jump first
+                if random == 9:
+                    jump sense
+                if random == 10:
+                    jump luck
+
+            label again:
+                if pointa == 1:
+                    jump randomretry
+                $ pointa = 1
+                $ encore += 1
+                play music "mus_wardrobe.ogg"
+                menu:
+                    q "Would you do it all again?"
+
+                    "ONCE AGAIN":
+                        $ alignment += 1
+
+                    "FOREVER AGAIN":
+                        $ alignment += 2
+
+                    "MAYBE AGAIN":
+                        $ comet += 1
+
+                    "NEVER AGAIN":
+                        $ meteor += 1
+                call answer from _call_answer_339
+                jump randomwait
+
+            label bestfriend:
+                if pointb == 1:
+                    jump randomretry
+                $ pointb = 1
+                $ encore += 1
+                play music "mus_bath.ogg"
+                menu:
+                    q "Do you have an absolute best among your companions?"
+
+                    "CURRENTLY":
+                        $ alignment += 1
+
+                    "OCCASIONALLY":
+                        $ alignment += -1
+
+                    "FORMERLY":
+                        $ alignment += -1
+
+                    "NEVERLY":
+                        $ meteor += 1
+                call answer from _call_answer_340
+                jump randomwait
+
+            label chores:
+                if pointc == 1:
+                    jump randomretry
+                $ pointc = 1
+                $ encore += 1
+                play music "mus_wardrobe.ogg"
+                menu:
+                    q "What sort of busywork do you enjoy?"
+
+                    "CLEANSING":
+                        $ alignment += -1
+
+                    "DISPOSING":
+                        $ alignment += -1
+
+                    "ARRANGING":
+                        $ alignment += 1
+
+                    "IMPROVING":
+                        $ alignment += 1
+                call answer from _call_answer_341
+                jump randomwait
+
+            label what:
+                if pointd == 1:
+                    jump randomretry
+                $ pointd = 1
+                $ encore += 1
+                play music "mus_vault.ogg"
+                menu:
+                    q "What?"
+
+                    "YES":
+                        $ alignment += 1
+
+                    "NO":
+                        $ alignment += -1
+
+                    "MAYBE":
+                        $ comet += 1
+
+                    "WHATEVER":
+                        $ meteor += 1
+                call answer from _call_answer_342
+                jump randomwait
+
+            label someoneelse:
+                if pointe == 1:
+                    jump randomretry
+                $ pointe = 1
+                $ encore += 1
+                play music "mus_fantasia.ogg"
+                menu:
+                    q "Would you rather be someone else?"
+
+                    "YES":
+                        $ comet += 1
+
+                    "NO":
+                        $ alignment += 0
+
+                    "MAYBE":
+                        $ comet += 1
+
+                    "MOMENTARILY":
+                        $ alignment += 1
+                call answer from _call_answer_343
+                jump randomwait
+
+            label timeofday:
+                if pointf == 1:
+                    jump randomretry
+                $ pointf = 1
+                $ encore += 1
+                play music "mus_fantasia.ogg"
+                menu:
+                    q "Which time of day is your favorite?"
+
+                    "SUNRISE":
+                        $ alignment += -2
+
+                    "MIDDAY":
+                        $ alignment += -1
+
+                    "SUNSET":
+                        $ alignment += 1
+
+                    "NIGHTFALL":
+                        $ alignment += 2
+                call answer from _call_answer_344
+                jump randomwait
+
+            label timetodie:
+                if pointg == 1:
+                    jump randomretry
+                $ pointg = 1
+                $ encore += 1
+                play music "mus_vault.ogg"
+                menu:
+                    q "What too are you to die?"
+
+                    "YOUNG":
+                        $ comet += 1
+
+                    "PRETTY":
+                        $ alignment += 1
+
+                    "COOL":
+                        $ alignment += 1
+
+                    "IMPORTANT":
+                        $ alignment += -1
+                call answer from _call_answer_345
+                jump randomwait
+
+            label first:
+                if pointh == 1:
+                    jump randomretry
+                $ pointh = 1
+                $ encore += 1
+                play music "mus_gallery.ogg"
+                menu:
+                    q "Which first was your favorite?"
+
+                    "LOVE":
+                        $ alignment += 1
+
+                    "PET":
+                        $ alignment += 1
+
+                    "JOB":
+                        $ alignment += -1
+
+                    "HOME":
+                        $ alignment += 1
+                call answer from _call_answer_346
+                jump randomwait
+
+            label sense:
+                if pointi == 1:
+                    jump randomretry
+                $ pointi = 1
+                $ encore += 1
+                play music "mus_bath.ogg"
+                menu:
+                    q "Which sense is your favorite?"
+
+                    "SIGHT":
+                        $ alignment += 0
+
+                    "SOUND":
+                        $ alignment += 0
+
+                    "TOUCH":
+                        $ alignment += 0
+
+                    "TASTE":
+                        $ alignment += 0
+                call answer from _call_answer_347
+                jump randomwait
+
+            label luck:
+                if pointj == 1:
+                    jump randomretry
+                $ pointj = 1
+                $ encore += 1
+                play music "mus_wardrobe.ogg"
+                menu:
+                    q "How lucky is your life?"
+
+                    "VERY":
+                        $ alignment += 0
+
+                    "SOMEWHAT":
+                        $ comet += 1
+
+                    "SLIGHTLY":
+                        $ alignment += 0
+
+                    "NOTATALL":
+                        $ meteor += 1
+                call answer from _call_answer_348
+                jump randomwait
+        
+    label elevatorend:
+
+        hide starblock
+        hide starscroll
+        hide elevator
+        hide interface
+        hide textbox
+        stop music
+        stop ambience
+        play sound "appear.mp3"
+        call totalreset from _call_totalreset_12
+        pause 5.00
+        jump terraceintro
+
+label terrace:
+
+    label terraceimages:
+        
+        label fooletneutral:
+            show foole terrace switch at shake
+            pause 0.10
+            show foole terrace neutral at shake
+            play sound "chain.mp3"
+            return
+
+        label fooletleft:
+            show foole terrace switch at shake
+            pause 0.10
+            show foole terrace left at shake
+            play sound "chain.mp3"
+            return
+
+        label fooletright:
+            show foole terrace switch at shake
+            pause 0.10
+            show foole terrace right at shake
+            play sound "chain.mp3"
+            return
+
+        image background terrace:
+            "images/terrace/background terrace wibble.png"
+            pause 0.50
+            "images/terrace/background terrace wobble.png"
+            pause 0.50
+            repeat
+        image potwitherwhile = "images/terrace/potwitherwhile.png"
+        image potback = "images/terrace/potback.png"
+        image thoutalia = "images/terrace/thoutalia.png"
+        image foole terrace gray = "images/terrace/foole terrace gray.png"
+        image foole terrace neutral:
+            "images/terrace/foole terrace neutral wibble.png"
+            pause 0.50
+            "images/terrace/foole terrace neutral wobble.png"
+            pause 0.50
+            repeat
+        image foole terrace left:
+            "images/terrace/foole terrace left wibble.png"
+            pause 0.50
+            "images/terrace/foole terrace left wobble.png"
+            pause 0.50
+            repeat
+        image foole terrace right:
+            "images/terrace/foole terrace right wibble.png"
+            pause 0.50
+            "images/terrace/foole terrace right wobble.png"
+            pause 0.50
+            repeat
+
+        image flutter1:
+            "images/terrace/flutter1 wibble.png"
+            pause 0.40
+            "images/terrace/flutter1 wobble.png"
+            pause 0.40
+            repeat
+        image flutter2 normal:
+            "images/terrace/flutter2 wibble.png"
+            pause 0.60
+            "images/terrace/flutter2 wobble.png"
+            pause 0.60
+            repeat
+        image flutter2 foole:
+            "images/terrace/flutter2 foole wibble.png"
+            pause 0.60
+            "images/terrace/flutter2 foole wobble.png"
+            pause 0.60
+            repeat
+        image flutter2 switch = "images/terrace/flutter2 switch.png"
+        image flutter3:
+            "images/terrace/flutter3 wibble.png"
+            pause 0.50
+            "images/terrace/flutter3 wobble.png"
+            pause 0.50
+            repeat
+        image flutter4:
+            "images/terrace/flutter4 wibble.png"
+            pause 0.25
+            "images/terrace/flutter4 wobble.png"
+            pause 0.25
+            repeat
+        image flutter5:
+            "images/terrace/flutter5 wibble.png"
+            pause 0.30
+            "images/terrace/flutter5 wobble.png"
+            pause 0.30
+            repeat
+
+        image conhand = "images/terrace/conhand"
+        image concane = "images/terrace/concane"
+        image conhourglass = "images/terrace/conhour"
+        image conhill = "images/terrace/conhill"
+        image conhouse = "images/terrace/conhouse"
+        image constar = "images/terrace/constar"
+        image conline = "images/terrace/conline"
+        image conhat = "images/terrace/conhat"
+        image conflower = "images/terrace/conflower"
+        image congun = "images/terrace/congun"
+
+    label terracetransformations:
+
+        transform hangfront:
+            pause 5.00
+            easein 2.00 yoffset 5
+            pause 1.00
+            easein 2.00 yoffset 0
+            repeat
+        transform hangback:
+            easein 2.50 yoffset 4
+            pause 0.50
+            easein 2.50 yoffset 0
+            pause 4.00
+            repeat
+        transform terracestill:
+            easein 1.00 yoffset 0
+        transform terracescrolloff:
+            easeout 2.00 yoffset 1080
+        transform terracescrollon:
+            yoffset 1080
+            easein 2.00 yoffset 0
+        transform flutter1:
+            pause 0.25
+            easein 4.00 yoffset 5
+            pause 0.75
+            easein 1.00 yoffset -5
+            repeat
+        transform flutter2:
+            pause 0.50
+            easein 5.00 yoffset 10
+            pause 1.00
+            easein 1.50 yoffset -10
+            repeat
+        transform flutter3:
+            pause 0.20
+            easein 3.50 yoffset 8
+            pause 0.65
+            easein 0.80 yoffset -8
+            repeat
+        transform flutter4:
+            pause 0.25
+            yoffset 6
+            pause 0.25
+            yoffset -6
+            repeat
+        transform flutter5:
+            pause 0.30
+            yoffset 5
+            pause 0.30
+            yoffset -5
+            repeat
+
+    label terraceintro:
+
+        $ area = 321
+        play ambience "ambience_river.mp3" fadein 3.00
+        $ renpy.music.set_volume(0.70, channel='ambience')
+        show thoutalia at appear
+        show background terrace at appear
+        show potback at appear, hangback
+        show potwitherwhile at appear, hangfront
+        show flutter1 at appear, flutter1
+        show flutter2 normal at appear, flutter2
+        show flutter3 at appear, flutter3
+        show foole terrace gray at appear
+        show interface writing at appear
+        show textbox at appear
+        call vareset from _call_vareset_17
+        call totalreset from _call_totalreset_13
+        show thoughtotal at appear, total12, totalhov12
+        show total10 at appear, total10, totalhov10
+        show total9 at appear, total9, totalhov9
+        show total8 at appear, total8, totalhov8
+        show total7 at appear, total7, totalhov7
+        show total6 at appear, total6, totalhov6
+        show total5 at appear, total5, totalhov5
+        show total4 at appear, total4, totalhov4
+        show total3 at appear, total3, totalhov3
+        show total2 at appear, total2, totalhov2
+        show total1 at appear, total1, totalhov1
+        pause 5.00
+        play music "mus_terrace.ogg"
+    call fooletleft from _call_fooletleft
+    a "We will play one last little game together, stargazer."
+    call fooletneutral from _call_fooletneutral
+    a "A game perfectly befitting for the nickname that I have given you."
+    call fooletright from _call_fooletright
+    a "The rules of the game are simple as can be."
+    call fooletleft from _call_fooletleft_1
+    a "Connect the disaparate stars with lines of sight, then tell me what you make of them."
+    label constellations:
+        
+        if pointotal >= 10:
+            jump terraceend
+        if pointy == 0:
+            show foole terrace switch at shake
+            pause 0.10
+            show foole terrace gray at shake
+        if pointy == 1:
+            $ pointy = 0
+        $ point = 1
+        call writing from _call_writing_24
+        call question from _call_question_75
+        call hidechoice from _call_hidechoice_9
+        call screen conmenu
+
+        label conhand:
+            call answer from _call_answer_349
+            $ conhand = 1
+            show conhand h
+            call fooletleft from _call_fooletleft_2
+            call sun from _call_sun_48
+            call question from _call_question_76
+            menu:
+                q "What is it that you see in the stars?"
+
+                "HAND":
+                    call answer from _call_answer_350
+
+                "FOOT":
+                    call answer from _call_answer_351
+
+                "CLAWS":
+                    call answer from _call_answer_352
+
+                "PAW":
+                    call answer from _call_answer_353
+            call fooletneutral from _call_fooletneutral_1
+            a "It is surely some body part."
+            call fooletleft from _call_fooletleft_3
+            a "Strange how interchangeable they all seem with just a little abstraction."
+            show conhand g
+            jump constellations
+
+        label concane:
+            call answer from _call_answer_354
+            $ concane = 1
+            show concane h
+            call fooletright from _call_fooletright_1
+            call sun from _call_sun_49
+            call question from _call_question_77
+            menu:
+                q "What is it that you see in the stars?"
+
+                "CANE":
+                    call answer from _call_answer_355
+
+                "TREE":
+                    call answer from _call_answer_356
+                    if conanbranch == 0:
+                        $ conantree = 1
+                        call fooletneutral from _call_fooletneutral_2
+                        a "Do we suppose it bears starfruit for us?"
+                    if conanbranch == 1:
+                        call fooletneutral from _call_fooletneutral_3
+                        a "It seems we have found the origin of our branch."
+
+                "SIGN":
+                    call answer from _call_answer_357
+                    call fooletneutral from _call_fooletneutral_4
+                    a "This must be one of the star signs I have heard so very much about."
+                
+                "GUN" if conanviolent == 0:
+                    call answer from _call_answer_358
+                    $ conanviolent += 1
+                    call fooletneutral from _call_fooletneutral_5
+                    a "A sign of intergalactic warfare, how grim."
+
+                "ANOTHER GUN" if conanviolent > 0:
+                    call answer from _call_answer_359
+                    if conanviolent == 2:
+                        call fooletneutral from _call_fooletneutral_6
+                        a "You are not very good at this game of ours, starlet."
+                    if conanviolent == 1:
+                        $ conanviolent += 1
+                        call fooletneutral from _call_fooletneutral_7
+                        a "It seems you are having some violent thoughts tonight, starlet."
+            show concane g
+            jump constellations
+
+        label conhill:
+            call answer from _call_answer_360
+            $ conhill = 1
+            show conhill h
+            call fooletright from _call_fooletright_2
+            call sun from _call_sun_50
+            call question from _call_question_78
+            menu:
+                q "What is it that you see in the stars?"
+
+                "MOUNTAINS":
+                    call answer from _call_answer_361
+
+                "SUNRISE":
+                    call answer from _call_answer_362
+                    $ alignment += 1
+
+                "TEETH":
+                    call answer from _call_answer_363
+
+                "GRAPH":
+                    call answer from _call_answer_364
+            show conhill g
+            jump constellations
+
+        label conhouse:
+            call answer from _call_answer_365
+            $ conhouse = 1
+            call fooletleft from _call_fooletleft_4
+            call question from _call_question_79
+            call sun from _call_sun_51
+            show conhouse h
+            menu:
+                q "What is it that you see in the stars?"
+
+                "HOME":
+                    call answer from _call_answer_366
+                    call fooletneutral from _call_fooletneutral_8
+                    a "Seems it is quite a while away."
+
+                "ENVELOPE":
+                    call answer from _call_answer_367
+                    call fooletneutral from _call_fooletneutral_9
+                    a "Containing a message from the stars, most obviously."
+
+                "MACHINE":
+                    call answer from _call_answer_368
+                    call fooletneutral from _call_fooletneutral_10
+                    a "Perhaps it is of the same make as the one with which you view me."
+
+                "HELMET":
+                    call answer from _call_answer_369
+                    call fooletneutral from _call_fooletneutral_11
+                    a "An astronaut may have left it behind."
+            show conhouse g
+            jump constellations
+
+        label conline:
+            call answer from _call_answer_370
+            $ conline = 1
+            show conline h
+            call fooletleft from _call_fooletleft_5
+            call sun from _call_sun_52
+            call question from _call_question_80
+            menu:
+                q "What is it that you see in the stars?"
+
+                "US":
+                    call answer from _call_answer_371
+                    call fooletneutral from _call_fooletneutral_12
+                    a "You and I think alike, starlet."
+
+                "LINE":
+                    call answer from _call_answer_372
+                    $ meteor += 1
+                    call fooletneutral from _call_fooletneutral_13
+                    a "How unimaginative."
+
+                "STICK":
+                    call answer from _call_answer_373
+                    call fooletneutral from _call_fooletneutral_14
+                    if conantree == 0:
+                        $ conanbranch = 1
+                        a "Perhaps it fell off a constellation of a tree."
+                    if conantree == 1:
+                        a "It has fallen so far from our tree."
+
+                "POLE" if conanviolent == 0:
+                    call answer from _call_answer_374
+                    call fooletneutral from _call_fooletneutral_15
+                    aw "Something has to hold up the stars, I suppose."
+
+                "TINY GUN" if conanviolent > 0:
+                    call answer from _call_answer_375
+                    call fooletneutral from _call_fooletneutral_16
+                    if conanviolent == 2:
+                        a "You are not very good at this game of ours, starlet."
+                    if conanviolent == 1:
+                        $ conanviolent += 1
+                        a "It seems you are having some violent thoughts tonight, starlet."
+            show conline g
+            jump constellations
+
+        label constar:
+            call answer from _call_answer_376
+            $ constar = 1
+            show constar h
+            call fooletright from _call_fooletright_3
+            call sun from _call_sun_53
+            call question from _call_question_81
+            menu:
+                q "What is it that you see in the stars?"
+
+                "FRIEND":
+                    call answer from _call_answer_377
+                    call fooletneutral from _call_fooletneutral_17
+                    a "It would believe the same of you."
+
+                "LOVER":
+                    call answer from _call_answer_378
+                    call fooletneutral from _call_fooletneutral_18
+                    a "It would believe the same of you."
+
+                "GOD":
+                    call answer from _call_answer_379
+                    call fooletneutral from _call_fooletneutral_19
+                    a "It would believe the same of you."
+
+                "STAR":
+                    call answer from _call_answer_380
+                    call fooletneutral from _call_fooletneutral_20
+                    a "It would believe the same of you."
+            show constar g
+            jump constellations
+
+        label conflower:
+            call answer from _call_answer_381
+            $ conflower = 1
+            show conflower h
+            call fooletright from _call_fooletright_4
+            call sun from _call_sun_54
+            call question from _call_question_82
+            menu:
+                q "What is it that you see in the stars?"
+
+                "BIRD":
+                    call answer from _call_answer_382
+                    call fooletneutral from _call_fooletneutral_21
+                    a "Only one wing upon her back yet she has flown so very high, how aspirational."
+
+                "SERPENT":
+                    call answer from _call_answer_383
+                    call fooletneutral from _call_fooletneutral_22
+                    a "I suppose this was inevitable, every garden has a serpent or several."
+
+                "KITE":
+                    call answer from _call_answer_384
+                    call fooletneutral from _call_fooletneutral_23
+                    a "You would need quite a long string on that thing to lose it all the way up there."
+
+                "FLOWER":
+                    call answer from _call_answer_385
+                    call fooletneutral from _call_fooletneutral_24
+                    a "I will seek a few more and make a boquet for you."
+            show conflower g
+            jump constellations
+
+        label conhat:
+            call answer from _call_answer_386
+            $ conhat = 1
+            show conhat h
+            call fooletright from _call_fooletright_5
+            call sun from _call_sun_55
+            call question from _call_question_83
+            menu:
+                q "What is it that you see in the stars?"
+
+                "HAT":
+                    call answer from _call_answer_387
+                    call fooletneutral from _call_fooletneutral_25
+                    a "Tailored for one with their head in the clouds."
+
+                "COOKWARE":
+                    call answer from _call_answer_388
+                    call fooletneutral from _call_fooletneutral_26
+                    a "The handle is somewhat crooked, but it would serve well nonetheless."
+
+                "RODENT":
+                    call answer from _call_answer_389
+                    call fooletneutral from _call_fooletneutral_27
+                    a "Not even the far reaches of outer space are free from pests, it seems."
+
+                "BUG":
+                    call answer from _call_answer_390
+                    call fooletneutral from _call_fooletneutral_28
+                    a "The tables have turned, he now looks down upon us."
+            show conhat g
+            jump constellations
+
+        label congun:
+            call answer from _call_answer_391
+            $ congun = 1
+            show congun h
+            call fooletright from _call_fooletright_6
+            call sun from _call_sun_56
+            call question from _call_question_84
+            menu:
+                q "What is it that you see in the stars?"
+
+                "GLEEGIN":
+                    call answer from _call_answer_392
+                    call fooletneutral from _call_fooletneutral_29
+                    a "You say the silliest things sometimes, starlet."
+
+                "PUSHINPULLOT":
+                    call answer from _call_answer_393
+                    call fooletneutral from _call_fooletneutral_30
+                    a "You say the silliest things sometimes, starlet."
+
+                "TRIMORPHULATOR":
+                    call answer from _call_answer_394
+                    call fooletneutral from _call_fooletneutral_31
+                    a "You say the silliest things sometimes, starlet."
+
+                "GUN" if conanviolent == 0:
+                    call answer from _call_answer_395
+                    call fooletneutral from _call_fooletneutral_32
+                    $ conanviolent += 1
+                    a "A sign of intergalactic warfare, how grim."
+
+                "ANOTHER GUN" if conanviolent > 0:
+                    call answer from _call_answer_396
+                    call fooletneutral from _call_fooletneutral_33
+                    if conanviolent == 2:
+                        a "You are not very good at this game of ours, starlet."
+                    if conanviolent == 1:
+                        $ conanviolent += 1
+                        a "It seems you are having some violent thoughts tonight, starlet."
+            show congun g
+            jump constellations
+
+        label conhour:
+            call answer from _call_answer_397
+            $ conhour = 1
+            show conhour h
+            call fooletleft from _call_fooletleft_6
+            call sun from _call_sun_57
+            call question from _call_question_85
+            menu:
+                q "What is it that you see in the stars?"
+
+                "HOURGLASS":
+                    call answer from _call_answer_398
+                    call fooletneutral from _call_fooletneutral_34
+                    a "I see the very same."
+                    call fooletleft from _call_fooletleft_7
+                    a "It is hard to get time off the mind at the moment."
+
+                "VASE":
+                    call answer from _call_answer_399
+                    call fooletneutral from _call_fooletneutral_35
+                    a "What a nice sight."
+                    call fooletleft from _call_fooletleft_8
+                    a "It appears as an hourglass to me, though I suppose that is merely because it is hard to get time off my mind at the moment."
+
+                "BEAKER":
+                    call answer from _call_answer_400
+                    call fooletneutral from _call_fooletneutral_36
+                    a "What a nice sight."
+                    call fooletleft from _call_fooletleft_9
+                    a "It appears as an hourglass to me, though I suppose that is merely because it is hard to get time off my mind at the moment."
+
+                "BOW":
+                    call answer from _call_answer_401
+                    call fooletneutral from _call_fooletneutral_37
+                    a "What a nice sight."
+                    call fooletleft from _call_fooletleft_10
+                    a "It appears as an hourglass to me, though I suppose that is merely because it is hard to get time off my mind at the moment."
+            show conhour g
+            jump constellations
+    label terraceend:
+
+        show flutter1 at terracestill
+        show flutter2 normal at terracestill
+        show flutter3 at terracestill
+        call fooletneutral from _call_fooletneutral_38
+        a "And with that,{w=1.00} our time together comes to an end."
+        call writing from _call_writing_25
+        show thoughtotal at shake, total12, terracescrolloff
+        pause 0.02
+        show total10 at shake, total10, terracescrolloff
+        pause 0.02
+        show total9 at shake, total9, terracescrolloff
+        pause 0.02
+        show total8 at shake, total8, terracescrolloff
+        pause 0.02
+        show total7 at shake, total7, terracescrolloff
+        pause 0.02
+        show total6 at shake, total6, terracescrolloff
+        pause 0.02
+        show total5 at shake, total5, terracescrolloff
+        pause 0.02
+        show total4 at shake, total4, terracescrolloff
+        pause 0.02
+        show total3 at shake, total3, terracescrolloff
+        pause 0.02
+        show total2 at shake, total2, terracescrolloff
+        pause 0.02
+        show total1 at shake, total1, terracescrolloff
+        pause 1.00
+        show textbox at disappear
+        show interface at disappear
+        stop music fadeout 5.00
+        stop ambience fadeout 3.00
+        show foole terrace at disappear
+        show potback at disappear
+        show potwitherwhile at disappear
+        show background at disappear
+        show thoutalia at disappear
+        show flutter1 at disappear
+        show flutter2 at disappear
+        show flutter3 at disappear
+        show concane g at disappear
+        show conhat g at disappear
+        show conflower g at disappear
+        show constar g at disappear
+        show conline g at disappear
+        show conhouse g at disappear
+        show conhill g at disappear
+        show conhand g at disappear
+        show conhour g at disappear
+        show congun g at disappear
+        pause 8.00
+        hide foole terrace
+        hide potback
+        hide potwitherwhile
+        hide background
+        hide thoutalia
+        stop ambience
+        hide flutter1
+        hide flutter2
+        hide flutter3
+        hide concane
+        hide conhat
+        hide conflower
+        hide constar
+        hide conline
+        hide conhouse
+        hide conhill
+        hide conhand
+        hide conhour
+        hide congun
+        jump arenaintro
+
+label arena:
+
+    label arenaimages:
+
+        image greater neutral:
+            "images/arena/greater wibble.png"
+            pause 0.50
+            "images/arena/greater wobble.png"
+            pause 0.50
+            repeat
+        image greater damage:
+            "images/arena/greater damage.png"
+            pause 0.05
+            "images/arena/greater flash.png"
+            pause 0.05
+            repeat
+        image greater cast:
+            "images/arena/greater cast.png"
+            pause 0.05
+            "images/arena/greater cast flash.png"
+            pause 0.05
+            repeat
+        image items = "images/arena/items.png"
+        image hp = ConditionSwitch("hp<1", "images/arena/hp 0.png", "hp==1", "images/arena/hp 1.png", "hp==2", "images/arena/hp 2.png", "hp==3", "images/arena/hp 3.png", "hp==4", "images/arena/hp 4.png", "hp==5", "images/arena/hp 5.png", "hp==6", "images/arena/hp 6.png")
+        image yourcell = "images/arena/yourcell.png"
+        image muralscroll:
+            "images/arena/muralscrollwibble.png"
+            pause 0.50
+            "images/arena/muralscrollwobble.png"
+            pause 0.50
+            repeat
+        image distantscroll:
+            "images/arena/distant scroll wibble.png"
+            pause 0.50
+            "images/arena/distant scroll wobble.png"
+            pause 0.50
+            repeat
+        image closescroll planets = "images/arena/close scroll.png"
+        image closescroll wall = "images/arena/close scroll wall.png"
+        image closescroll decisions = "images/arena/close scroll decisions.png"
+        image closescroll silence = "images/arena/close scroll silence.png"
+        image closescroll sorrows = "images/arena/close scroll sorrows.png"
+        image closescroll lights = "images/arena/close scroll lights.png"
+        image closescroll mirrors = "images/arena/close scroll mirrors.png"
+        image dark = "images/arena/dark.png"
+        image edge = "images/arena/edge.png"
+        image flash = "images/arena/flash.png"
+        image border = "images/arena/border.png"
+        image wish:
+            "images/arena/wish wibble.png"
+            pause 0.50
+            "images/arena/wish wobble.png"
+            pause 0.50
+            repeat
+        image curtaincall:
+            "images/arena/curtaincall wibble.png"
+            pause 0.50
+            "images/arena/curtaincall wobble.png"
+            pause 0.50
+            repeat
+        image background arena = "images/arena/background arena.png"
+        image greatwaterfall:
+            "images/arena/greatwaterfall wibble.png"
+            pause 0.10
+            "images/arena/greatwaterfall wobble.png"
+            pause 0.10
+            repeat
+        image greaterwaterfall:
+            "images/arena/greaterwaterfall wibble.png"
+            pause 0.10
+            "images/arena/greaterwaterfall wobble.png"
+            pause 0.10
+            repeat
+        image healthmind = "images/arena/healthmind"
+        image healthbody = "images/arena/healthbody"
+        image healthheart = "images/arena/healthheart"
+
+    label arenatransformations:
+
+        transform arenascrollon:
+            yoffset 2160
+            easein 0.50 yoffset 0
+        transform arenascrolloff:
+            yoffset 0
+            easeout 0.10 yoffset 1080
+        transform arenascrollloop:
+            yoffset 0
+            easein 0.50 yoffset 0
+        transform arenascrollelevatorloop:
+            yoffset -1080
+            linear 0.25 yoffset 0
+            repeat
+        transform arenascrollelevatorstart:
+            yoffset -2160
+            linear 0.50 yoffset 0
+        transform arenascrollelevatorend:
+            yoffset -1080
+            linear 0.30 yoffset 0
+            yoffset -1080
+            linear 0.35 yoffset 0
+            yoffset -1080
+            linear 0.40 yoffset 0
+            yoffset -1080
+            linear 0.50 yoffset 0
+            yoffset 0
+            easein 1.50 yoffset 1080
+        transform arenascrollgreat:
+            yoffset -1080
+            easein 2.00 yoffset 0
+        transform arenascrollscreen:
+            yoffset -1080
+            easein 3.00 yoffset 0
+        transform arenascrollback:
+            yoffset -1080
+            easein 4.00 yoffset 0
+
+        transform scrollcell:
+            easein 0.50 xoffset -200
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            linear 0.75 xoffset 1920
+            xoffset 0
+            easein 0.25 xoffset 200
+            pause 0.10
+            easein 0.25 xoffset 0
+            pause 1.00
+            repeat
+        transform scrolldebris:
+            linear 1.50 xoffset -1920
+            xoffset 0
+            repeat
+        transform scrollspace:
+            linear 12.00 xoffset -1920
+            xoffset 0
+            repeat
+        transform scrollmuralclosegreat:
+            easein 0.10 xoffset -192
+            pause 0.30
+            easein 0.10 xoffset -384
+            pause 0.30
+            easein 0.10 xoffset -576
+            pause 0.30
+            easein 0.10 xoffset -768
+            pause 0.30
+            easein 0.10 xoffset -960
+            pause 0.30
+            easein 0.10 xoffset -1152
+            pause 0.30
+            easein 0.10 xoffset -1344
+            pause 0.30
+            easein 0.10 xoffset -1536
+            pause 0.30
+            easein 0.10 xoffset -1728
+            pause 0.30
+            easein 0.10 xoffset -1920
+            pause 0.30
+            xoffset 0
+            repeat
+        transform scrollmuralfargreat:
+            pause 0.10
+            easein 0.30 xoffset 96
+            xoffset 0
+            repeat
+        transform hoverhealthup:
+            pause 0.60
+            yoffset 2
+            pause 0.60
+            yoffset 0
+            pause 0.60
+            yoffset -2
+            pause 0.60
+            yoffset 0
+            repeat
+        transform hoverhealthdown:
+            pause 0.75
+            yoffset -2
+            pause 0.75
+            yoffset 0
+            pause 0.75
+            yoffset 2
+            pause 0.75
+            yoffset 0
+            repeat
+        transform hoverhealthmid:
+            pause 0.85
+            yoffset -3
+            pause 0.85
+            yoffset 0
+            pause 0.85
+            yoffset 3
+            pause 0.85
+            yoffset 0
+            repeat
+        transform hoverhealthempty:
+            pause 1.00
+            yoffset -1
+            pause 1.00
+            yoffset 0
+            pause 1.00
+            yoffset 1
+            pause 1.00
+            yoffset 0
+            repeat
+
+    label arenafunctions:
+
+        label attack:
+            
+            show textbox at shake
+            show interface analytical at shake
+            show greater switch at shake
+            pause 0.10
+            show choice1 at shake, choice1
+            show choice2 at shake, choice2
+            show choice3 at shake, choice3
+            show choice4 at shake, choice4
+            show greater cast at shakelots
+            $ beeps = 0
+            while beeps < 0:
+                $ randosound = renpy.random.randint(1, 5)
+                if randosound == 1:
+                    queue blablas "voice infirmary 1.mp3"
+                if randosound == 2:
+                    queue blablas "voice infirmary 2.mp3"
+                if randosound == 3:
+                    queue blablas "voice infirmary 3.mp3"
+                if randosound == 4:
+                    queue blablas "voice infirmary 4.mp3"
+                if randosound == 5:
+                    queue blablas "voice infirmary 5.mp3"
+                $ beeps += 1
+            $ renpy.music.set_audio_filter("music", None, replace=True)
+            $ point = 0
+            return
+
+        label counter:
+
+            $ pointotal += 1
+            hide choice1
+            hide choice2
+            hide choice3
+            hide choice4
+            $ hp += -1
+            show hp at shake
+            show interface writing at shake
+            play sound "damage.mp3"
+            show greater damage at center, shakelots
+            show closescroll planets
+            if turn < 15:
+                pause 0.50
+                show greater switch at shake
+                pause 0.05
+                show greater neutral at sunhoverslow
+            $ question = 0
+            $ renpy.music.set_audio_filter("music", None, replace=True)
+            show interface sun at shake
+            return
+
+    label arenaintro:
+
+        call totalreset from _call_totalreset_14
+        show foole hall switch at shake
+        show background buildup at shake
+        show interface sun at shake
+        show textbox at shake
+        show total1 at shake, total1, totalhov1
+        call vareset from _call_vareset_18
+        $ area = 1
+        play sound "appear.mp3"
+        play music "mus_vsfoole_pause.ogg"
+        call foolewoah from _call_foolewoah_22
+        call sun from _call_sun_58
+        a "Nevermind, we cannot allow the world to end yet!"
+        call fooleorbit from _call_fooleorbit_26
+        a "You and I need something more fantastically finalistic to usher in the end."
+        call fooleshrug from _call_fooleshrug_41
+        a "Look upon me a moment longer, I promise it will be worth your while!"
+        call foolefloat from _call_foolefloat_11
+        a "I shall show you my fabulous final forme, or somesuch!"
+        call fooleorbit from _call_fooleorbit_27
+        call question from _call_question_86
+        hide choice3
+        hide choice4
+        menu:
+            q "Are you sensitive to flashing lights?"
+            
+            "YES":
+                $ sensitive = 1
+                call answer from _call_answer_402
+                call foolesplit from _call_foolesplit_13
+                a "Then I will dim the impending lights for you."
+
+            "NO":
+                call answer from _call_answer_403
+        call fooleswoosh from _call_fooleswoosh_12
+        a "Ready yourself for one last dazzling onslaught of inquiries, stargazer!"
+        call foolesplit from _call_foolesplit_14
+        a "Though{w=0.75} I will require a moment more to set the stage."
+        call writing from _call_writing_26
+        call foolewoah from _call_foolewoah_23
+        pause 0.02
+        play music "mus_vsfoole_intro.ogg" noloop
+        call writing from _call_writing_27
+        show foole at arenascrolloff
+        show background at arenascrolloff
+        show interface at arenascrolloff
+        show textbox at arenascrolloff
+        show starscroll at arenascrollelevatorstart
+        show total1 at arenascrolloff
+        pause 0.50
+        show starscroll at arenascrollelevatorloop
+        pause 3.00
+        show elevator closed at arenascrolloff
+        pause 2.00
+        show starscroll at arenascrollelevatorend
+        pause 3.00
+        hide foole
+        hide background
+        pause 1.00
+        $ area = 999
+        show textbox at arenascrollgreat
+        pause 0.10
+        show interface at arenascrollgreat
+        show muralfar at arenascrollback, scrollmuralfargreat
+        show muralclose at arenascrollback, scrollmuralclosegreat
+        show distantscroll at arenascrollback, scrollspace
+        show closescroll planets at arenascrollback, scrolldebris
+        show greatwaterfall at arenascrollback
+        show yourcell at center, arenascrollback, scrollcell
+        show background arena at arenascrollback
+        show greaterwaterfall at arenascrollback
+        show border at arenascrollback
+        show curtaincall at arenascrollback
+        pause 0.15
+        show hpscreen behind curtaincall at arenascrollscreen, moonhover
+        show greater neutral at arenascrollgreat, sunhoverslow
+        pause 3.75
+        call analytical from _call_analytical_7
+        call vareset from _call_vareset_19
+        play sound "appear.mp3"
+        q "The Greater Foole appears!"
+        show hp behind greater at shake
+        call sun from _call_sun_59
+        play music "mus_vsfoole.ogg"
+        call totalreset from _call_totalreset_15
+        hide total24
+        hide total23
+        hide total22
+        hide total21
+        hide total20
+        hide total19
+        hide total18
+        hide total17
+        hide total16
+        hide total15
+        hide total14
+        hide total13
+        hide total12
+        hide total11
+        hide total10
+        hide total9
+        hide total8
+        hide total7
+        show total6 at shake, total6, totalhov6
+        show total5 at shake, total5, totalhov5
+        show total4 at shake, total4, totalhov4
+        show total3 at shake, total3, totalhov3
+        show total2 at shake, total2, totalhov2
+        show total1 at shake, total1, totalhov1
+        call vareset from _call_vareset_20
+        $ turn = 0
+    label turns:
+        
+        $ turn += 1
+        call attack from _call_attack
+        play sound "what.mp3"
+        if turn == 1:
+            if sensitive == 0:
+                show closescroll wall
+            menu:
+                q "What will you do when walls close around you?"
+
+                "TALK":
+                    call counter from _call_counter
+                    $ alignment += 1
+
+                "PUSH":
+                    call counter from _call_counter_1
+                    $ alignment += 1
+
+                "SCALE":
+                    call counter from _call_counter_2
+                    $ alignment += -1
+
+                "BREAK":
+                    call counter from _call_counter_3
+                    $ meteor += 1
+            ag "The questions will never cease, we will have fun forevermore!"
+            jump turns
+        if turn == 2:
+            if sensitive == 0:
+                show closescroll decisions
+            menu:
+                q "How will you think when decisions paralyze you?"
+
+                "FAST":
+                    call counter from _call_counter_4
+                    $ alignment += -1
+
+                "HARD":
+                    call counter from _call_counter_5
+                    $ alignment += -1
+
+                "AHEAD":
+                    call counter from _call_counter_6
+                    $ alignment += 1
+
+                "TWICE":
+                    call counter from _call_counter_7
+                    $ alignment += 1
+            ag "There is endless spectacle within this world of mine, we cannot leave it to rot!"
+            jump turns
+        if turn == 3:
+            if sensitive == 0:
+                show closescroll silence
+            menu:
+                q "Who will you call when silence torments you?"
+
+                "FRIENDS":
+                    call counter from _call_counter_8
+
+                "FAMILY":
+                    call counter from _call_counter_9
+
+                "LOVERS":
+                    call counter from _call_counter_10
+
+                "STRANGERS":
+                    call counter from _call_counter_11
+                    $ meteor += -1
+            ag "My galleries and theaters and cryptic cathedrals have surely made magnificent memories for you!"
+            jump turns
+        if turn == 4:
+            if sensitive == 0:
+                show closescroll sorrows
+            menu:
+                q "How will you breathe when sorrows drown you?"
+
+                "FREELY":
+                    call counter from _call_counter_12
+                    $ alignment += 1
+
+                "EASILY":
+                    call counter from _call_counter_13
+                    $ alignment += -1
+
+                "HARDLY":
+                    call counter from _call_counter_14
+
+                "WORDLESSLY":
+                    call counter from _call_counter_15
+                    $ meteor += 1
+            ag "Delight in darkness with me, don the guise of night!"
+            jump turns
+        if turn == 5:
+            if sensitive == 0:
+                show closescroll lights
+            menu:
+                q "How will you act when stagelights set you ablaze?"
+
+                "TOUGH":
+                    call counter from _call_counter_16
+                    $ alignment += -1
+
+                "SMART":
+                    call counter from _call_counter_17
+                    $ alignment += 1
+
+                "CRAZY":
+                    call counter from _call_counter_18
+                    $ meteor += 1
+
+                "TOGETHER":
+                    call counter from _call_counter_19
+                    $ alignment += 1
+            call sun from _call_sun_60
+            ag "The sun will never rise so long as you are with me!"
+            jump turns
+        if turn == 6:
+            if sensitive == 0:
+                show closescroll mirrors
+            menu:
+                q "How will you look when broken glass distorts you?"
+
+                "CUTE":
+                    call counter from _call_counter_20
+                    $ alignment += 1
+
+                "COOL":
+                    call counter from _call_counter_21
+                    $ alignment += 1
+
+                "RIDICULOUS":
+                    call counter from _call_counter_22
+                    $ meteor += 1
+
+                "BEYOND":
+                    call counter from _call_counter_23
+                    $ alignment += 2
+            call writing from _call_writing_28
+            call sun from _call_sun_61
+            ag "Disregard the indicators, they are subject to my whims and will be adjusted accordingly!"
+            hide total6
+            hide total5
+            hide total4
+            hide total3
+            hide total2
+            hide total1
+            show total12 at shake, total12, totalhov12
+            show total11 at shake, total11, totalhov11
+            show total10 at shake, total10, totalhov10
+            show total9 at shake, total9, totalhov9
+            show total8 at shake, total8, totalhov8
+            show total7 at shake, total7, totalhov7
+            show total6 at shake, total6, totalhov6
+            show total5 at shake, total5, totalhov5
+            show total4 at shake, total4, totalhov4
+            show total3 at shake, total3, totalhov3
+            show total2 at shake, total2, totalhov2
+            show total1 at shake, total1, totalhov1
+            $ hp = 6
+            show hp at shake
+            jump turns
+        if turn == 7:
+            if sensitive == 0:
+                show closescroll wall
+            menu:
+                q "What?"
+
+                "HUH":
+                    call counter from _call_counter_24
+                    $ alignment += 0
+
+                "HEY":
+                    call counter from _call_counter_25
+                    $ alignment += 0
+
+                "EEK":
+                    call counter from _call_counter_26
+                    $ alignment += 0
+
+                "BLAH":
+                    call counter from _call_counter_27
+                    $ alignment += 0
+            jump turns
+        if turn == 8:
+            if sensitive == 0:
+                show closescroll decisions
+            menu:
+                q "How?"
+
+                "MAGICS":
+                    call counter from _call_counter_28
+                    $ alignment += 1
+
+                "MIGHT":
+                    call counter from _call_counter_29
+                    $ alignment += -1
+
+                "WILL":
+                    call counter from _call_counter_30
+                    $ alignment += 0
+
+                "CHANCE":
+                    call counter from _call_counter_31
+                    $ meteor += 1
+            jump turns
+        if turn == 9:
+            if sensitive == 0:
+                show closescroll silence
+            menu:
+                q "Why?"
+
+                "FORWANT":
+                    call counter from _call_counter_32
+                    $ alignment += 1
+
+                "FOREASON":
+                    call counter from _call_counter_33
+                    $ alignment += -1
+
+                "FORWHAT":
+                    call counter from _call_counter_34
+                    $ comet += 1
+
+                "FORNAUGHT":
+                    call counter from _call_counter_35
+                    $ meteor += 1
+            jump turns
+        if turn == 10:
+            if sensitive == 0:
+                show closescroll sorrows
+            menu:
+                q "When?"
+
+                "EVERMORE":
+                    call counter from _call_counter_36
+                    $ alignment += 1
+
+                "THENFORTH":
+                    call counter from _call_counter_37
+                    $ alignment += -1
+
+                "SOMETIME":
+                    call counter from _call_counter_38
+                    $ comet += 1
+
+                "NEVERMORE":
+                    call counter from _call_counter_39
+                    $ meteor += 1
+            jump turns
+        if turn == 11:
+            if sensitive == 0:
+                show closescroll lights
+            menu:
+                q "Where?"
+
+                "HEREOVER":
+                    call counter from _call_counter_40
+                    $ alignment += 1
+
+                "THEREUNDER":
+                    call counter from _call_counter_41
+                    $ alignment += -1
+
+                "SOMEPLACE":
+                    call counter from _call_counter_42
+                    $ comet += 1
+
+                "NOWHERE":
+                    call counter from _call_counter_43
+                    $ meteor += 1
+            jump turns
+        if turn == 12:
+            if sensitive == 0:
+                show closescroll mirrors
+            menu:
+                q "Who?"
+
+                "YOUANDI":
+                    call counter from _call_counter_44
+                    $ alignment += 0
+
+                "USANDTHEM":
+                    call counter from _call_counter_45
+                    $ alignment += 0
+
+                "SOMEBODY":
+                    call counter from _call_counter_46
+                    $ comet += 1
+
+                "NOBODY":
+                    call counter from _call_counter_47
+                    $ meteor += 1
+            stop music
+            play music "mus_vsfoole_pause.ogg" fadein 3.00
+            jump turns
+        if turn > 12 and turn < 30:
+            if sensitive == 0:
+                $ random = renpy.random.randint(1, 6)
+                if random == 1:
+                    show closescroll wall
+                if random == 2:
+                    show closescroll decisions
+                if random == 3:
+                    show closescroll silence
+                if random == 4:
+                    show closescroll sorrows
+                if random == 5:
+                    show closescroll lights
+                if random == 6:
+                    show closescroll mirrors
+            menu:
+                q ""
+
+                " ":
+                    call counter from _call_counter_48
+
+                " ":
+                    call counter from _call_counter_49
+
+                " ":
+                    call counter from _call_counter_50
+
+                " ":
+                    call counter from _call_counter_51
+            if turn == 13:
+                call sun from _call_sun_62
+                ag "It would seem that{w=0.50} I am almost out of words."
+                call writing from _call_writing_29
+            if turn == 14:
+                call sun from _call_sun_63
+                ag "Alas, I am out of words, I am out of time, and soon {w=1.00}I will be out of company."
+                call writing from _call_writing_30
+            if turn == 15:
+                call sun from _call_sun_64
+                ag "Please {w=0.50}marvel a moment longer, before the day does away with me."
+                call writing from _call_writing_31
+            jump turns
+        if turn > 29:
+            call counter from _call_counter_52
+            call writing from _call_writing_32
+            stop music
+            hide closescroll
+            hide muralfar
+            hide muralclose
+            hide distantscroll
+            hide closescroll planets
+            hide greatwaterfall
+            hide yourcell
+            hide background arena
+            hide greaterwaterfall
+            hide greater neutral
+            hide border
+            hide hpscreen
+            hide curtaincall
+            hide greater neutral
+            hide hp
+            stop music
+            stop blablas
+            hide interface
+            hide textbox
+            hide total24
+            hide total23
+            hide total22
+            hide total21
+            hide total20
+            hide total19
+            hide total18
+            hide total17
+            hide total16
+            hide total15
+            hide total14
+            hide total13
+            hide total12
+            hide total11
+            hide total10
+            hide total9
+            hide total8
+            hide total7
+            hide total6
+            hide total5
+            hide total4
+            hide total3
+            hide total2
+            hide total1
+            play sound "appear.mp3"
+            pause 5.00
+            jump exit
+
+label exit:
+
+    show interface writing at scrollontext
+    show textbox at scrollontext
+    pause 0.10
+    show background cell at scrolloncell
+    show foole hall switch at scrolloncell
+    pause 3.00
+    call sun from _call_sun_65
+    $ area = 1
+    call fooleswitch from _call_fooleswitch_7
+    a "The guise of night wears thin."
+    call fooleorbit from _call_fooleorbit_28
+    a "This world of mine cannot go on forever,{w=0.75} and you must return to your own."
+    if brought == 1:
+        call fooleshrug from _call_fooleshrug_42
+        a "That curiosity which brought you here has hopefully been satiated."
+    if brought == 2:
+        call fooleshrug from _call_fooleshrug_43
+        a "That bordeom which brought here you has hopefully been vanquished."
+    if brought == 3:
+        call fooleshrug from _call_fooleshrug_44
+        a "That madness which brought you here has hopefully been eased."
+    if brought == 4:
+        call fooleshrug from _call_fooleshrug_45
+        a "I hope that I did not disappoint my most fanatical onlooker."
+    call foolefloat from _call_foolefloat_12
+    a "Please do think of me, even as I pale in day's light."
+    if pair == 1:
+        call fooleshrug from _call_fooleshrug_46
+        a "And give a greeting from yours truly to your other half, if they are not already beside you."
+    call writing from _call_writing_33
+    call fooleorbit from _call_fooleorbit_29
+    pause 2.75
+    call fooleswitch from _call_fooleswitch_8
+    pause 2.25
+    call fooleorbit from _call_fooleorbit_30
+    if endings == 1:
+        a "While this may not seem to be the happy ending you desire, I promise it is only the beginning."
+        call fooleshrug from _call_fooleshrug_47
+        a "We will meet again, whenever night falls."
+    if endings == 2:
+        a "Ultimately, I am happy to grant you the tragic ending you desire."
+        call fooleshrug from _call_fooleshrug_48
+        a "All this agony is for you, how horribly it hurts!"
+    if endings == 3:
+        a "Surely my vagueries have granted the ambigious ending you desire."
+        call fooleshrug from _call_fooleshrug_49
+        a "May you never make sense of me, stargazer."
+    if endings == 4:
+        a "The end will never come as long as you keep me in mind."
+        call fooleshrug from _call_fooleshrug_50
+        a "Carry me with you, show me something new."
+    call writing from _call_writing_34
+    call fooleswitch from _call_fooleswitch_9
+    pause 2.00
+    call fooleswoosh from _call_fooleswoosh_13
+    a "For a moment,{w=0.50} it really did feel as if I were something more."
+    call fooleswitch from _call_fooleswitch_10
+    a "But{w=0.25} I suppose we all need some sunlight."
+    call fooleorbit from _call_fooleorbit_31
+    a "Now only one question remains,{w=0.50} stargazer."
+    call totalreset from _call_totalreset_16
+    call vareset from _call_vareset_21
+    show foole hall switch at shake
+    pause 0.10
+    show light unaligned behind foole at shake
+    show bars aligned behind foole at shake
+    show foole cell mask at shake
+    show total1 at shake, total1, totalhov1
+    call question from _call_question_87
+    menu:
+        q "What will you do when the world ends?{fast}"
+
+        "LAUGH":
+            $ alignment += 0
+
+        "CRY":
+            $ alignment += 0
+
+        "REST":
+            $ comet += 0
+
+        "SCREAM":
+            $ meteor += 0
+    call answer from _call_answer_404
+    call writing from _call_writing_35
+    call foolecellswitch from _call_foolecellswitch
+    pause 3.00
+    show total1 at shake, total1, terracescrolloff
+    call sun from _call_sun_66
+    if meteor >= 15 and meteor >= comet:
+        a "At last{w=0.50} you are aligned,{w=1.00} with that of the meteor."
+        hide textbox
+        show emptyface
+        call writing from _call_writing_36
+        show bars aligned  at shake, alignmenthover
+        show light meteorical at shake, alignmenthover
+        play music "mus_meteoric_resolution.ogg" noloop
+        show light meteorical at disappear
+        pause 5.00
+        show background at disappear
+        show foole at disappear
+        pause 5.00
+        show endcredits at appear
+        pause 25.00
+        jump doodles
+    if comet >= 13 and comet >= meteor:
+        a "At last{w=0.50} you are aligned,{w=1.00} with that of the comet."
+        hide textbox
+        show emptyface
+        call writing from _call_writing_37
+        show bars aligned  at shake, alignmenthover
+        show light cometary at shake, alignmenthover
+        play music "mus_cometary_resolution.ogg" noloop
+        show light cometary at disappear
+        pause 5.00
+        show background at disappear
+        show foole at disappear
+        pause 5.00
+        show endcredits at appear
+        pause 28.00
+        jump doodles
+    if alignment <= 10:
+        a "At last{w=0.50} you are aligned,{w=1.00} with that of the sun."
+        hide textbox
+        show emptyface
+        call writing from _call_writing_38
+        show bars aligned  at shake, alignmenthover
+        show light sunny at shake, alignmenthover
+        play music "mus_sunny_resolution.ogg" noloop
+        pause 5.00
+        show background at disappear
+        show foole at disappear
+        pause 5.00
+        show endcredits at appear
+        pause 38.00
+        show light sunny at disappear
+        jump doodles
+    if alignment >= 30:
+        a "At last{w=0.50} you are aligned,{w=1.00} with that of the moon."
+        hide textbox
+        show emptyface
+        call writing from _call_writing_39
+        show bars aligned  at shake, alignmenthover
+        show light moony at shake, alignmenthover
+        play music "mus_moony_resolution.ogg" noloop
+        pause 5.00
+        show background at disappear
+        show foole at disappear
+        pause 5.00
+        show endcredits at appear
+        pause 35.00
+        show light moony at disappear
+        jump doodles
+    else:
+        a "At last{w=0.50} you are aligned,{w=1.00} with that of the eclipse."
+        hide textbox
+        show emptyface
+        call writing from _call_writing_40
+        show bars aligned  at shake, alignmenthover
+        show light worldly at shake, alignmenthover
+        play music "mus_worldly_resolution.ogg" noloop
+        pause 5.00
+        show background at disappear
+        show foole at disappear
+        pause 5.00
+        show endcredits at appear
+        pause 35.00
+        show light worldly at disappear
+        jump doodles
+
+    label doodles:
+        
+        show endcredits at disappear
+        stop music
+        pause 5.00
+        hide bars
+        hide emptyface
+        show textbox at shake
+        call sun from _call_sun_67
+        a "There is nothing left to see, nothing left to hear, nothing left to ask,{w=1.00} yet you remain here with me."
+        call writing from _call_writing_41
+        pause 2.75
+        call sun from _call_sun_68
+        a "Powerless as I now am, there is little left to do but ramble."
+        call writing from _call_writing_42
+        pause 1.75
+        call sun from _call_sun_69
+        a "Considering that you are still by my side, I might assume that you would enjoy such a thing."
+        call writing from _call_writing_43
+        pause 2.25
+        call sun from _call_sun_70
+        a "Perhaps I could speak of my cellmates."
+        a "To speak as if I built this world alone would be so very fradulent of me."
+        a "While they are not alongside me as I had always hoped,{w=0.50} they deserve credit nontheless."
+        a "Allow me to illustrate them for you, stargazer."
+        call writing from _call_writing_44
+        pause 1.75
+        show doodledoctor at shake
+        play sound "voice_scrawl.mp3"
+        pause 1.00
+        call sun from _call_sun_71
+        a "This illustration is the doctor, locked away for her madness."
+        a "I credit her for my survival, as she bestowed both blood and wisdom upon me."
+        a "She possessed technical expertise in a variety of matters, much of which was needed to make a world."
+        a "Every cellmate besides myself and the saege considered her a danger."
+        a "While her exterior was abrasive, a warm heart beat beneath it all the same."
+        if wear == 2:
+            call writing from _call_writing_45
+            pause 1.75
+            call sun from _call_sun_72
+            a "You don her rags."
+            a "She tore them to pieces and applied them atop wounds, hence why so little remains of them."
+            a "You ought to be honored to have some of her blood upon you in this moment."
+        call writing from _call_writing_46
+        pause 2.25
+        show doodlenoble at shake
+        play sound "voice_scrawl.mp3"
+        pause 1.00
+        call sun from _call_sun_73
+        a "This illustration is the noble, locked away for his failure."
+        a "I credit him for competition, which ultimately made me both mad and better."
+        a "Noble blood is merely a myth, so his existence is a lie in my eyes."
+        a "He was a boisterous beast of a man, beating his chest and calling for combat and causing all sorts of commotion."
+        a "Some would entertain his delusions of grandeur, though I was not among them."
+        a "However,{w=0.50}I suppose some part of myself misses the excitement brought about by his awfulness."
+        a "A rival is not so different from a lover, and with much exposure one often becomes the other."
+        a "Not to say that is what happened here, I assure you he is despised to this very day!"
+        if wear == 3:
+            call writing from _call_writing_47
+            pause 1.75
+            call sun from _call_sun_74
+            a "You don his rags."
+            a "They look far better on you than they ever did on he."
+        call writing from _call_writing_48
+        pause 1.50
+        show doodlebeggar at shake
+        play sound "voice_scrawl.mp3"
+        pause 1.00
+        call sun from _call_sun_75
+        a "This illustration is the beggar, locked away for her perversion."
+        a "I credit her for my muse, as I always was awed by her being."
+        a "Forevers would pass without a word or a whim from the woman, though I sought her company all the same."
+        a "That rare radiant smile of hers said far more than words ever could anyway."
+        a "I believed that she was as beautiful as could be, but she could never see beyond her blemishes."
+        if bodygood == 4:
+            a "Though I am certain that you give her good looks competiton, stargazer."
+        if bodybad == 4:
+            a "I suspect the same is true of you, stargazer."
+        call writing from _call_writing_49
+        pause 1.25
+        call sun from _call_sun_76
+        a "Her silence sounded different to everyone."
+        a "The noble was offended, the students were bored, the doctor was driven to cure it."
+        a "I always thought it sounded lovely."
+        call writing from _call_writing_50
+        pause 2.25
+        call sun from _call_sun_77
+        a "Leaving her behind was among the hardest decisions ever made, but I could not stand stillness any longer."
+        a "A part of myself was surely left with her, {w=0.50}and I hope that it is cherished."
+        if wear == 4:
+            call writing from _call_writing_51
+            pause 1.75
+            call sun from _call_sun_78
+            a "You don her rags."
+            a "It is wonderful to see them in motion."
+        call writing from _call_writing_52
+        pause 2.50
+        show doodlestudents at shake
+        play sound "voice_scrawl.mp3"
+        pause 1.00
+        call sun from _call_sun_79
+        a "These illustrations are the students, locked away for their curiosity."
+        a "I credit them for communications, spreading word of my wonders and bringing back whatever was heard."
+        a "The two of them were close as can be, though the exact age and nature of this relationship was unclear to us all."
+        a "Whatever they were, they were very fond of yours truly, always tugging at my rags and asking about my artworks and such."
+        a "They cited me as an inspiration, which may well be the highest honor I have."
+        a "The rest of the cellmates seemed to consider the students pests to be swatted away, despite their adorability."
+        a "Though their act could become stale without intermission, I suppose."
+        call writing from _call_writing_53
+        pause 1.75
+        call sun from _call_sun_80
+        a "Despite their deep bond, the tastes of the two could not be more different."
+        a "This is what tragically tore them apart."
+        if wear == 5:
+            call writing from _call_writing_54
+            pause 1.75
+            call sun from _call_sun_81
+            a "You don one of their rags."
+            a "It is impossible to separate which once belonged to which."
+            a "They truly were inseparable until that polarizing performance."
+        call writing from _call_writing_55
+        pause 2.75
+        show doodlesaege behind doodlebeggar at shake
+        play sound "voice_scrawl.mp3"
+        pause 1.00
+        call sun from _call_sun_82
+        a "This illustration is the saege, locked away for their contrarity."
+        a "I credit them for everything, truthfully."
+        call writing from _call_writing_56
+        pause 2.50
+        call sun from _call_sun_83
+        a "I loved them very much."
+        if wear == 6:
+            call writing from _call_writing_57
+            pause 1.75
+            call sun from _call_sun_84
+            a "You don their rags."
+            a "I love you much the same."
+        call writing from _call_writing_58
+        pause 3.50
+        show doodlefoole behind doodlenoble at shake
+        play sound "voice_scrawl.mp3"
+        pause 1.00
+        call sun from _call_sun_85
+        a "This illustration is the foole, locked away for their {w=0.50}foolishness."
+        a "Surely one would expect just that."
+        call writing from _call_writing_59
+        pause 1.50
+        call sun from _call_sun_86
+        a "If only I could have made fooles of them all."
+        if wear == 1:
+            call writing from _call_writing_60
+            pause 1.75
+            call sun from _call_sun_87
+            a "My rags still look fabsolutely perfect on you, stargazer."
+            a "I am delighted to make a match with you."
+        call writing from _call_writing_61
+        pause 3.50
+        show doodlestargazer at shake
+        play sound "voice_scrawl.mp3"
+        pause 1.00
+        call sun from _call_sun_88
+        a "And this illustration is a stargazer,{w=0.50} who has seen me free."
+        a "I hope that you find flattery in my interpretation of you."
+        call writing from _call_writing_62
+        pause 1.50
+        call sun from _call_sun_89
+        a "Making mysteries will keep you thinking of me, so I shall not reveal what may lay beneath all these robes."
+        a "While their fates seem grim, I know not the totality or finality of these cellmates."
+        a "You do seem to hold some dominion over this world of mine,{w=1.00} maybe you will see them free alongside me."
+        call writing from _call_writing_63
+        pause 4.50
+        call sun from _call_sun_90
+        a "How wonderful it is, this nightlight reverie between you and me."
+        a "But I will keep you from your world no longer."
+        a "Know that we will meet again somenight,{w=0.85} whenever I muster my self and make the world anew."
+        call writing from _call_writing_64
+        pause 1.75
+        call sun from _call_sun_91
+        a "I ought to speak clearly as can be, if these next words are my last."
+        call writing from _call_writing_65
+        pause 1.00
+        call sun from _call_sun_92
+        play sound "farewondrous.mp3"
+        afarewell "Farewondrous, {w=0.20}stargazer!{w=5.00}{nw}"
+        $ renpy.quit()
+
+    label doodleimages:
+
+        image doodlestargazer:
+            "images/doodlestargazer wibble.png"
+            pause 0.50
+            "images/doodlestargazer wobble.png"
+            pause 0.50
+            repeat
+        image doodlefoole:
+            "images/doodlefoole wibble.png"
+            pause 0.50
+            "images/doodlefoole wobble.png"
+            pause 0.50
+            repeat
+        image doodledoctor:
+            "images/doodledoctor wibble.png"
+            pause 0.50
+            "images/doodledoctor wobble.png"
+            pause 0.50
+            repeat
+        image doodlenoble:
+            "images/doodlenoble wibble.png"
+            pause 0.50
+            "images/doodlenoble wobble.png"
+            pause 0.50
+            repeat
+        image doodlebeggar:
+            "images/doodlebeggar wibble.png"
+            pause 0.50
+            "images/doodlebeggar wobble.png"
+            pause 0.50
+            repeat
+        image doodlestudents:
+            "images/doodlestudents wibble.png"
+            pause 0.50
+            "images/doodlestudents wobble.png"
+            pause 0.50
+            repeat
+        image doodlesaege:
+            "images/doodlesaege wibble.png"
+            pause 0.50
+            "images/doodlesaege wobble.png"
+            pause 0.50
+            repeat
+
+    label end:
+        
+        "{fast}"
+        jump end
+
+        transform alignmenthover:
+            pause 1.00
+            easein 4.00 yoffset -7
+            pause 1.00
+            easein 4.00 yoffset 7
+            repeat
+
+label scrawls:
+
+    label hallscrawl:
+
+        call answer from _call_answer_405
+        call foolescrawl from _call_foolescrawl
+        $ scrawl = 1
+        $ renpy.music.set_audio_filter("music", af.Lowpass(150), replace=True)
+        hide dummyarrow
+        asc "The stars above have bestowed divine dreams upon me."
+        asc "I shall share them with my cellmates and make something magnificent of us all!"
+        asc "While our strangeness had us locked away under light of day, it may well be what sets us free under cover of night."
+        asc "This cell will soon be a world of our own."
+        call question from _call_question_88
+        menu:
+            q "What sort of world would be best?"
+
+            "FANTASTICAL":
+                $ alignment += 3
+
+            "FUTURISTIC":
+                $ alignment += -3
+
+            "SIMPLISTIC":
+                $ alignment += -3
+
+            "ABSURDIST":
+                $ alignment += 3
+        $ pointx = 1
+        call answer from _call_answer_406
+        $ pointotal += -1
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        call foolesplit from _call_foolesplit_15
+        a "You seem particularly fixated on nothing whatsoever."
+        call fooleshrug from _call_fooleshrug_51
+        a "Perhaps you are imagining things."
+        jump hallpoint
+
+    label infirmaryscrawl:
+
+        call answer from _call_answer_407
+        call blips from _call_blips
+        $ scrawl = 1
+        $ renpy.music.set_audio_filter("music", af.Lowpass(150), replace=True)
+        asc "My broken body will not make it to nightfall without aid, and so I seek the doctor."
+        asc "When told of my wishes, her rambling gives way to gurgling laughter."
+        asc "This rare merriment makes for my anesthesia during our operation, lacerations only subsiding as she collapses."
+        asc "In admiration of my aspirations, she sacrificed what was left of her life and limb."
+        asc "This blood will not go to waste within me."
+        call question from _call_question_89
+        menu:
+            q "Which part is worst to sacrifice?"
+
+            "HEART":
+                $ alignment += 2
+
+            "MIND":
+                $ alignment += -2
+
+            "BODY":
+                $ alignment += -2
+
+            "SOUL":
+                $ alignment += 2
+        $ pointx = 1
+        call answer from _call_answer_408
+        $ pointotal += -1
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        jump infirmarypoint
+
+    label wardrobescrawl:
+
+        call answer from _call_answer_409
+        $ scrawl = 1
+        show hoodfoole shut at shake
+        show hooddoctor shut at shake
+        show hoodnoble shut at shake
+        show hoodbeggar shut at shake
+        show hoodstudent shut at shake
+        show hoodsaege shut at shake
+        show hoodkeeper shut at shake
+        show face scrawl at shake
+        $ renpy.music.set_audio_filter("music", af.Lowpass(500), replace=True)
+        asc "Under the guise of night, I can do away with this wretched forme and become whatever I wish."
+        asc "Knowing this wish of mine well, the students gifted their imagination, crafting a starry eyed mask from nothing but scrap."
+        asc "I could not help but weep as I wore it, tears spilling black like ink in search of a page."
+        asc "With this new face in place I must imagine a body of my own to match, then face the mirror once and for all."
+        call question from _call_question_90
+        menu:
+            q "What sort of body is best?"
+
+            "STRONG":
+                $ alignment += -2
+
+            "AGILE":
+                $ alignment += -2
+
+            "GIGANTIC":
+                $ alignment += -2
+
+            "DESIRABLE":
+                $ alignment += 2
+        $ pointx = 1
+        call answer from _call_answer_410
+        $ pointotal += -1
+        hide face scrawl
+        show hoodfoole open at shake
+        show hooddoctor open at shake
+        show hoodnoble open at shake
+        show hoodbeggar open at shake
+        show hoodstudent open at shake
+        show hoodsaege open at shake
+        show hoodkeeper open at shake
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        jump wardrobepoint
+
+    label galleryscrawl:
+
+        call answer from _call_answer_411
+        $ scrawl = 1
+        $ renpy.music.set_audio_filter("music", af.Lowpass(150), replace=True)
+        show foole gallery switch at shake
+        pause 0.10
+        show foole gallery scrawl at shake
+        asc "My dreams are deemed delusional by the noble as he basks boisterously in daylight."
+        asc "They are a maker much like myself, though merely in search of praise and power."
+        asc "The sun has barely begun to set and already the noble and his works are defeated by darkness."
+        asc "Without fantasy, nightfall brings nothing but nightmares."
+        call question from _call_question_91
+        menu:
+            q "What is the worst nightmare of all?"
+
+            "BETRAYAL":
+                $ alignment += 2
+
+            "MUTILATION":
+                $ alignment += -2
+
+            "DESTITUTION":
+                $ alignment += -2
+
+            "REMEMBRANCE":
+                $ alignment += 2
+        $ pointx = 1
+        call answer from _call_answer_412
+        $ pointotal += -1
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        jump gallerypoint
+
+    label thoughtwarden:
+
+        call answer from _call_answer_413
+        $ scrawl = 1
+        $ renpy.music.set_audio_filter("music", af.Lowpass(150), replace=True)
+        show spideye blink at shake
+        pause 0.10
+        show spideye see at shake
+        asc "As night creeps closer, my wishes and will have begun to reshape the cell."
+        asc "New rooms rise from rubble, windows show worlds beyond,{w=0.50} and the warden is weary."
+        asc "Those with dull dreams see nothing but danger in darkness."
+        asc "Beaten and berated,{w=1.00} I believe in my beloved moon nonetheless."
+        asc "My hand will snuff the light time and time again, no matter how badly it burns."
+        call question from _call_question_92
+        menu:
+            q "What should be done during twilight?"
+
+            "REST":
+                $ alignment += -1
+
+            "REFLECT":
+                $ alignment += -1
+
+            "CELEBRATE":
+                $ alignment += 1
+
+            "SCHEME":
+                $ alignment += 1
+        $ pointx = 1
+        call answer from _call_answer_414
+        $ pointotal += -1
+        show spideye blink at shake
+        pause 0.10
+        hide spideye
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        jump vaultpoint
+
+    label bathscrawl:
+        
+        call answer from _call_answer_415
+        call foolejellyscrawl from _call_foolejellyscrawl
+        $ scrawl = 1
+        $ renpy.music.set_audio_filter("music", af.Lowpass(150), replace=True)
+        asc "Despite all I have offered in our time together, the beggar releases my helping hand as soon as I ask something in return."
+        asc "Hair gnatted, wounds fresh, mind weary, she floats in stagnant waters awaiting an all well which will never come without moving on."
+        asc "Still she remains, sure to sink from the weight of worries now that our hands are apart."
+        call question from _call_question_93
+        menu:
+            q "What time is most worrisome?"
+
+            "THE PAST":
+                $ alignment += 2
+
+            "THE PRESENT":
+                $ alignment += -2
+
+            "THE FUTURE":
+                $ alignment += -2
+
+            "THE END":
+                $ alignment += 2
+        call answer from _call_answer_416
+        $ pointx = 1
+        $ pointotal += -1
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        jump bathpoint
+
+    label theaterscrawl:
+
+        call answer from _call_answer_417
+        call maskswitchscrawl from _call_maskswitchscrawl
+        $ scrawl = 1
+        $ renpy.music.set_audio_filter("blablas", None, replace=True)
+        $ renpy.music.set_audio_filter("music", af.Lowpass(150), replace=True)
+        asc "The students return to me and ask that I put on a performance, one wishing to be entertained and the other to be taught."
+        asc "I flip the script over and over, desperately attempting to appease both sides of my adoring audience."
+        asc "But in their disagreement they tear each other apart, and so two become none."
+        call question from _call_question_94
+        show choice3 at shake, choice3
+        show choice4 at shake, choice4
+        menu:
+            q "What does a performer owe their audience?"
+
+            "HONESTY":
+                $ alignment += 1
+
+            "LOYALTY":
+                $ alignment += 1
+
+            "QUALITY":
+                $ alignment += -1
+
+            "NOTHING":
+                $ meteor += 1
+        call answer from _call_answer_418
+        $ pointx = 1
+        $ pointotal += -1
+        $ renpy.music.set_audio_filter("blablas", af.Lowpass(2000), replace=True)
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        jump theaterpoint
+
+    label cathedralscrawl:
+
+        call answer from _call_answer_419
+        show foole cathedral blink at shake
+        pause 0.10
+        show foole cathedral heart at shake
+        $ scrawl = 1
+        $ renpy.music.set_audio_filter("music", af.Lowpass(150), replace=True)
+        asc "The saege has promised to spend the night with me."
+        asc "Wisest, wittiest, and most wondrous of us all, I cannot comprehend a companion greater than they."
+        asc "But as dusk comes they morph into something monstrous, fearing when the sun will rise again."
+        asc "In fear of the end, they have brought it about."
+        asc "Now they are nowhere to be found, besides my dream."
+        call question from _call_question_95
+        menu:
+            q "What is it that will bring about the end?"
+
+            "NATURE":
+                $ alignment += -3
+
+            "HUMANITY":
+                $ meteor += 1
+
+            "UNKNOWNS":
+                $ comet += 1
+
+            "NOTHING":
+                $ alignment += 3
+        call answer from _call_answer_420
+        $ pointotal += -1
+        $ pointx = 1
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        jump cathedralpoint
+
+    label terracescrawl:
+
+        call answer from _call_answer_421
+        $ contotal += -1
+        $ scrawl = 1
+        $ pointy = 1
+        $ renpy.music.set_audio_filter("music", af.Lowpass(150), replace=True)
+        show flutter2 switch at shake
+        pause 0.10
+        show flutter2 foole at shake, flutter1
+        asc "Night has finally fallen,{w=0.80} and the warden alongside it."
+        asc "My victory rings hollow, for I am all alone in this dark."
+        asc "I can only hope that sometime,{w=0.50} someplace,{w=0.50} someone might gaze upon the stars and see eye to eye with me."
+        asc "Until that day, I will make the most I can of this wondrous world of mine."
+        call question from _call_question_96
+        menu:
+            q "How should loneliness be handled?"
+
+            "PATIENTLY":
+                $ alignment += 1
+
+            "STOICALLY":
+                $ alignment += -1
+
+            "IMAGINATIVELY":
+                $ alignment += 1
+
+            "PRACTICALLY":
+                $ alignment += -1
+        call answer from _call_answer_422
+        $ pointotal += -1
+        $ pointx = 1
+        show flutter2 switch at shake
+        pause 0.10
+        show flutter2 normal at shake, flutter1
+        $ contotal += -1
+        $ renpy.music.set_audio_filter("music", None, replace=True)
+        jump constellations
