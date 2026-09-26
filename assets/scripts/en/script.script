@@ -1,4 +1,6 @@
-﻿label definitions:   
+﻿[Main]
+
+label definitions:   
 
     label voices:
     
@@ -1166,7 +1168,7 @@ label start:
         show titlepots at offscreen
         scene space
         pause 0.50
-        play sound "mus_jingle2.wav"
+        play music mus_jingle2
         show foologo gray at logoscrollon
         pause 1.50
         show foologo color at shake
@@ -1179,7 +1181,7 @@ label start:
         pause 1.25
         show starscroll at titlescrollelevatorend
         pause 0.90
-        play music "mus_menu.wav"
+        play music mus_menu
 
     label main_menu:
 
