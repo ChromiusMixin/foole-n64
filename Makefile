@@ -29,7 +29,7 @@ MAIN_ELF_EXTERNS := $(BUILD_DIR)/engine.externs
 DSO_MODULES = $(NAME_DSO)
 DSO_LIST = $(addprefix $(FILESYSTEM_DIR)/, $(DSO_MODULES))
 
-N64_C_AND_CXX_FLAGS += -I $(SOURCE_DIR) -I $(SOURCE_DIR)/engine -I $(SOURCE_DIR)/$(NAME) -Wno-error=write-strings -Wno-error=narrowing -Wno-narrowing -Wno-write-strings -ftrivial-auto-var-init=zero -DGAME_MOD_FOLDER=\"$(NAME)_mod_folder\" -DGAME_DSO_FNAME=\"$(NAME_DSO)\"
+N64_C_AND_CXX_FLAGS += -I $(SOURCE_DIR) -I $(SOURCE_DIR)/engine -I $(SOURCE_DIR)/$(NAME) -Wno-error=write-strings -Wno-error=narrowing -Wno-narrowing -Wno-write-strings -ftrivial-auto-var-init=zero -Wno-error=non-c-typedef-for-linkage -DGAME_MOD_FOLDER=\"$(NAME)_mod_folder\" -DGAME_DSO_FNAME=\"$(NAME_DSO)\"
 
 $(FILESYSTEM_DIR)/images/%.sprite: $(ASSETS_DIR)/images/%.png
 	@mkdir -p $(dir $@)

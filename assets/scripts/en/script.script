@@ -10,21 +10,21 @@
                     randosound = renpy.random.randint(1, 8)
                     if event == "show":
                         if randosound == 1:
-                            renpy.sound.queue("voice default 1.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_default_1.wav", channel="blablas", loop=False)
                         elif randosound == 2:
-                            renpy.sound.queue("voice default 2.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_default_2.wav", channel="blablas", loop=False)
                         elif randosound == 3:
-                            renpy.sound.queue("voice default 3.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_default_3.wav", channel="blablas", loop=False)
                         elif randosound == 4:
-                            renpy.sound.queue("voice default 4.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_default_4.wav", channel="blablas", loop=False)
                         elif randosound == 5:
-                            renpy.sound.queue("voice default 5.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_default_5.wav", channel="blablas", loop=False)
                         elif randosound == 6:
-                            renpy.sound.queue("voice default 6.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_default_6.wav", channel="blablas", loop=False)
                         elif randosound == 7:
-                            renpy.sound.queue("voice default 7.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_default_7.wav", channel="blablas", loop=False)
                         elif randosound == 8:
-                            renpy.sound.queue("voice default 8.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_default_8.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -35,15 +35,15 @@
                     randosound = renpy.random.randint(1, 5)
                     if event == "show":
                         if randosound == 1:
-                            renpy.sound.queue("voice infirmary 1.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_infirmary_1.wav", channel="blablas", loop=False)
                         elif randosound == 2:
-                            renpy.sound.queue("voice infirmary 2.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_infirmary_2.wav", channel="blablas", loop=False)
                         elif randosound == 3:
-                            renpy.sound.queue("voice infirmary 3.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_infirmary_3.wav", channel="blablas", loop=False)
                         elif randosound == 4:
-                            renpy.sound.queue("voice infirmary 4.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_infirmary_4.wav", channel="blablas", loop=False)
                         elif randosound == 5:
-                            renpy.sound.queue("voice infirmary 5.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_infirmary_5.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -54,15 +54,15 @@
                     randosound = renpy.random.randint(1, 5)
                     if event == "show":
                         if randosound == 1:
-                            renpy.sound.queue("voice vault 1.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_vault_1.wav", channel="blablas", loop=False)
                         elif randosound == 2:
-                            renpy.sound.queue("voice vault 2.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_vault_2.wav", channel="blablas", loop=False)
                         elif randosound == 3:
-                            renpy.sound.queue("voice vault 3.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_vault_3.wav", channel="blablas", loop=False)
                         elif randosound == 4:
-                            renpy.sound.queue("voice vault 4.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_vault_4.wav", channel="blablas", loop=False)
                         elif randosound == 5:
-                            renpy.sound.queue("voice vault 5.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_vault_5.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -73,15 +73,15 @@
                     randosound = renpy.random.randint(1, 5)
                     if event == "show":
                         if randosound == 1:
-                            renpy.sound.queue("voice bath 1.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_bath_1.wav", channel="blablas", loop=False)
                         elif randosound == 2:
-                            renpy.sound.queue("voice bath 2.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_bath_2.wav", channel="blablas", loop=False)
                         elif randosound == 3:
-                            renpy.sound.queue("voice bath 3.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_bath_3.wav", channel="blablas", loop=False)
                         elif randosound == 4:
-                            renpy.sound.queue("voice bath 4.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_bath_4.wav", channel="blablas", loop=False)
                         elif randosound == 5:
-                            renpy.sound.queue("voice bath 5.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_bath_5.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -92,15 +92,15 @@
                     randosound = renpy.random.randint(1, 5)
                     if event == "show":
                         if randosound == 1:
-                            renpy.sound.queue("voice cathedral 1.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_cathedral_1.wav", channel="blablas", loop=False)
                         elif randosound == 2:
-                            renpy.sound.queue("voice cathedral 2.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_cathedral_2.wav", channel="blablas", loop=False)
                         elif randosound == 3:
-                            renpy.sound.queue("voice cathedral 3.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_cathedral_3.wav", channel="blablas", loop=False)
                         elif randosound == 4:
-                            renpy.sound.queue("voice cathedral 4.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_cathedral_4.wav", channel="blablas", loop=False)
                         elif randosound == 5:
-                            renpy.sound.queue("voice cathedral 5.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_cathedral_5.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -111,21 +111,21 @@
                     randosound = renpy.random.randint(1, 8)
                     if event == "show":
                         if randosound == 1:
-                            renpy.sound.queue("voice greater 1.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_greater_1.wav", channel="blablas", loop=False)
                         elif randosound == 2:
-                            renpy.sound.queue("voice greater 2.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_greater_2.wav", channel="blablas", loop=False)
                         elif randosound == 3:
-                            renpy.sound.queue("voice greater 3.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_greater_3.wav", channel="blablas", loop=False)
                         elif randosound == 4:
-                            renpy.sound.queue("voice greater 4.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_greater_4.wav", channel="blablas", loop=False)
                         elif randosound == 5:
-                            renpy.sound.queue("voice greater 5.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_greater_5.wav", channel="blablas", loop=False)
                         elif randosound == 6:
-                            renpy.sound.queue("voice greater 6.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_greater_6.wav", channel="blablas", loop=False)
                         elif randosound == 7:
-                            renpy.sound.queue("voice greater 7.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_greater_7.wav", channel="blablas", loop=False)
                         elif randosound == 8:
-                            renpy.sound.queue("voice greater 8.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("voice_greater_8.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -134,7 +134,7 @@
                 beeps = 0
                 while beeps < 50: # To avoid an infinite loop
                     if event == "show":
-                            renpy.sound.queue("audio/voice_meteor.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("audio/voice_meteor.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -143,7 +143,7 @@
                 beeps = 0
                 while beeps < 50: # To avoid an infinite loop
                     if event == "show":
-                            renpy.sound.queue("audio/voice_eclipse.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("audio/voice_eclipse.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -152,7 +152,7 @@
                 beeps = 0
                 while beeps < 50: # To avoid an infinite loop
                     if event == "show":
-                            renpy.sound.queue("audio/voice_scrawl.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("audio/voice_scrawl.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -161,7 +161,7 @@
                 beeps = 0
                 while beeps < 50: # To avoid an infinite loop
                     if event == "show":
-                            renpy.sound.queue("audio/voice_audience.mp3", channel="blablas", loop=False)
+                            renpy.sound.queue("audio/voice_audience.wav", channel="blablas", loop=False)
                     elif event == "slow_done" or event == "end":
                         renpy.sound.stop(channel="blablas")
                     beeps += 1
@@ -185,47 +185,47 @@
     label interface:
 
         image endcredits:
-            "images/endcredits wibble.png"
+            "images/endcredits_wibble.png"
             pause 0.50
-            "images/endcredits wobble.png"
+            "images/endcredits_wobble.png"
             pause 0.50
             repeat
 
         image foologo color:
-            "images/foologo wibble.png"
+            "images/foologo_wibble.png"
             pause 0.50
-            "images/foologo wobble.png"
+            "images/foologo_wobble.png"
             pause 0.50
             repeat
-        image foologo gray = "images/foologo gray.png"
+        image foologo gray = "images/foologo_gray.png"
 
         label totals:
 
-            image total1 = ConditionSwitch("pointotal==0", "images/total empty.png", "pointotal>0", "images/total full.png")
-            image total2 = ConditionSwitch("pointotal<2", "images/total empty.png", "pointotal>1", "images/total full.png")
-            image total3 = ConditionSwitch("pointotal<3", "images/total empty.png", "pointotal>2", "images/total full.png")
-            image total4 = ConditionSwitch("pointotal<4", "images/total empty.png", "pointotal>3", "images/total full.png")
-            image total5 = ConditionSwitch("pointotal<5", "images/total empty.png", "pointotal>4", "images/total full.png")
-            image total6 = ConditionSwitch("pointotal<6", "images/total empty.png", "pointotal>5", "images/total full.png")
-            image total7 = ConditionSwitch("pointotal<7", "images/total empty.png", "pointotal>6", "images/total full.png")
-            image total8 = ConditionSwitch("pointotal<8", "images/total empty.png", "pointotal>7", "images/total full.png")
-            image total9 = ConditionSwitch("pointotal<9", "images/total empty.png", "pointotal>8", "images/total full.png")
-            image total10 = ConditionSwitch("pointotal<10", "images/total empty.png", "pointotal>9", "images/total full.png")
-            image total11 = ConditionSwitch("pointotal<11", "images/total empty.png", "pointotal>10", "images/total full.png")
-            image total12 = ConditionSwitch("pointotal<12", "images/total empty.png", "pointotal>11", "images/total full.png")
-            image total13 = ConditionSwitch("pointotal<13", "images/total empty.png", "pointotal>12", "images/total full.png")
-            image total14 = ConditionSwitch("pointotal<14", "images/total empty.png", "pointotal>13", "images/total full.png")
-            image total15 = ConditionSwitch("pointotal<15", "images/total empty.png", "pointotal>14", "images/total full.png")
-            image total16 = ConditionSwitch("pointotal<16", "images/total empty.png", "pointotal>15", "images/total full.png")
-            image total17 = ConditionSwitch("pointotal<17", "images/total empty.png", "pointotal>16", "images/total full.png")
-            image total18 = ConditionSwitch("pointotal<18", "images/total empty.png", "pointotal>17", "images/total full.png")
-            image total19 = ConditionSwitch("pointotal<19", "images/total empty.png", "pointotal>18", "images/total full.png")
-            image total20 = ConditionSwitch("pointotal<20", "images/total empty.png", "pointotal>19", "images/total full.png")
-            image total21 = ConditionSwitch("pointotal<21", "images/total empty.png", "pointotal>20", "images/total full.png")
-            image total22 = ConditionSwitch("pointotal<22", "images/total empty.png", "pointotal>21", "images/total full.png")
-            image total23 = ConditionSwitch("pointotal<23", "images/total empty.png", "pointotal>22", "images/total full.png")
-            image total24 = ConditionSwitch("pointotal<24", "images/total empty.png", "pointotal>23", "images/total full.png")
-            image thoughtotal = ConditionSwitch("pointx==0", "images/thoughtotal empty.png", "pointx>0", "images/thoughtotal full.png")
+            image total1 = ConditionSwitch("pointotal==0", "images/total_empty.png", "pointotal>0", "images/total_full.png")
+            image total2 = ConditionSwitch("pointotal<2", "images/total_empty.png", "pointotal>1", "images/total_full.png")
+            image total3 = ConditionSwitch("pointotal<3", "images/total_empty.png", "pointotal>2", "images/total_full.png")
+            image total4 = ConditionSwitch("pointotal<4", "images/total_empty.png", "pointotal>3", "images/total_full.png")
+            image total5 = ConditionSwitch("pointotal<5", "images/total_empty.png", "pointotal>4", "images/total_full.png")
+            image total6 = ConditionSwitch("pointotal<6", "images/total_empty.png", "pointotal>5", "images/total_full.png")
+            image total7 = ConditionSwitch("pointotal<7", "images/total_empty.png", "pointotal>6", "images/total_full.png")
+            image total8 = ConditionSwitch("pointotal<8", "images/total_empty.png", "pointotal>7", "images/total_full.png")
+            image total9 = ConditionSwitch("pointotal<9", "images/total_empty.png", "pointotal>8", "images/total_full.png")
+            image total10 = ConditionSwitch("pointotal<10", "images/total_empty.png", "pointotal>9", "images/total_full.png")
+            image total11 = ConditionSwitch("pointotal<11", "images/total_empty.png", "pointotal>10", "images/total_full.png")
+            image total12 = ConditionSwitch("pointotal<12", "images/total_empty.png", "pointotal>11", "images/total_full.png")
+            image total13 = ConditionSwitch("pointotal<13", "images/total_empty.png", "pointotal>12", "images/total_full.png")
+            image total14 = ConditionSwitch("pointotal<14", "images/total_empty.png", "pointotal>13", "images/total_full.png")
+            image total15 = ConditionSwitch("pointotal<15", "images/total_empty.png", "pointotal>14", "images/total_full.png")
+            image total16 = ConditionSwitch("pointotal<16", "images/total_empty.png", "pointotal>15", "images/total_full.png")
+            image total17 = ConditionSwitch("pointotal<17", "images/total_empty.png", "pointotal>16", "images/total_full.png")
+            image total18 = ConditionSwitch("pointotal<18", "images/total_empty.png", "pointotal>17", "images/total_full.png")
+            image total19 = ConditionSwitch("pointotal<19", "images/total_empty.png", "pointotal>18", "images/total_full.png")
+            image total20 = ConditionSwitch("pointotal<20", "images/total_empty.png", "pointotal>19", "images/total_full.png")
+            image total21 = ConditionSwitch("pointotal<21", "images/total_empty.png", "pointotal>20", "images/total_full.png")
+            image total22 = ConditionSwitch("pointotal<22", "images/total_empty.png", "pointotal>21", "images/total_full.png")
+            image total23 = ConditionSwitch("pointotal<23", "images/total_empty.png", "pointotal>22", "images/total_full.png")
+            image total24 = ConditionSwitch("pointotal<24", "images/total_empty.png", "pointotal>23", "images/total_full.png")
+            image thoughtotal = ConditionSwitch("pointx==0", "images/thoughtotal_empty.png", "pointx>0", "images/thoughtotal_full.png")
 
             transform totalrecall:
                 easeout 0.50 xpos 15
@@ -472,41 +472,41 @@
                 repeat
 
         image youandi:
-            "images/youandi wibble.png"
+            "images/youandi_wibble.png"
             pause 0.50
-            "images/youandi wobble.png"
+            "images/youandi_wobble.png"
             pause 0.50
             repeat
 
         image textbox:
-            "images/textbox 1.png"
+            "images/textbox_1.png"
             pause 0.50
-            "images/textbox 2.png"
+            "images/textbox_2.png"
             pause 0.50
             repeat 
 
         image choice1:
-            "images/choice1 wibble.png"
+            "images/choice1_wibble.png"
             pause 0.50
-            "images/choice1 wobble.png"
+            "images/choice1_wobble.png"
             pause 0.50
             repeat
         image choice2:
-            "images/choice2 wibble.png"
+            "images/choice2_wibble.png"
             pause 0.50
-            "images/choice2 wobble.png"
+            "images/choice2_wobble.png"
             pause 0.50
             repeat
         image choice3:
-            "images/choice3 wibble.png"
+            "images/choice3_wibble.png"
             pause 0.50
-            "images/choice3 wobble.png"
+            "images/choice3_wobble.png"
             pause 0.50
             repeat
         image choice4:
-            "images/choice4 wibble.png"
+            "images/choice4_wibble.png"
             pause 0.50
-            "images/choice4 wobble.png"
+            "images/choice4_wobble.png"
             pause 0.50
             repeat
 
@@ -536,51 +536,51 @@
             repeat
 
         image interface sun:
-            "images/interface sun 1.png"
+            "images/interface_sun_1.png"
             pause 0.50
-            "images/interface sun 2.png"
+            "images/interface_sun_2.png"
             pause 0.50
             repeat
         image interface moon:
-            "images/interface moon 1.png"
+            "images/interface_moon_1.png"
             pause 0.50
-            "images/interface moon 2.png"
+            "images/interface_moon_2.png"
             pause 0.50
             repeat
         image interface meteor:
-            "images/interface meteor 1.png"
+            "images/interface_meteor_1.png"
             pause 0.50
-            "images/interface meteor 2.png"
+            "images/interface_meteor_2.png"
             pause 0.50
             repeat
         image interface eclipse:
-            "images/interface eclipse 1.png"
+            "images/interface_eclipse_1.png"
             pause 0.50
-            "images/interface eclipse 2.png"
+            "images/interface_eclipse_2.png"
             pause 0.50
             repeat
         image interface point:
-            "images/interface point 1.png"
+            "images/interface_point_1.png"
             pause 0.50
-            "images/interface point 2.png"
+            "images/interface_point_2.png"
             pause 0.50
             repeat
         image interface analytical:
-            "images/interface analytical 1.png"
+            "images/interface_analytical_1.png"
             pause 0.50
-            "images/interface analytical 2.png"
+            "images/interface_analytical_2.png"
             pause 0.50
             repeat
         image interface writing:
-            "images/interface writing 1.png"
+            "images/interface_writing_1.png"
             pause 0.50
-            "images/interface writing 2.png"
+            "images/interface_writing_2.png"
             pause 0.50
             repeat
         image interface audience:
-            "images/interface audience 1.png"
+            "images/interface_audience_1.png"
             pause 0.50
-            "images/interface audience 2.png"
+            "images/interface_audience_2.png"
             pause 0.50
             repeat
 
@@ -773,248 +773,248 @@
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 8)
                     if randosound == 1:
-                        queue blablas "voice default 1.mp3"
+                        queue blablas "voice_default_1.wav"
                     if randosound == 2:
-                        queue blablas "voice default 2.mp3"
+                        queue blablas "voice_default_2.wav"
                     if randosound == 3:
-                        queue blablas "voice default 3.mp3"
+                        queue blablas "voice_default_3.wav"
                     if randosound == 4:
-                        queue blablas "voice default 4.mp3"
+                        queue blablas "voice_default_4.wav"
                     if randosound == 5:
-                        queue blablas "voice default 5.mp3"
+                        queue blablas "voice_default_5.wav"
                     if randosound == 6:
-                        queue blablas "voice default 6.mp3"
+                        queue blablas "voice_default_6.wav"
                     if randosound == 7:
-                        queue blablas "voice default 7.mp3"
+                        queue blablas "voice_default_7.wav"
                     if randosound == 8:
-                        queue blablas "voice default 8.mp3"
+                        queue blablas "voice_default_8.wav"
                     $ beeps += 1
             if area == 1:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 8)
                     if randosound == 1:
-                        queue blablas "voice default 1.mp3"
+                        queue blablas "voice_default_1.wav"
                     if randosound == 2:
-                        queue blablas "voice default 2.mp3"
+                        queue blablas "voice_default_2.wav"
                     if randosound == 3:
-                        queue blablas "voice default 3.mp3"
+                        queue blablas "voice_default_3.wav"
                     if randosound == 4:
-                        queue blablas "voice default 4.mp3"
+                        queue blablas "voice_default_4.wav"
                     if randosound == 5:
-                        queue blablas "voice default 5.mp3"
+                        queue blablas "voice_default_5.wav"
                     if randosound == 6:
-                        queue blablas "voice default 6.mp3"
+                        queue blablas "voice_default_6.wav"
                     if randosound == 7:
-                        queue blablas "voice default 7.mp3"
+                        queue blablas "voice_default_7.wav"
                     if randosound == 8:
-                        queue blablas "voice default 8.mp3"
+                        queue blablas "voice_default_8.wav"
                     $ beeps += 1
             if area == 2:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 5)
                     if randosound == 1:
-                        queue blablas "voice infirmary 1.mp3"
+                        queue blablas "voice_infirmary_1.wav"
                     if randosound == 2:
-                        queue blablas "voice infirmary 2.mp3"
+                        queue blablas "voice_infirmary_2.wav"
                     if randosound == 3:
-                        queue blablas "voice infirmary 3.mp3"
+                        queue blablas "voice_infirmary_3.wav"
                     if randosound == 4:
-                        queue blablas "voice infirmary 4.mp3"
+                        queue blablas "voice_infirmary_4.wav"
                     if randosound == 5:
-                        queue blablas "voice infirmary 5.mp3"
+                        queue blablas "voice_infirmary_5.wav"
                     $ beeps += 1
             if area == 3:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 8)
                     if randosound == 1:
-                        queue blablas "voice default 1.mp3"
+                        queue blablas "voice_default_1.wav"
                     if randosound == 2:
-                        queue blablas "voice default 2.mp3"
+                        queue blablas "voice_default_2.wav"
                     if randosound == 3:
-                        queue blablas "voice default 3.mp3"
+                        queue blablas "voice_default_3.wav"
                     if randosound == 4:
-                        queue blablas "voice default 4.mp3"
+                        queue blablas "voice_default_4.wav"
                     if randosound == 5:
-                        queue blablas "voice default 5.mp3"
+                        queue blablas "voice_default_5.wav"
                     if randosound == 6:
-                        queue blablas "voice default 6.mp3"
+                        queue blablas "voice_default_6.wav"
                     if randosound == 7:
-                        queue blablas "voice default 7.mp3"
+                        queue blablas "voice_default_7.wav"
                     if randosound == 8:
-                        queue blablas "voice default 8.mp3"
+                        queue blablas "voice_default_8.wav"
                     $ beeps += 1
             if area == 4:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 8)
                     if randosound == 1:
-                        queue blablas "voice default 1.mp3"
+                        queue blablas "voice_default_1.wav"
                     if randosound == 2:
-                        queue blablas "voice default 2.mp3"
+                        queue blablas "voice_default_2.wav"
                     if randosound == 3:
-                        queue blablas "voice default 3.mp3"
+                        queue blablas "voice_default_3.wav"
                     if randosound == 4:
-                        queue blablas "voice default 4.mp3"
+                        queue blablas "voice_default_4.wav"
                     if randosound == 5:
-                        queue blablas "voice default 5.mp3"
+                        queue blablas "voice_default_5.wav"
                     if randosound == 6:
-                        queue blablas "voice default 6.mp3"
+                        queue blablas "voice_default_6.wav"
                     if randosound == 7:
-                        queue blablas "voice default 7.mp3"
+                        queue blablas "voice_default_7.wav"
                     if randosound == 8:
-                        queue blablas "voice default 8.mp3"
+                        queue blablas "voice_default_8.wav"
                     $ beeps += 1
             if area == 5:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 5)
                     if randosound == 1:
-                        queue blablas "voice vault 1.mp3"
+                        queue blablas "voice_vault_1.wav"
                     if randosound == 2:
-                        queue blablas "voice vault 2.mp3"
+                        queue blablas "voice_vault_2.wav"
                     if randosound == 3:
-                        queue blablas "voice vault 3.mp3"
+                        queue blablas "voice_vault_3.wav"
                     if randosound == 4:
-                        queue blablas "voice vault 4.mp3"
+                        queue blablas "voice_vault_4.wav"
                     if randosound == 5:
-                        queue blablas "voice vault 5.mp3"
+                        queue blablas "voice_vault_5.wav"
                     $ beeps += 1
             if area == 6:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 5)
                     if randosound == 1:
-                        queue blablas "voice bath 1.mp3"
+                        queue blablas "voice_bath_1.wav"
                     if randosound == 2:
-                        queue blablas "voice bath 2.mp3"
+                        queue blablas "voice_bath_2.wav"
                     if randosound == 3:
-                        queue blablas "voice bath 3.mp3"
+                        queue blablas "voice_bath_3.wav"
                     if randosound == 4:
-                        queue blablas "voice bath 4.mp3"
+                        queue blablas "voice_bath_4.wav"
                     if randosound == 5:
-                        queue blablas "voice bath 5.mp3"
+                        queue blablas "voice_bath_5.wav"
                     $ beeps += 1
             if area == 7:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 8)
                     if randosound == 1:
-                        queue blablas "voice default 1.mp3"
+                        queue blablas "voice_default_1.wav"
                     if randosound == 2:
-                        queue blablas "voice default 2.mp3"
+                        queue blablas "voice_default_2.wav"
                     if randosound == 3:
-                        queue blablas "voice default 3.mp3"
+                        queue blablas "voice_default_3.wav"
                     if randosound == 4:
-                        queue blablas "voice default 4.mp3"
+                        queue blablas "voice_default_4.wav"
                     if randosound == 5:
-                        queue blablas "voice default 5.mp3"
+                        queue blablas "voice_default_5.wav"
                     if randosound == 6:
-                        queue blablas "voice default 6.mp3"
+                        queue blablas "voice_default_6.wav"
                     if randosound == 7:
-                        queue blablas "voice default 7.mp3"
+                        queue blablas "voice_default_7.wav"
                     if randosound == 8:
-                        queue blablas "voice default 8.mp3"
+                        queue blablas "voice_default_8.wav"
                     $ beeps += 1
             if area == 8:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 8)
                     if randosound == 1:
-                        queue blablas "voice default 1.mp3"
+                        queue blablas "voice_default_1.wav"
                     if randosound == 2:
-                        queue blablas "voice default 2.mp3"
+                        queue blablas "voice_default_2.wav"
                     if randosound == 3:
-                        queue blablas "voice default 3.mp3"
+                        queue blablas "voice_default_3.wav"
                     if randosound == 4:
-                        queue blablas "voice default 4.mp3"
+                        queue blablas "voice_default_4.wav"
                     if randosound == 5:
-                        queue blablas "voice default 5.mp3"
+                        queue blablas "voice_default_5.wav"
                     if randosound == 6:
-                        queue blablas "voice default 6.mp3"
+                        queue blablas "voice_default_6.wav"
                     if randosound == 7:
-                        queue blablas "voice default 7.mp3"
+                        queue blablas "voice_default_7.wav"
                     if randosound == 8:
-                        queue blablas "voice default 8.mp3"
+                        queue blablas "voice_default_8.wav"
                     $ beeps += 1
             if area == 123:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 28)
                     if randosound == 1:
-                        queue blablas "voice default 1.mp3"
+                        queue blablas "voice_default_1.wav"
                     if randosound == 2:
-                        queue blablas "voice default 2.mp3"
+                        queue blablas "voice_default_2.wav"
                     if randosound == 3:
-                        queue blablas "voice default 3.mp3"
+                        queue blablas "voice_default_3.wav"
                     if randosound == 4:
-                        queue blablas "voice default 4.mp3"
+                        queue blablas "voice_default_4.wav"
                     if randosound == 5:
-                        queue blablas "voice default 5.mp3"
+                        queue blablas "voice_default_5.wav"
                     if randosound == 6:
-                        queue blablas "voice default 6.mp3"
+                        queue blablas "voice_default_6.wav"
                     if randosound == 7:
-                        queue blablas "voice default 7.mp3"
+                        queue blablas "voice_default_7.wav"
                     if randosound == 8:
-                        queue blablas "voice default 8.mp3"
+                        queue blablas "voice_default_8.wav"
                     if randosound == 9:
-                        queue blablas "voice infirmary 1.mp3"
+                        queue blablas "voice_infirmary_1.wav"
                     if randosound == 10:
-                        queue blablas "voice infirmary 2.mp3"
+                        queue blablas "voice_infirmary_2.wav"
                     if randosound == 11:
-                        queue blablas "voice infirmary 3.mp3"
+                        queue blablas "voice_infirmary_3.wav"
                     if randosound == 12:
-                        queue blablas "voice infirmary 4.mp3"
+                        queue blablas "voice_infirmary_4.wav"
                     if randosound == 13:
-                        queue blablas "voice infirmary 5.mp3"
+                        queue blablas "voice_infirmary_5.wav"
                     if randosound == 14:
-                        queue blablas "voice vault 1.mp3"
+                        queue blablas "voice_vault_1.wav"
                     if randosound == 15:
-                        queue blablas "voice vault 2.mp3"
+                        queue blablas "voice_vault_2.wav"
                     if randosound == 16:
-                        queue blablas "voice vault 3.mp3"
+                        queue blablas "voice_vault_3.wav"
                     if randosound == 17:
-                        queue blablas "voice vault 4.mp3"
+                        queue blablas "voice_vault_4.wav"
                     if randosound == 18:
-                        queue blablas "voice vault 5.mp3"
+                        queue blablas "voice_vault_5.wav"
                     if randosound == 19:
-                        queue blablas "voice bath 1.mp3"
+                        queue blablas "voice_bath_1.wav"
                     if randosound == 20:
-                        queue blablas "voice bath 2.mp3"
+                        queue blablas "voice_bath_2.wav"
                     if randosound == 21:
-                        queue blablas "voice bath 3.mp3"
+                        queue blablas "voice_bath_3.wav"
                     if randosound == 22:
-                        queue blablas "voice bath 4.mp3"
+                        queue blablas "voice_bath_4.wav"
                     if randosound == 23:
-                        queue blablas "voice bath 5.mp3"
+                        queue blablas "voice_bath_5.wav"
                     if randosound == 24:
-                        queue blablas "voice cathedral 1.mp3"
+                        queue blablas "voice_cathedral_1.wav"
                     if randosound == 25:
-                        queue blablas "voice cathedral 2.mp3"
+                        queue blablas "voice_cathedral_2.wav"
                     if randosound == 26:
-                        queue blablas "voice cathedral 3.mp3"
+                        queue blablas "voice_cathedral_3.wav"
                     if randosound == 27:
-                        queue blablas "voice cathedral 4.mp3"
+                        queue blablas "voice_cathedral_4.wav"
                     if randosound == 28:
-                        queue blablas "voice cathedral 5.mp3"
+                        queue blablas "voice_cathedral_5.wav"
                     $ beeps += 1
             if area == 321:
                 while beeps < 5:
                     $ randosound = renpy.random.randint(1, 8)
                     if randosound == 1:
-                        queue blablas "voice default 1.mp3"
+                        queue blablas "voice_default_1.wav"
                     if randosound == 2:
-                        queue blablas "voice default 2.mp3"
+                        queue blablas "voice_default_2.wav"
                     if randosound == 3:
-                        queue blablas "voice default 3.mp3"
+                        queue blablas "voice_default_3.wav"
                     if randosound == 4:
-                        queue blablas "voice default 4.mp3"
+                        queue blablas "voice_default_4.wav"
                     if randosound == 5:
-                        queue blablas "voice default 5.mp3"
+                        queue blablas "voice_default_5.wav"
                     if randosound == 6:
-                        queue blablas "voice default 6.mp3"
+                        queue blablas "voice_default_6.wav"
                     if randosound == 7:
-                        queue blablas "voice default 7.mp3"
+                        queue blablas "voice_default_7.wav"
                     if randosound == 8:
-                        queue blablas "voice default 8.mp3"
+                        queue blablas "voice_default_8.wav"
                     $ beeps += 1
             if area == 123:
-                play sound "elevator_shut.mp3"
+                play sound "elevator_shut.wav"
             if question == 0:
-                play sound "what.mp3"
+                play sound "what.wav"
                 $ question = 1
             show textbox at shake
             return
@@ -1031,7 +1031,7 @@
             if point == 1:
                 $ point = 0
             if area == 123:
-                play sound "elevator_shut.mp3"
+                play sound "elevator_shut.wav"
             return
 
         label hidechoice:
@@ -1166,7 +1166,7 @@ label start:
         show titlepots at offscreen
         scene space
         pause 0.50
-        play sound "mus_jingle2.ogg"
+        play sound "mus_jingle2.wav"
         show foologo gray at logoscrollon
         pause 1.50
         show foologo color at shake
@@ -1179,7 +1179,7 @@ label start:
         pause 1.25
         show starscroll at titlescrollelevatorend
         pause 0.90
-        play music "mus_menu.ogg"
+        play music "mus_menu.wav"
 
     label main_menu:
 
@@ -1368,28 +1368,28 @@ label start:
         label titleimages:
 
             image titlefoole:
-                "images/title/titlefoole wibble.png"
+                "images/title/titlefoole_wibble.png"
                 pause 0.50
-                "images/title/titlefoole wobble.png"
+                "images/title/titlefoole_wobble.png"
                 pause 0.50
                 repeat
             image titlesun:
-                "images/title/titlesun wibble.png"
+                "images/title/titlesun_wibble.png"
                 pause 0.50
-                "images/title/titlesun wobble.png"
+                "images/title/titlesun_wobble.png"
                 pause 0.50
                 repeat
             image titlemoon:
-                "images/title/titlemoon wibble.png"
+                "images/title/titlemoon_wibble.png"
                 pause 0.50
-                "images/title/titlemoon wobble.png"
+                "images/title/titlemoon_wobble.png"
                 pause 0.50
                 repeat
             image titlepillars = "images/title/titlepillars.png"
             image titlescreen:
-                "images/title/titlescreen wibble.png"
+                "images/title/titlescreen_wibble.png"
                 pause 1.40
-                "images/title/titlescreen wobble.png"
+                "images/title/titlescreen_wobble.png"
                 pause 0.10
                 repeat
             image titleappfoole = "images/title/titleappfoole.png"
@@ -1398,21 +1398,21 @@ label start:
             image titlerags = "images/title/titlerags.png"
             image titlesale = "images/title/titlesale.png"
             image titlepipes:
-                "images/title/titlepipes wibble.png"
+                "images/title/titlepipes_wibble.png"
                 pause 0.30
-                "images/title/titlepipes wobble.png"
+                "images/title/titlepipes_wobble.png"
                 pause 0.05
-                "images/title/titlepipes wibble.png"
+                "images/title/titlepipes_wibble.png"
                 pause 1.80
-                "images/title/titlepipes wobble.png"
+                "images/title/titlepipes_wobble.png"
                 pause 0.05
-                "images/title/titlepipes wibble.png"
+                "images/title/titlepipes_wibble.png"
                 pause 1.25
-                "images/title/titlepipes wobble.png"
+                "images/title/titlepipes_wobble.png"
                 pause 0.05
-                "images/title/titlepipes wibble.png"
+                "images/title/titlepipes_wibble.png"
                 pause 2.40
-                "images/title/titlepipes wobble.png"
+                "images/title/titlepipes_wobble.png"
                 pause 0.05
                 repeat
             image titlepainting = "images/title/titlepainting.png"
@@ -1573,7 +1573,7 @@ label start:
         pause 0.01
         show titlepots at titlescrollon, titlepots
         pause 2.00
-        play sound "choice_hover.mp3"
+        play sound "choice_hover.wav"
         call screen title
         jump development
 
@@ -1757,49 +1757,49 @@ label cell:
 
         image light = "image/cell/light"
         image bars aligned:
-            "images/cell/bars 1.png"
+            "images/cell/bars_1.png"
             pause 0.50
-            "images/cell/bars 2.png"
+            "images/cell/bars_2.png"
             pause 0.50
             repeat
-        image bars unaligned = "images/cell/bars 1.png"
+        image bars unaligned = "images/cell/bars_1.png"
 
         image door = "images/cell/door.png"
         image brickwalls = "images/cell/brickwalls.png"
         image constellations:
-            "images/cell/constellations 1.png"
+            "images/cell/constellations_1.png"
             pause 0.50
-            "images/cell/constellations 2.png"
+            "images/cell/constellations_2.png"
             pause 0.50
             repeat
         image writing:
-            "images/cell/writing 1.png"
+            "images/cell/writing_1.png"
             pause 0.50
-            "images/cell/writing 2.png"
+            "images/cell/writing_2.png"
             pause 0.50
             repeat
         image foole cell shrug:
-            "images/cell/foole cell shrug wibble.png"
+            "images/cell/foole_cell_shrug_wibble.png"
             pause 0.50
-            "images/cell/foole cell shrug wobble.png"
+            "images/cell/foole_cell_shrug_wobble.png"
             pause 0.50
             repeat
         image foole cell mask:
-            "images/cell/foole cell mask wibble.png"
+            "images/cell/foole_cell_mask_wibble.png"
             pause 0.50
-            "images/cell/foole cell mask wobble.png"
+            "images/cell/foole_cell_mask_wobble.png"
             pause 0.50
             repeat
         image foole cell paint:
-            "images/cell/foole cell paint wibble.png"
+            "images/cell/foole_cell_paint_wibble.png"
             pause 0.50
-            "images/cell/foole cell paint wobble.png"
+            "images/cell/foole_cell_paint_wobble.png"
             pause 0.50
             repeat
         image foole cell switch:
-            "images/cell/foole cell switch wibble.png"
+            "images/cell/foole_cell_switch_wibble.png"
             pause 0.50
-            "images/cell/foole cell switch wobble.png"
+            "images/cell/foole_cell_switch_wobble.png"
             pause 0.50
             repeat
 
@@ -1840,7 +1840,7 @@ label cell:
         pause 0.10
         show background cell at scrolloncell
         show foole cell switch at scrolloncell
-        play music "mus_cell.ogg" fadein 5.00
+        play music "mus_cell.wav" fadein 5.00
         pause 5.00
         call sun from _call_sun
         a "Long ago, a nameless someone wished within their cell."
@@ -1889,93 +1889,93 @@ label hall:
     label hallimages:
         
         image foole hall orbit:
-            "images/hall/foole hall orbit wibble.png"
+            "images/hall/foole_hall_orbit_wibble.png"
             pause 0.50
-            "images/hall/foole hall orbit wobble.png"
+            "images/hall/foole_hall_orbit_wobble.png"
             pause 0.50
             repeat
         image foole hall woah:
-            "images/hall/foole hall woah wibble.png"
+            "images/hall/foole_hall_woah_wibble.png"
             pause 0.25
-            "images/hall/foole hall woah wobble.png"
+            "images/hall/foole_hall_woah_wobble.png"
             pause 0.25
             repeat
         image foole hall shrug:
-            "images/hall/foole hall shrug wibble.png"
+            "images/hall/foole_hall_shrug_wibble.png"
             pause 0.50
-            "images/hall/foole hall shrug wobble.png"
+            "images/hall/foole_hall_shrug_wobble.png"
             pause 0.50
             repeat
         image foole hall switch:
-            "images/hall/foole hall switch wibble.png"
+            "images/hall/foole_hall_switch_wibble.png"
             pause 0.50
-            "images/hall/foole hall switch wobble.png"
+            "images/hall/foole_hall_switch_wobble.png"
             pause 0.50
             repeat
         image foole hall float:
-            "images/hall/foole hall float wibble.png"
+            "images/hall/foole_hall_float_wibble.png"
             pause 0.50
-            "images/hall/foole hall float wobble.png"
+            "images/hall/foole_hall_float_wobble.png"
             pause 0.50
             repeat
         image foole hall swoosh:
-            "images/hall/foole hall swoosh wibble.png"
+            "images/hall/foole_hall_swoosh_wibble.png"
             pause 0.50
-            "images/hall/foole hall swoosh wobble.png"
+            "images/hall/foole_hall_swoosh_wobble.png"
             pause 0.50
             repeat
         image fooleshadow:
-            "images/hall/fooleshadow wibble.png"
+            "images/hall/fooleshadow_wibble.png"
             pause 0.50
-            "images/hall/fooleshadow wobble.png"
+            "images/hall/fooleshadow_wobble.png"
             pause 0.50
             repeat
         image foole hall split:
-            "images/hall/foole hall split wibble.png"
+            "images/hall/foole_hall_split_wibble.png"
             pause 0.50
-            "images/hall/foole hall split wobble.png"
+            "images/hall/foole_hall_split_wobble.png"
             pause 0.50
             repeat
         image foole hall scrawl:
-            "images/hall/foole hall scrawl wibble.png"
+            "images/hall/foole_hall_scrawl_wibble.png"
             pause 0.50
-            "images/hall/foole hall scrawl wobble.png"
+            "images/hall/foole_hall_scrawl_wobble.png"
             pause 0.50
             repeat
         image foole hall giggle:
-            "images/hall/foole hall giggle wibble.png"
+            "images/hall/foole_hall_giggle_wibble.png"
             pause 0.15
-            "images/hall/foole hall giggle wobble.png"
+            "images/hall/foole_hall_giggle_wobble.png"
             pause 0.05
             repeat
-        image columnsfront = "images/hall/columns front.png"
-        image columnsmiddle = "images/hall/columns middle.png"
-        image columnsback = "images/hall/columns back.png"
+        image columnsfront = "images/hall/columns_front.png"
+        image columnsmiddle = "images/hall/columns_middle.png"
+        image columnsback = "images/hall/columns_back.png"
         image rings = "images/hall/rings.png"
         image muralclose:
-            "images/hall/muralclose wibble.png"
+            "images/hall/muralclose_wibble.png"
             pause 0.50
-            "images/hall/muralclose wobble.png"
+            "images/hall/muralclose_wobble.png"
             pause 0.50
             repeat
         image muralfar = "images/hall/muralfar.png"
         image muralclose color:
-            "images/hall/muralclose color wibble.png"
+            "images/hall/muralclose_color_wibble.png"
             pause 0.50
-            "images/hall/muralclose color wobble.png"
+            "images/hall/muralclose_color_wobble.png"
             pause 0.50
             repeat
         image clouds:
-            "images/hall/clouds wibble.png"
+            "images/hall/clouds_wibble.png"
             pause 0.50
-            "images/hall/clouds wobble.png"
+            "images/hall/clouds_wobble.png"
             pause 0.50
             repeat
 
         image eyewall:
-            "images/hall/eyewall wibble.png"
+            "images/hall/eyewall_wibble.png"
             pause 0.50
-            "images/hall/eyewall wobble.png"
+            "images/hall/eyewall_wobble.png"
             pause 0.50
             repeat
         image blinklove:
@@ -2087,7 +2087,7 @@ label hall:
 
             hide fooleshadow
             show foole hall switch at shake
-            play sound "giggle.mp3"
+            play sound "giggle.wav"
             pause 0.30
             show foole hall giggle wibble
             pause 0.03
@@ -2265,9 +2265,9 @@ label hall:
         show tile8 at tile8
         show tile9 at tile9
         show tile10 at tile10
-        play soundloop "mural.mp3"
-        play sound "appear.mp3"
-        play music "mus_fantasia.ogg"
+        play soundloop "mural.wav"
+        play sound "appear.wav"
+        play music "mus_fantasia.wav"
         show thoughtotal at shake, total15, totalhov15
         show total13 at shake, total13, totalhov13
         show total12 at shake, total12, totalhov12
@@ -2836,21 +2836,21 @@ label hall:
         stop soundloop
         call fooleorbit from _call_fooleorbit_16
         call writing from _call_writing_1
-        play sound "foole appear.mp3"
-        play sound "mural.mp3"
+        play sound "foole_appear.wav"
+        play sound "mural.wav"
         show muralfar at scrollmuralreset
         show muralclose color at scrollmuralreset
         pause 3.00
         call foolewoah from _call_foolewoah_14
-        play soundloop "mural fast.mp3"
+        play soundloop "mural_fast.wav"
         show muralfar at scrollmuralfarfast
         show muralclose color at scrollmuralclosefast
         call sun from _call_sun_10
         a "Infirmary, come to be!"
         call writing from _call_writing_2
         show glitch cell
-        play sound "appear.mp3"
-        play music "mus_infirmary.ogg"
+        play sound "appear.wav"
+        play music "mus_infirmary.wav"
         call blipi from _call_blipi
         stop soundloop
         hide foole
@@ -2887,7 +2887,7 @@ label infirmary:
         call blipx from _call_blipx
         call writing from _call_writing_3
         show timer at shake, hoverappup
-        play sound "timeup.mp3"
+        play sound "timeup.wav"
         call sun from _call_sun_11
         $ comet += 1
         $ fail += 1
@@ -2909,9 +2909,9 @@ label infirmary:
         image timer = ConditionSwitch("time<0", "images/infirmary/timer0.png", "time<1", "images/infirmary/timer1.png", "time<2", "images/infirmary/timer2.png", "time<3", "images/infirmary/timer3.png", "time<4", "images/infirmary/timer4.png", "time<5", "images/infirmary/timer5.png", "time<6", "images/infirmary/timer6.png", "time>6", "images/infirmary/timer7.png", )
 
         image foole infirmary:
-            "images/infirmary/foole infirmary wibble.png"
+            "images/infirmary/foole_infirmary_wibble.png"
             pause 0.50
-            "images/infirmary/foole infirmary wobble.png"
+            "images/infirmary/foole_infirmary_wobble.png"
             pause 0.50
             repeat
         image beat:
@@ -2959,31 +2959,31 @@ label infirmary:
         image chart = "images/infirmary/chart.png"
         image stands = "images/infirmary/stands.png"
         image error i:
-            "images/infirmary/error i wibble.png"
+            "images/infirmary/error_i_wibble.png"
             pause 0.50
-            "images/infirmary/error i wobble.png"
+            "images/infirmary/error_i_wobble.png"
             pause 0.50
             repeat
         image error q:
-            "images/infirmary/error q wibble.png"
+            "images/infirmary/error_q_wibble.png"
             pause 0.50
-            "images/infirmary/error q wobble.png"
+            "images/infirmary/error_q_wobble.png"
             pause 0.50
             repeat
         image error x:
-            "images/infirmary/error x wibble.png"
+            "images/infirmary/error_x_wibble.png"
             pause 0.50
-            "images/infirmary/error x wobble.png"
+            "images/infirmary/error_x_wobble.png"
             pause 0.50
             repeat
         image error c:
-            "images/infirmary/error c wibble.png"
+            "images/infirmary/error_c_wibble.png"
             pause 0.50
-            "images/infirmary/error c wobble.png"
+            "images/infirmary/error_c_wobble.png"
             pause 0.50
             repeat
-        image error blip = "images/infirmary/error blip.png"
-        image error s = "images/infirmary/error scrawl.png"
+        image error blip = "images/infirmary/error_blip.png"
+        image error s = "images/infirmary/error_scrawl.png"
         image applite = "images/infirmary/applite.png"
         image appfoole = "images/infirmary/appfoole.png"
         image appenpsy = "images/infirmary/appenpsy.png"
@@ -3099,7 +3099,7 @@ label infirmary:
         ai "Please complete the questionaire in a timely manner."
         $ time = 7
         show timer at shake, hoverappdown
-        play sound "appear.mp3"
+        play sound "appear.wav"
         ai "Stargazer will have 7 secs to complete each question."
         $ turn = 0
     label infirmaryrapid:
@@ -3504,7 +3504,7 @@ label infirmary:
                 jump infirmaryrapid
     label infirmarypointintro:
         hide timer
-        play sound "appear.mp3"
+        play sound "appear.wav"
         if fail < 4:
             call blipc from _call_blipc
             ai "Timed questionaire complete."
@@ -3681,7 +3681,7 @@ label infirmary:
         call blipx from _call_blipx_11
         ai "Unloading infirmary."
         call writing from _call_writing_5
-        play sound "appear.mp3"
+        play sound "appear.wav"
         hide background
         hide applite
         hide appmiyu
@@ -3705,7 +3705,7 @@ label pickplease:
     call totalreset from _call_totalreset_2
     show total1 at shake, total1, totalhov1
     $ area = 1
-    play music "mus_fantasia.ogg"
+    play music "mus_fantasia.wav"
     show background split
     show foole hall split
     pause 2.00
@@ -3831,58 +3831,58 @@ label wardrobe:
             pause 0.50
             repeat
         image face foole:
-            "images/wardrobe/face foole wibble.png"
+            "images/wardrobe/face_foole_wibble.png"
             pause 0.50
-            "images/wardrobe/face foole wobble.png"
+            "images/wardrobe/face_foole_wobble.png"
             pause 0.50
             repeat
         image face doctor:
-            "images/wardrobe/face doctor wibble.png"
+            "images/wardrobe/face_doctor_wibble.png"
             pause 0.50
-            "images/wardrobe/face doctor wobble.png"
+            "images/wardrobe/face_doctor_wobble.png"
             pause 0.50
             repeat
         image face noble:
-            "images/wardrobe/face noble wibble.png"
+            "images/wardrobe/face_noble_wibble.png"
             pause 0.50
-            "images/wardrobe/face noble wobble.png"
+            "images/wardrobe/face_noble_wobble.png"
             pause 0.50
             repeat
         image face beggar:
-            "images/wardrobe/face beggar wibble.png"
+            "images/wardrobe/face_beggar_wibble.png"
             pause 0.50
-            "images/wardrobe/face beggar wobble.png"
+            "images/wardrobe/face_beggar_wobble.png"
             pause 0.50
             repeat
         image face student:
-            "images/wardrobe/face student wibble.png"
+            "images/wardrobe/face_student_wibble.png"
             pause 0.50
-            "images/wardrobe/face student wobble.png"
+            "images/wardrobe/face_student_wobble.png"
             pause 0.50
             repeat
         image face saege:
-            "images/wardrobe/face saege wibble.png"
+            "images/wardrobe/face_saege_wibble.png"
             pause 0.50
-            "images/wardrobe/face saege wobble.png"
+            "images/wardrobe/face_saege_wobble.png"
             pause 0.50
             repeat
         image face keeper:
-            "images/wardrobe/face keeper wibble.png"
+            "images/wardrobe/face_keeper_wibble.png"
             pause 0.50
-            "images/wardrobe/face keeper wobble.png"
+            "images/wardrobe/face_keeper_wobble.png"
             pause 0.50
             repeat
         image face scrawl:
-            "images/wardrobe/face scrawl wibble.png"
+            "images/wardrobe/face_scrawl_wibble.png"
             pause 0.50
-            "images/wardrobe/face scrawl wobble.png"
+            "images/wardrobe/face_scrawl_wobble.png"
             pause 0.50
             repeat
         image cart = "images/wardrobe/cart"
         image halfoff:
-            "images/wardrobe/halfoff on.png"
+            "images/wardrobe/halfoff_on.png"
             pause 0.48
-            "images/wardrobe/halfoff off.png"
+            "images/wardrobe/halfoff_off.png"
             pause 0.02
             repeat
 
@@ -3904,7 +3904,7 @@ label wardrobe:
         show doorleft at doorleft
         show doorright at doorright
         stop music
-        play sound "appear.mp3"
+        play sound "appear.wav"
         pause 0.15
         hide foole
         hide background
@@ -3926,7 +3926,7 @@ label wardrobe:
         call sun from _call_sun_14
         hide doorleft
         hide doorright
-        play sound "appear.mp3"
+        play sound "appear.wav"
         show bannertext behind background at bannertextscroll
         show background wardrobe open at shake
         show hoodfoole open
@@ -3938,7 +3938,7 @@ label wardrobe:
         show hoodkeeper open
         show cart empty at hoverappup
         show halfoff at hoverappdown
-        play music "mus_wardrobe.ogg"
+        play music "mus_wardrobe.wav"
         call totalreset from _call_totalreset_3
         show thoughtotal at shake, total10, totalhov10
         show total8 at shake, total8, totalhov8
@@ -4380,100 +4380,100 @@ label gallery:
     label galleryimages:
         
         image foole gallery positive:
-            "images/gallery/foole gallery positive wibble.png"
+            "images/gallery/foole_gallery_positive_wibble.png"
             pause 0.50
-            "images/gallery/foole gallery positive wobble.png"
+            "images/gallery/foole_gallery_positive_wobble.png"
             pause 0.50
             repeat
         image foole gallery negative:
-            "images/gallery/foole gallery negative wibble.png"
+            "images/gallery/foole_gallery_negative_wibble.png"
             pause 0.50
-            "images/gallery/foole gallery negative wobble.png"
+            "images/gallery/foole_gallery_negative_wobble.png"
             pause 0.50
             repeat
         image foole gallery circles:
-            "images/gallery/foole gallery circles wibble.png"
+            "images/gallery/foole_gallery_circles_wibble.png"
             pause 0.50
-            "images/gallery/foole gallery circles wobble.png"
+            "images/gallery/foole_gallery_circles_wobble.png"
             pause 0.50
             repeat
         image foole gallery scribble:
-            "images/gallery/foole gallery scribble wibble.png"
+            "images/gallery/foole_gallery_scribble_wibble.png"
             pause 0.50
-            "images/gallery/foole gallery scribble wobble.png"
+            "images/gallery/foole_gallery_scribble_wobble.png"
             pause 0.50
             repeat
         image foole gallery abstract:
-            "images/gallery/foole gallery abstract wibble.png"
+            "images/gallery/foole_gallery_abstract_wibble.png"
             pause 0.50
-            "images/gallery/foole gallery abstract wobble.png"
+            "images/gallery/foole_gallery_abstract_wobble.png"
             pause 0.50
             repeat
         image foole gallery pinup:
-            "images/gallery/foole gallery pinup wibble.png"
+            "images/gallery/foole_gallery_pinup_wibble.png"
             pause 0.50
-            "images/gallery/foole gallery pinup wobble.png"
+            "images/gallery/foole_gallery_pinup_wobble.png"
             pause 0.50
             repeat
         image foole gallery scrawl:
-            "images/gallery/foole gallery scrawl wibble.png"
+            "images/gallery/foole_gallery_scrawl_wibble.png"
             pause 0.50
-            "images/gallery/foole gallery scrawl wobble.png"
+            "images/gallery/foole_gallery_scrawl_wobble.png"
             pause 0.50
             repeat
-        image foole gallery void = "images/gallery/foole gallery void.png"
-        image foole gallery wardrobe = "images/gallery/foole gallery wardrobe.png"
-        image foole gallery switch = "images/gallery/foole gallery switch.png"
+        image foole gallery void = "images/gallery/foole_gallery_void.png"
+        image foole gallery wardrobe = "images/gallery/foole_gallery_wardrobe.png"
+        image foole gallery switch = "images/gallery/foole_gallery_switch.png"
 
-        image background gallery = "images/gallery/background gallery.png"
+        image background gallery = "images/gallery/background_gallery.png"
 
-        image cstar dull = "images/gallery/cstar dull.png"
+        image cstar dull = "images/gallery/cstar_dull.png"
         image cstar select:
-            "images/gallery/cstar wibble.png"
+            "images/gallery/cstar_wibble.png"
             pause 0.50
-            "images/gallery/cstar wobble.png"
+            "images/gallery/cstar_wobble.png"
             pause 0.50
             repeat
-        image cmachine dull = "images/gallery/cmachine dull.png"
+        image cmachine dull = "images/gallery/cmachine_dull.png"
         image cmachine select:
-            "images/gallery/cmachine wibble.png"
+            "images/gallery/cmachine_wibble.png"
             pause 0.50
-            "images/gallery/cmachine wobble.png"
+            "images/gallery/cmachine_wobble.png"
             pause 0.50
             repeat
-        image cbeast dull = "images/gallery/cbeast dull.png"
+        image cbeast dull = "images/gallery/cbeast_dull.png"
         image cbeast select:
-            "images/gallery/cbeast wibble.png"
+            "images/gallery/cbeast_wibble.png"
             pause 0.50
-            "images/gallery/cbeast wobble.png"
+            "images/gallery/cbeast_wobble.png"
             pause 0.50
             repeat
-        image cslime dull = "images/gallery/cslime dull.png"
+        image cslime dull = "images/gallery/cslime_dull.png"
         image cslime select:
-            "images/gallery/cslime wibble.png"
+            "images/gallery/cslime_wibble.png"
             pause 0.50
-            "images/gallery/cslime wobble.png"
+            "images/gallery/cslime_wobble.png"
             pause 0.50
             repeat
-        image cbug dull = "images/gallery/cbug dull.png"
+        image cbug dull = "images/gallery/cbug_dull.png"
         image cbug select:
-            "images/gallery/cbug wibble.png"
+            "images/gallery/cbug_wibble.png"
             pause 0.50
-            "images/gallery/cbug wobble.png"
+            "images/gallery/cbug_wobble.png"
             pause 0.50
             repeat
-        image cdivine dull = "images/gallery/cdivine dull.png"
+        image cdivine dull = "images/gallery/cdivine_dull.png"
         image cdivine select:
-            "images/gallery/cdivine wibble.png"
+            "images/gallery/cdivine_wibble.png"
             pause 0.50
-            "images/gallery/cdivine wobble.png"
+            "images/gallery/cdivine_wobble.png"
             pause 0.50
             repeat
-        image cshadow dull = "images/gallery/cshadow dull.png"
+        image cshadow dull = "images/gallery/cshadow_dull.png"
         image cshadow select:
-            "images/gallery/cshadow wibble.png"
+            "images/gallery/cshadow_wibble.png"
             pause 0.50
-            "images/gallery/cshadow wobble.png"
+            "images/gallery/cshadow_wobble.png"
             pause 0.50
             repeat
 
@@ -4549,7 +4549,7 @@ label gallery:
         show cdivine dull
         show cshadow dull
         show background gallery
-        play sound "appear.mp3"
+        play sound "appear.wav"
         call totalreset from _call_totalreset_4
         show thoughtotal at shake, total9, totalhov9
         show total7 at shake, total7, totalhov7
@@ -4564,7 +4564,7 @@ label gallery:
         call sun from _call_sun_23
         $ renpy.music.set_volume(1.00, channel='music')
         $ renpy.music.set_audio_filter("music", None, replace=True)
-        play music "mus_gallery.ogg"
+        play music "mus_gallery.wav"
         a "I ought to properly present some of my creations for you!"
         call foolescribble from _call_foolescribble
         a "They may not be perfectly refined as of now, but we would have no world at all were I awaiting such."
@@ -4969,28 +4969,28 @@ label vault:
     label vaultimages:
 
         image foole vault eye:
-            "images/vault/foole vault eye wibble.png"
+            "images/vault/foole_vault_eye_wibble.png"
             pause 0.50
-            "images/vault/foole vault eye wobble.png"
+            "images/vault/foole_vault_eye_wobble.png"
             pause 0.50
             repeat
         image foole vault yey:
-            "images/vault/foole vault yey wibble.png"
+            "images/vault/foole_vault_yey_wibble.png"
             pause 0.50
-            "images/vault/foole vault yey wobble.png"
+            "images/vault/foole_vault_yey_wobble.png"
             pause 0.50
             repeat
 
         image spider:
-            "images/vault/spider wibble.png"
+            "images/vault/spider_wibble.png"
             pause 0.50
-            "images/vault/spider wobble.png"
+            "images/vault/spider_wobble.png"
             pause 0.50
             repeat
         image spideye see:
-            "images/vault/spideye wibble.png"
+            "images/vault/spideye_wibble.png"
             pause 0.50
-            "images/vault/spideye wobble.png"
+            "images/vault/spideye_wobble.png"
             pause 0.50
             repeat
 
@@ -5020,7 +5020,7 @@ label vault:
         call vareset from _call_vareset_10
         call totalreset from _call_totalreset_5
         show lightbulb at vaultrise
-        play weather "weather_thunder.mp3" fadein 3.00
+        play weather "weather_thunder.wav" fadein 3.00
         pause 5.00
         hide lightbulb
         show thoughtotal at shake, total6, totalhov6
@@ -5033,7 +5033,7 @@ label vault:
         show background vault at shake
         show spider
         show foole vault eye
-        play music "mus_vault.ogg"
+        play music "mus_vault.wav"
 
     label vaultpoint:
 
@@ -5170,7 +5170,7 @@ label vault:
         hide flicker
         pause 0.05
         pause 1.00
-        play sound "chain.mp3"
+        play sound "chain.wav"
         show flicker
         pause 0.05
         hide background
@@ -5182,7 +5182,7 @@ label vault:
         jump pickagain
 
         label flicker:
-            play sound "chain.mp3"
+            play sound "chain.wav"
             show flicker
             pause 0.05
             return
@@ -5299,58 +5299,58 @@ label bath:
             return
 
         image bathwater:
-            "images/bath/bathwater wibble.png"
+            "images/bath/bathwater_wibble.png"
             pause 0.25
-            "images/bath/bathwater wobble.png"
+            "images/bath/bathwater_wobble.png"
             pause 0.25
             repeat
 
         image foole bath jelly:
-            "images/bath/foole jelly wibble.png"
+            "images/bath/foole_jelly_wibble.png"
             pause 0.50
-            "images/bath/foole jelly wobble.png"
+            "images/bath/foole_jelly_wobble.png"
             pause 0.50
             repeat
 
         image foole bath limp:
-            "images/bath/foole jelly limp wibble.png"
+            "images/bath/foole_jelly_limp_wibble.png"
             pause 0.50
-            "images/bath/foole jelly limp wobble.png"
+            "images/bath/foole_jelly_limp_wobble.png"
             pause 0.50
             repeat
 
         image foole bath welp:
-            "images/bath/foole jelly welp wibble.png"
+            "images/bath/foole_jelly_welp_wibble.png"
             pause 0.50
-            "images/bath/foole jelly welp wobble.png"
+            "images/bath/foole_jelly_welp_wobble.png"
             pause 0.50
             repeat
 
         image foole bath scrawl:
-            "images/bath/foole jelly scrawl wibble.png"
+            "images/bath/foole_jelly_scrawl_wibble.png"
             pause 0.50
-            "images/bath/foole jelly scrawl wobble.png"
+            "images/bath/foole_jelly_scrawl_wobble.png"
             pause 0.50
             repeat
 
         image bubbles:
-            "images/bath/bubbles wibble.png"
+            "images/bath/bubbles_wibble.png"
             pause 0.50
-            "images/bath/bubbles wobble.png"
+            "images/bath/bubbles_wobble.png"
             pause 0.50
             repeat
 
         image waterfalls:
-            "images/bath/waterfalls wibble.png"
+            "images/bath/waterfalls_wibble.png"
             pause 0.10
-            "images/bath/waterfalls wobble.png"
+            "images/bath/waterfalls_wobble.png"
             pause 0.10
             repeat
 
         image background bath:
-            "images/bath/background bath wibble.png"
+            "images/bath/background_bath_wibble.png"
             pause 0.50
-            "images/bath/background bath wobble.png"
+            "images/bath/background_bath_wobble.png"
             pause 0.50
             repeat
 
@@ -5408,9 +5408,9 @@ label bath:
     label bathintro:
 
         show bathwater at bathrise
-        play sound "wavein.mp3"
+        play sound "wavein.wav"
         pause 2.00
-        play sound "waveout.mp3"
+        play sound "waveout.wav"
         hide background
         hide foole
         hide lightbulb
@@ -5429,7 +5429,7 @@ label bath:
         show foole bath limp at sunhover
         show bubbles behind background at scrollbubbles
         $ renpy.music.set_volume(0.05, channel='ambience')
-        play ambience "ambience_waterfalls.mp3" fadein 1.00
+        play ambience "ambience_waterfalls.wav" fadein 1.00
         show waterfalls behind bubbles
         show bub1 at bub1
         show bub2 at bub2
@@ -5447,7 +5447,7 @@ label bath:
         hide bathwater
         show bathwater at bathdrain
         pause 3.00
-        play music "mus_bath.ogg" fadein 1.00
+        play music "mus_bath.wav" fadein 1.00
         ab "Relax yourself, stargazer."
 
     label bathpoint:
@@ -5661,7 +5661,7 @@ label theater:
             pause 0.75
             stop music
             stop ambience
-            play sound "appear.mp3"
+            play sound "appear.wav"
             show curtains closed at shake
             hide applite
             hide appmiyu
@@ -5687,7 +5687,7 @@ label theater:
             hide background
             hide waterfalls
             pause 0.50
-            play sound "appear.mp3"
+            play sound "appear.wav"
             show curtains open at shake
             return
 
@@ -5699,42 +5699,42 @@ label theater:
             easein 0.50 yoffset -1080
 
         image foole mask:
-            "images/theater/foole mask wibble.png"
+            "images/theater/foole_mask_wibble.png"
             pause 0.50
-            "images/theater/foole mask wobble.png"
+            "images/theater/foole_mask_wobble.png"
             pause 0.50
             repeat
         image foole mask scrawl:
-            "images/theater/foole mask scrawl wibble.png"
+            "images/theater/foole_mask_scrawl_wibble.png"
             pause 0.50
-            "images/theater/foole mask scrawl wobble.png"
+            "images/theater/foole_mask_scrawl_wobble.png"
             pause 0.50
             repeat
         image curtains = "images/theater/curtains.png"
         image audience:
-            "images/theater/audience wibble.png"
+            "images/theater/audience_wibble.png"
             pause 0.50
-            "images/theater/audience wobble.png"
+            "images/theater/audience_wobble.png"
             pause 0.50
             repeat
         image audience leaving:
-            "images/theater/audience leaving wibble.png"
+            "images/theater/audience_leaving_wibble.png"
             pause 0.50
-            "images/theater/audience leaving wobble.png"
+            "images/theater/audience_leaving_wobble.png"
             pause 0.50
             repeat
-        image empty seat = "images/theater/empty seats.png"
+        image empty seat = "images/theater/empty_seats.png"
         image bricklines = "images/theater/bricklines.png"
         image playpretend:
-            "images/theater/playpretend wibble.png"
+            "images/theater/playpretend_wibble.png"
             pause 0.50
-            "images/theater/playpretend wobble.png"
+            "images/theater/playpretend_wobble.png"
             pause 0.50
             repeat
         image playreal:
-            "images/theater/playreal wibble.png"
+            "images/theater/playreal_wibble.png"
             pause 0.50
-            "images/theater/playreal wobble.png"
+            "images/theater/playreal_wobble.png"
             pause 0.50
             repeat
         image playshadows = "images/theater/playshadows.png"
@@ -5795,13 +5795,13 @@ label theater:
         show total2 at shake, total2, totalhov2
         show total1 at shake, total1, totalhov1
         call sun from _call_sun_37
-        play sound "appear.mp3"
+        play sound "appear.wav"
         $ renpy.music.set_audio_filter("blablas", af.Lowpass(2000), replace=True)
         call maskswitch from _call_maskswitch
         a "You are tonight's entertainment, stargazer!"
         call maskswitch from _call_maskswitch_1
         a "Tell the audience what to think, and keep your answers simple!"
-        play music "mus_theater.ogg"
+        play music "mus_theater.wav"
 
     label morality:
 
@@ -6044,7 +6044,7 @@ label theater:
 
     label theaterend:
 
-        play sound "appear.mp3"
+        play sound "appear.wav"
         hide playreal
         hide playpretend
         hide bricklines
@@ -6094,16 +6094,16 @@ label cathedral:
     label cathedralimages:
 
         image foreground cathedral:
-            "images/cathedral/foreground cathedral wibble.png"
+            "images/cathedral/foreground_cathedral_wibble.png"
             pause 0.50
-            "images/cathedral/foreground cathedral wobble.png"
+            "images/cathedral/foreground_cathedral_wobble.png"
             pause 0.50
             repeat
 
         image stains:
-            "images/cathedral/stains wibble.png"
+            "images/cathedral/stains_wibble.png"
             pause 0.50
-            "images/cathedral/stains wobble.png"
+            "images/cathedral/stains_wobble.png"
             pause 0.50
             repeat
 
@@ -6151,9 +6151,9 @@ label cathedral:
         image shard12 = "images/cathedral/shard12.png"
         image shard13 = "images/cathedral/shard13.png"
         image windows:
-            "images/cathedral/windows wibble.png"
+            "images/cathedral/windows_wibble.png"
             pause 0.50
-            "images/cathedral/windows wobble.png"
+            "images/cathedral/windows_wobble.png"
             pause 0.50
             repeat
 
@@ -6249,7 +6249,7 @@ label cathedral:
         
         call vareset from _call_vareset_14
         $ area = 8
-        play music "mus_organ.ogg" fadein 3.00 noloop
+        play music "mus_organ.wav" fadein 3.00 noloop
         call totalreset from _call_totalreset_9
         show total1 at cathedralscrollon, total1, totalhov1
         show total2 at cathedralscrollon, total2, totalhov2
@@ -6373,11 +6373,11 @@ label cathedral:
                 $ meteor += 1
     call answer from _call_answer_318
     call foolecblink from _call_foolecblink
-    play music "mus_organ.ogg" noloop
+    play music "mus_organ.wav" noloop
     pause 8.00
     call foolecdown from _call_foolecdown_1
     ac "Praise be to you, stargazer."
-    play music "mus_cathedral.ogg"
+    play music "mus_cathedral.wav"
     label cathedralpoint:
 
         if pointotal >= 8:
@@ -6574,7 +6574,7 @@ label cathedral:
         stop music fadeout 3.00
         pause 3.00
         $ renpy.music.set_volume(1.00, channel='ambience')
-        play ambience "ambience_elevator.mp3" fadein 3.00
+        play ambience "ambience_elevator.wav" fadein 3.00
         call vareset from _call_vareset_15
         hide stains
         hide foreground cathedral
@@ -6646,20 +6646,20 @@ label elevator:
         image starscroll = "images/elevator/starscroll.png"
 
         image elevator closed:
-            "images/elevator/elevator closed wibble.png"
+            "images/elevator/elevator_closed_wibble.png"
             pause 0.25
-            "images/elevator/elevator closed wobble.png"
+            "images/elevator/elevator_closed_wobble.png"
             pause 0.25
             repeat
 
         image elevator foole:
-            "images/elevator/elevator foole wibble.png"
+            "images/elevator/elevator_foole_wibble.png"
             pause 0.50
-            "images/elevator/elevator foole wobble.png"
+            "images/elevator/elevator_foole_wobble.png"
             pause 0.50
             repeat
 
-        image background elevator = "images/elevator/background elevator.png"
+        image background elevator = "images/elevator/background_elevator.png"
 
     label elevatorintro:
 
@@ -6682,7 +6682,7 @@ label elevator:
             show starscroll behind starblock at scrollelevatormid
             $ renpy.music.set_volume(1.00, channel='ambience')
             if encore > 0:
-                play ambience "ambience_elevator.mp3"
+                play ambience "ambience_elevator.wav"
             $ random = renpy.random.randint(4, 7)
             pause 1.00*random
             show starscroll at scrollelevatorend
@@ -6730,7 +6730,7 @@ label elevator:
                     jump randomretry
                 $ pointa = 1
                 $ encore += 1
-                play music "mus_wardrobe.ogg"
+                play music "mus_wardrobe.wav"
                 menu:
                     q "Would you do it all again?"
 
@@ -6753,7 +6753,7 @@ label elevator:
                     jump randomretry
                 $ pointb = 1
                 $ encore += 1
-                play music "mus_bath.ogg"
+                play music "mus_bath.wav"
                 menu:
                     q "Do you have an absolute best among your companions?"
 
@@ -6776,7 +6776,7 @@ label elevator:
                     jump randomretry
                 $ pointc = 1
                 $ encore += 1
-                play music "mus_wardrobe.ogg"
+                play music "mus_wardrobe.wav"
                 menu:
                     q "What sort of busywork do you enjoy?"
 
@@ -6799,7 +6799,7 @@ label elevator:
                     jump randomretry
                 $ pointd = 1
                 $ encore += 1
-                play music "mus_vault.ogg"
+                play music "mus_vault.wav"
                 menu:
                     q "What?"
 
@@ -6822,7 +6822,7 @@ label elevator:
                     jump randomretry
                 $ pointe = 1
                 $ encore += 1
-                play music "mus_fantasia.ogg"
+                play music "mus_fantasia.wav"
                 menu:
                     q "Would you rather be someone else?"
 
@@ -6845,7 +6845,7 @@ label elevator:
                     jump randomretry
                 $ pointf = 1
                 $ encore += 1
-                play music "mus_fantasia.ogg"
+                play music "mus_fantasia.wav"
                 menu:
                     q "Which time of day is your favorite?"
 
@@ -6868,7 +6868,7 @@ label elevator:
                     jump randomretry
                 $ pointg = 1
                 $ encore += 1
-                play music "mus_vault.ogg"
+                play music "mus_vault.wav"
                 menu:
                     q "What too are you to die?"
 
@@ -6891,7 +6891,7 @@ label elevator:
                     jump randomretry
                 $ pointh = 1
                 $ encore += 1
-                play music "mus_gallery.ogg"
+                play music "mus_gallery.wav"
                 menu:
                     q "Which first was your favorite?"
 
@@ -6914,7 +6914,7 @@ label elevator:
                     jump randomretry
                 $ pointi = 1
                 $ encore += 1
-                play music "mus_bath.ogg"
+                play music "mus_bath.wav"
                 menu:
                     q "Which sense is your favorite?"
 
@@ -6937,7 +6937,7 @@ label elevator:
                     jump randomretry
                 $ pointj = 1
                 $ encore += 1
-                play music "mus_wardrobe.ogg"
+                play music "mus_wardrobe.wav"
                 menu:
                     q "How lucky is your life?"
 
@@ -6964,7 +6964,7 @@ label elevator:
         hide textbox
         stop music
         stop ambience
-        play sound "appear.mp3"
+        play sound "appear.wav"
         call totalreset from _call_totalreset_12
         pause 5.00
         jump terraceintro
@@ -6977,87 +6977,87 @@ label terrace:
             show foole terrace switch at shake
             pause 0.10
             show foole terrace neutral at shake
-            play sound "chain.mp3"
+            play sound "chain.wav"
             return
 
         label fooletleft:
             show foole terrace switch at shake
             pause 0.10
             show foole terrace left at shake
-            play sound "chain.mp3"
+            play sound "chain.wav"
             return
 
         label fooletright:
             show foole terrace switch at shake
             pause 0.10
             show foole terrace right at shake
-            play sound "chain.mp3"
+            play sound "chain.wav"
             return
 
         image background terrace:
-            "images/terrace/background terrace wibble.png"
+            "images/terrace/background_terrace_wibble.png"
             pause 0.50
-            "images/terrace/background terrace wobble.png"
+            "images/terrace/background_terrace_wobble.png"
             pause 0.50
             repeat
         image potwitherwhile = "images/terrace/potwitherwhile.png"
         image potback = "images/terrace/potback.png"
         image thoutalia = "images/terrace/thoutalia.png"
-        image foole terrace gray = "images/terrace/foole terrace gray.png"
+        image foole terrace gray = "images/terrace/foole_terrace_gray.png"
         image foole terrace neutral:
-            "images/terrace/foole terrace neutral wibble.png"
+            "images/terrace/foole_terrace_neutral_wibble.png"
             pause 0.50
-            "images/terrace/foole terrace neutral wobble.png"
+            "images/terrace/foole_terrace_neutral_wobble.png"
             pause 0.50
             repeat
         image foole terrace left:
-            "images/terrace/foole terrace left wibble.png"
+            "images/terrace/foole_terrace_left_wibble.png"
             pause 0.50
-            "images/terrace/foole terrace left wobble.png"
+            "images/terrace/foole_terrace_left_wobble.png"
             pause 0.50
             repeat
         image foole terrace right:
-            "images/terrace/foole terrace right wibble.png"
+            "images/terrace/foole_terrace_right_wibble.png"
             pause 0.50
-            "images/terrace/foole terrace right wobble.png"
+            "images/terrace/foole_terrace_right_wobble.png"
             pause 0.50
             repeat
 
         image flutter1:
-            "images/terrace/flutter1 wibble.png"
+            "images/terrace/flutter1_wibble.png"
             pause 0.40
-            "images/terrace/flutter1 wobble.png"
+            "images/terrace/flutter1_wobble.png"
             pause 0.40
             repeat
         image flutter2 normal:
-            "images/terrace/flutter2 wibble.png"
+            "images/terrace/flutter2_wibble.png"
             pause 0.60
-            "images/terrace/flutter2 wobble.png"
+            "images/terrace/flutter2_wobble.png"
             pause 0.60
             repeat
         image flutter2 foole:
-            "images/terrace/flutter2 foole wibble.png"
+            "images/terrace/flutter2_foole_wibble.png"
             pause 0.60
-            "images/terrace/flutter2 foole wobble.png"
+            "images/terrace/flutter2_foole_wobble.png"
             pause 0.60
             repeat
-        image flutter2 switch = "images/terrace/flutter2 switch.png"
+        image flutter2 switch = "images/terrace/flutter2_switch.png"
         image flutter3:
-            "images/terrace/flutter3 wibble.png"
+            "images/terrace/flutter3_wibble.png"
             pause 0.50
-            "images/terrace/flutter3 wobble.png"
+            "images/terrace/flutter3_wobble.png"
             pause 0.50
             repeat
         image flutter4:
-            "images/terrace/flutter4 wibble.png"
+            "images/terrace/flutter4_wibble.png"
             pause 0.25
-            "images/terrace/flutter4 wobble.png"
+            "images/terrace/flutter4_wobble.png"
             pause 0.25
             repeat
         image flutter5:
-            "images/terrace/flutter5 wibble.png"
+            "images/terrace/flutter5_wibble.png"
             pause 0.30
-            "images/terrace/flutter5 wobble.png"
+            "images/terrace/flutter5_wobble.png"
             pause 0.30
             repeat
 
@@ -7127,7 +7127,7 @@ label terrace:
     label terraceintro:
 
         $ area = 321
-        play ambience "ambience_river.mp3" fadein 3.00
+        play ambience "ambience_river.wav" fadein 3.00
         $ renpy.music.set_volume(0.70, channel='ambience')
         show thoutalia at appear
         show background terrace at appear
@@ -7153,7 +7153,7 @@ label terrace:
         show total2 at appear, total2, totalhov2
         show total1 at appear, total1, totalhov1
         pause 5.00
-        play music "mus_terrace.ogg"
+        play music "mus_terrace.wav"
     call fooletleft from _call_fooletleft
     a "We will play one last little game together, stargazer."
     call fooletneutral from _call_fooletneutral
@@ -7611,25 +7611,25 @@ label arena:
     label arenaimages:
 
         image greater neutral:
-            "images/arena/greater wibble.png"
+            "images/arena/greater_wibble.png"
             pause 0.50
-            "images/arena/greater wobble.png"
+            "images/arena/greater_wobble.png"
             pause 0.50
             repeat
         image greater damage:
-            "images/arena/greater damage.png"
+            "images/arena/greater_damage.png"
             pause 0.05
-            "images/arena/greater flash.png"
+            "images/arena/greater_flash.png"
             pause 0.05
             repeat
         image greater cast:
-            "images/arena/greater cast.png"
+            "images/arena/greater_cast.png"
             pause 0.05
-            "images/arena/greater cast flash.png"
+            "images/arena/greater_cast_flash.png"
             pause 0.05
             repeat
         image items = "images/arena/items.png"
-        image hp = ConditionSwitch("hp<1", "images/arena/hp 0.png", "hp==1", "images/arena/hp 1.png", "hp==2", "images/arena/hp 2.png", "hp==3", "images/arena/hp 3.png", "hp==4", "images/arena/hp 4.png", "hp==5", "images/arena/hp 5.png", "hp==6", "images/arena/hp 6.png")
+        image hp = ConditionSwitch("hp<1", "images/arena/hp_0.png", "hp==1", "images/arena/hp_1.png", "hp==2", "images/arena/hp_2.png", "hp==3", "images/arena/hp_3.png", "hp==4", "images/arena/hp_4.png", "hp==5", "images/arena/hp_5.png", "hp==6", "images/arena/hp_6.png")
         image yourcell = "images/arena/yourcell.png"
         image muralscroll:
             "images/arena/muralscrollwibble.png"
@@ -7638,45 +7638,45 @@ label arena:
             pause 0.50
             repeat
         image distantscroll:
-            "images/arena/distant scroll wibble.png"
+            "images/arena/distant_scroll_wibble.png"
             pause 0.50
-            "images/arena/distant scroll wobble.png"
+            "images/arena/distant_scroll_wobble.png"
             pause 0.50
             repeat
-        image closescroll planets = "images/arena/close scroll.png"
-        image closescroll wall = "images/arena/close scroll wall.png"
-        image closescroll decisions = "images/arena/close scroll decisions.png"
-        image closescroll silence = "images/arena/close scroll silence.png"
-        image closescroll sorrows = "images/arena/close scroll sorrows.png"
-        image closescroll lights = "images/arena/close scroll lights.png"
-        image closescroll mirrors = "images/arena/close scroll mirrors.png"
+        image closescroll planets = "images/arena/close_scroll.png"
+        image closescroll wall = "images/arena/close_scroll_wall.png"
+        image closescroll decisions = "images/arena/close_scroll_decisions.png"
+        image closescroll silence = "images/arena/close_scroll_silence.png"
+        image closescroll sorrows = "images/arena/close_scroll_sorrows.png"
+        image closescroll lights = "images/arena/close_scroll_lights.png"
+        image closescroll mirrors = "images/arena/close_scroll_mirrors.png"
         image dark = "images/arena/dark.png"
         image edge = "images/arena/edge.png"
         image flash = "images/arena/flash.png"
         image border = "images/arena/border.png"
         image wish:
-            "images/arena/wish wibble.png"
+            "images/arena/wish_wibble.png"
             pause 0.50
-            "images/arena/wish wobble.png"
+            "images/arena/wish_wobble.png"
             pause 0.50
             repeat
         image curtaincall:
-            "images/arena/curtaincall wibble.png"
+            "images/arena/curtaincall_wibble.png"
             pause 0.50
-            "images/arena/curtaincall wobble.png"
+            "images/arena/curtaincall_wobble.png"
             pause 0.50
             repeat
-        image background arena = "images/arena/background arena.png"
+        image background arena = "images/arena/background_arena.png"
         image greatwaterfall:
-            "images/arena/greatwaterfall wibble.png"
+            "images/arena/greatwaterfall_wibble.png"
             pause 0.10
-            "images/arena/greatwaterfall wobble.png"
+            "images/arena/greatwaterfall_wobble.png"
             pause 0.10
             repeat
         image greaterwaterfall:
-            "images/arena/greaterwaterfall wibble.png"
+            "images/arena/greaterwaterfall_wibble.png"
             pause 0.10
-            "images/arena/greaterwaterfall wobble.png"
+            "images/arena/greaterwaterfall_wobble.png"
             pause 0.10
             repeat
         image healthmind = "images/arena/healthmind"
@@ -7847,15 +7847,15 @@ label arena:
             while beeps < 0:
                 $ randosound = renpy.random.randint(1, 5)
                 if randosound == 1:
-                    queue blablas "voice infirmary 1.mp3"
+                    queue blablas "voice_infirmary_1.wav"
                 if randosound == 2:
-                    queue blablas "voice infirmary 2.mp3"
+                    queue blablas "voice_infirmary_2.wav"
                 if randosound == 3:
-                    queue blablas "voice infirmary 3.mp3"
+                    queue blablas "voice_infirmary_3.wav"
                 if randosound == 4:
-                    queue blablas "voice infirmary 4.mp3"
+                    queue blablas "voice_infirmary_4.wav"
                 if randosound == 5:
-                    queue blablas "voice infirmary 5.mp3"
+                    queue blablas "voice_infirmary_5.wav"
                 $ beeps += 1
             $ renpy.music.set_audio_filter("music", None, replace=True)
             $ point = 0
@@ -7871,7 +7871,7 @@ label arena:
             $ hp += -1
             show hp at shake
             show interface writing at shake
-            play sound "damage.mp3"
+            play sound "damage.wav"
             show greater damage at center, shakelots
             show closescroll planets
             if turn < 15:
@@ -7894,8 +7894,8 @@ label arena:
         show total1 at shake, total1, totalhov1
         call vareset from _call_vareset_18
         $ area = 1
-        play sound "appear.mp3"
-        play music "mus_vsfoole_pause.ogg"
+        play sound "appear.wav"
+        play music "mus_vsfoole_pause.wav"
         call foolewoah from _call_foolewoah_22
         call sun from _call_sun_58
         a "Nevermind, we cannot allow the world to end yet!"
@@ -7927,7 +7927,7 @@ label arena:
         call writing from _call_writing_26
         call foolewoah from _call_foolewoah_23
         pause 0.02
-        play music "mus_vsfoole_intro.ogg" noloop
+        play music "mus_vsfoole_intro.wav" noloop
         call writing from _call_writing_27
         show foole at arenascrolloff
         show background at arenascrolloff
@@ -7965,11 +7965,11 @@ label arena:
         pause 3.75
         call analytical from _call_analytical_7
         call vareset from _call_vareset_19
-        play sound "appear.mp3"
+        play sound "appear.wav"
         q "The Greater Foole appears!"
         show hp behind greater at shake
         call sun from _call_sun_59
-        play music "mus_vsfoole.ogg"
+        play music "mus_vsfoole.wav"
         call totalreset from _call_totalreset_15
         hide total24
         hide total23
@@ -8001,7 +8001,7 @@ label arena:
         
         $ turn += 1
         call attack from _call_attack
-        play sound "what.mp3"
+        play sound "what.wav"
         if turn == 1:
             if sensitive == 0:
                 show closescroll wall
@@ -8291,7 +8291,7 @@ label arena:
                     call counter from _call_counter_47
                     $ meteor += 1
             stop music
-            play music "mus_vsfoole_pause.ogg" fadein 3.00
+            play music "mus_vsfoole_pause.wav" fadein 3.00
             jump turns
         if turn > 12 and turn < 30:
             if sensitive == 0:
@@ -8382,7 +8382,7 @@ label arena:
             hide total3
             hide total2
             hide total1
-            play sound "appear.mp3"
+            play sound "appear.wav"
             pause 5.00
             jump exit
 
@@ -8484,7 +8484,7 @@ label exit:
         call writing from _call_writing_36
         show bars aligned  at shake, alignmenthover
         show light meteorical at shake, alignmenthover
-        play music "mus_meteoric_resolution.ogg" noloop
+        play music "mus_meteoric_resolution.wav" noloop
         show light meteorical at disappear
         pause 5.00
         show background at disappear
@@ -8500,7 +8500,7 @@ label exit:
         call writing from _call_writing_37
         show bars aligned  at shake, alignmenthover
         show light cometary at shake, alignmenthover
-        play music "mus_cometary_resolution.ogg" noloop
+        play music "mus_cometary_resolution.wav" noloop
         show light cometary at disappear
         pause 5.00
         show background at disappear
@@ -8516,7 +8516,7 @@ label exit:
         call writing from _call_writing_38
         show bars aligned  at shake, alignmenthover
         show light sunny at shake, alignmenthover
-        play music "mus_sunny_resolution.ogg" noloop
+        play music "mus_sunny_resolution.wav" noloop
         pause 5.00
         show background at disappear
         show foole at disappear
@@ -8532,7 +8532,7 @@ label exit:
         call writing from _call_writing_39
         show bars aligned  at shake, alignmenthover
         show light moony at shake, alignmenthover
-        play music "mus_moony_resolution.ogg" noloop
+        play music "mus_moony_resolution.wav" noloop
         pause 5.00
         show background at disappear
         show foole at disappear
@@ -8548,7 +8548,7 @@ label exit:
         call writing from _call_writing_40
         show bars aligned  at shake, alignmenthover
         show light worldly at shake, alignmenthover
-        play music "mus_worldly_resolution.ogg" noloop
+        play music "mus_worldly_resolution.wav" noloop
         pause 5.00
         show background at disappear
         show foole at disappear
@@ -8586,7 +8586,7 @@ label exit:
         call writing from _call_writing_44
         pause 1.75
         show doodledoctor at shake
-        play sound "voice_scrawl.mp3"
+        play sound "voice_scrawl.wav"
         pause 1.00
         call sun from _call_sun_71
         a "This illustration is the doctor, locked away for her madness."
@@ -8604,7 +8604,7 @@ label exit:
         call writing from _call_writing_46
         pause 2.25
         show doodlenoble at shake
-        play sound "voice_scrawl.mp3"
+        play sound "voice_scrawl.wav"
         pause 1.00
         call sun from _call_sun_73
         a "This illustration is the noble, locked away for his failure."
@@ -8624,7 +8624,7 @@ label exit:
         call writing from _call_writing_48
         pause 1.50
         show doodlebeggar at shake
-        play sound "voice_scrawl.mp3"
+        play sound "voice_scrawl.wav"
         pause 1.00
         call sun from _call_sun_75
         a "This illustration is the beggar, locked away for her perversion."
@@ -8656,7 +8656,7 @@ label exit:
         call writing from _call_writing_52
         pause 2.50
         show doodlestudents at shake
-        play sound "voice_scrawl.mp3"
+        play sound "voice_scrawl.wav"
         pause 1.00
         call sun from _call_sun_79
         a "These illustrations are the students, locked away for their curiosity."
@@ -8681,7 +8681,7 @@ label exit:
         call writing from _call_writing_55
         pause 2.75
         show doodlesaege behind doodlebeggar at shake
-        play sound "voice_scrawl.mp3"
+        play sound "voice_scrawl.wav"
         pause 1.00
         call sun from _call_sun_82
         a "This illustration is the saege, locked away for their contrarity."
@@ -8699,7 +8699,7 @@ label exit:
         call writing from _call_writing_58
         pause 3.50
         show doodlefoole behind doodlenoble at shake
-        play sound "voice_scrawl.mp3"
+        play sound "voice_scrawl.wav"
         pause 1.00
         call sun from _call_sun_85
         a "This illustration is the foole, locked away for their {w=0.50}foolishness."
@@ -8717,7 +8717,7 @@ label exit:
         call writing from _call_writing_61
         pause 3.50
         show doodlestargazer at shake
-        play sound "voice_scrawl.mp3"
+        play sound "voice_scrawl.wav"
         pause 1.00
         call sun from _call_sun_88
         a "And this illustration is a stargazer,{w=0.50} who has seen me free."
@@ -8741,52 +8741,52 @@ label exit:
         call writing from _call_writing_65
         pause 1.00
         call sun from _call_sun_92
-        play sound "farewondrous.mp3"
+        play sound "farewondrous.wav"
         afarewell "Farewondrous, {w=0.20}stargazer!{w=5.00}{nw}"
         $ renpy.quit()
 
     label doodleimages:
 
         image doodlestargazer:
-            "images/doodlestargazer wibble.png"
+            "images/doodlestargazer_wibble.png"
             pause 0.50
-            "images/doodlestargazer wobble.png"
+            "images/doodlestargazer_wobble.png"
             pause 0.50
             repeat
         image doodlefoole:
-            "images/doodlefoole wibble.png"
+            "images/doodlefoole_wibble.png"
             pause 0.50
-            "images/doodlefoole wobble.png"
+            "images/doodlefoole_wobble.png"
             pause 0.50
             repeat
         image doodledoctor:
-            "images/doodledoctor wibble.png"
+            "images/doodledoctor_wibble.png"
             pause 0.50
-            "images/doodledoctor wobble.png"
+            "images/doodledoctor_wobble.png"
             pause 0.50
             repeat
         image doodlenoble:
-            "images/doodlenoble wibble.png"
+            "images/doodlenoble_wibble.png"
             pause 0.50
-            "images/doodlenoble wobble.png"
+            "images/doodlenoble_wobble.png"
             pause 0.50
             repeat
         image doodlebeggar:
-            "images/doodlebeggar wibble.png"
+            "images/doodlebeggar_wibble.png"
             pause 0.50
-            "images/doodlebeggar wobble.png"
+            "images/doodlebeggar_wobble.png"
             pause 0.50
             repeat
         image doodlestudents:
-            "images/doodlestudents wibble.png"
+            "images/doodlestudents_wibble.png"
             pause 0.50
-            "images/doodlestudents wobble.png"
+            "images/doodlestudents_wobble.png"
             pause 0.50
             repeat
         image doodlesaege:
-            "images/doodlesaege wibble.png"
+            "images/doodlesaege_wibble.png"
             pause 0.50
-            "images/doodlesaege wobble.png"
+            "images/doodlesaege_wobble.png"
             pause 0.50
             repeat
 

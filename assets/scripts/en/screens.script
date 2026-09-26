@@ -209,7 +209,7 @@ screen choice(items):
 
     vbox:
         for i in items:
-            textbutton i.caption action i.action activate_sound "choice_click.mp3" hover_sound "choice_hover.mp3"
+            textbutton i.caption action i.action activate_sound "choice_click.wav" hover_sound "choice_hover.wav"
 
 
 style choice_vbox is vbox
@@ -225,7 +225,7 @@ style choice_vbox:
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
-    activate_sound "choice_click.mp3"
+    activate_sound "choice_click.wav"
 
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
